@@ -1,0 +1,70 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.lunifera.dependencies</groupId>
+		<artifactId>org.lunifera.dependencies</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.icepush</artifactId>
+	<packaging>bundle</packaging>
+	<description>ICEPush addon</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.vaadin.addons</groupId>
+			<artifactId>icepush</artifactId>
+			<version>0.5.2</version>
+		</dependency>
+	<!-- 
+	mvn install:install-file -Dfile=icepush.jar -DgroupId=org.icepush \
+    -DartifactId=icepush -Dversion=2.0.0-alpha3 -Dpackaging=jar 
+
+	mvn install:install-file -Dfile=icepush-gwt.jar -DgroupId=org.icepush \
+    -DartifactId=icepush-gwt -Dversion=2.0.0-alpha3 -Dpackaging=jar 
+    -->
+		<dependency>
+			<groupId>org.icepush</groupId>
+			<artifactId>icepush-gwt</artifactId>
+			<version>2.0.0-alpha3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.icepush</groupId>
+			<artifactId>icepush</artifactId>
+			<version>2.0.0-alpha3</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>2.3.7</version>
+				<extensions>true</extensions>
+				<configuration>
+					<unpackBundle>true</unpackBundle>
+					<instructions>
+						<Bundle-SymbolicName>org.vaadin.addon.icepush;singleton:=true</Bundle-SymbolicName>
+						<Embed-Dependency>
+							groupId=org.vaadin.addons;artifactId=icepush;scope=compile;inline=false,
+							groupId=org.icepush;artifactId=icepush-gwt;scope=compile;inline=false,
+							groupId=org.icepush;artifactId=icepush;scope=compile;inline=false
+						</Embed-Dependency>
+						<_exportcontents>
+							*
+						</_exportcontents>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>vaadin-addons</id>
+			<url>http://maven.vaadin.com/vaadin-addons</url>
+		</repository>
+	</repositories>
+</project>
