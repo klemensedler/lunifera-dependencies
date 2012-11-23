@@ -98,26 +98,6 @@
 			<version>2.1</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jboss.weld.osgi</groupId>
-			<artifactId>weld-osgi-core-integration</artifactId>
-			<version>${weld.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jboss.weld.osgi</groupId>
-			<artifactId>weld-osgi-core-extension</artifactId>
-			<version>${weld.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jboss.weld.osgi</groupId>
-			<artifactId>weld-osgi-core-api</artifactId>
-			<version>${weld.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jboss.weld.osgi</groupId>
-			<artifactId>weld-osgi-core-spi</artifactId>
-			<version>${weld.version}</version>
-		</dependency>
-		<dependency>
 			<groupId>org.jboss.spec.javax.interceptor</groupId>
 			<artifactId>jboss-interceptors-api_1.1_spec</artifactId>
 			<version>1.0.1.Final</version>

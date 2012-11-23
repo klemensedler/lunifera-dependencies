@@ -15,5 +15,8 @@
    <feature url="features/org.lunifera.dependencies.feature.security.shiro_0.0.1.qualifier.jar" id="org.lunifera.dependencies.feature.security.shiro" version="0.0.1.qualifier">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature url="features/org.lunifera.dependencies.feature.weld_0.0.1.qualifier.jar" id="org.lunifera.dependencies.feature.weld" version="0.0.1.qualifier">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <category-def name="lunifera_osgi_deps" label="OSGi Dependencies"/>
 </site>

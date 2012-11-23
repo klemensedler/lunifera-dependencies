@@ -162,5 +162,13 @@
 			<version>0.0.1-SNAPSHOT</version>
 			<type>eclipse-feature</type>
 		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
+				org.lunifera.dependencies.feature.weld
+			</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>eclipse-feature</type>
+		</dependency>
 	</dependencies>
 </project>

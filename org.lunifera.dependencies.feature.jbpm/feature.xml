@@ -122,19 +122,12 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="cdi.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
+   <!-- <plugin
          id="org.jboss.spec.javax.interceptor.jboss-interceptors-api_1.1_spec"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/> for jbpm6-->
 
    <plugin
          id="javax.el"
