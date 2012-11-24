@@ -86,6 +86,7 @@
 				<!-- <module>org.lunifera.dependencies.feature.vaadin</module> -->
 				<!-- <module>org.lunifera.dependencies.feature.vaadin.addon.icepush</module> -->
 				<module>org.lunifera.dependencies.feature.weld</module>
+				<module>org.lunifera.dependencies.feature.db4o</module>
 				<module>org.lunifera.dependencies.p2.juno</module>
 				<module>org.lunifera.dependencies.fragment.jdk</module>
 			</modules>
