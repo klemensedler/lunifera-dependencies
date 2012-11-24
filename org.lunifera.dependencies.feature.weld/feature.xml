@@ -25,28 +25,28 @@
          unpack="false"/>
 
    <plugin
-         id="org.jboss.weld.osgi.core.spi"
+         id="org.jboss.weld.osgi.weld-osgi-core-api"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.jboss.weld.osgi.core.api"
+         id="org.jboss.weld.osgi.weld-osgi-core-mandatory"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.jboss.weld.osgi.core.mandatory"
+         id="org.jboss.weld.osgi.weld-osgi-core-spi"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.jboss.weld.osgi.core.extension"
+         id="org.jboss.weld.osgi.weld-osgi-core-extension"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -60,7 +60,7 @@
          unpack="false"/>
                  
    <plugin
-         id="org.jboss.weld.osgi.core.integration"
+         id="org.jboss.weld.osgi.weld-osgi-core-integration"
          download-size="0"
          install-size="0"
          version="0.0.0"
