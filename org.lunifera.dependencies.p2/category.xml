@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature  id="org.lunifera.dependencies.feature.camel" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.derby" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.jbpm" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.mysql" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.security.shiro" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.weld" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.db4o" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.mongodb" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.vaadin" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.vaadin.addon.icepush" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature  id="org.lunifera.dependencies.feature.equinox" version="0.0.0"/>
+   <category-def name="lunifera_osgi_deps" label="OSGi Dependencies"/>
+</site>
