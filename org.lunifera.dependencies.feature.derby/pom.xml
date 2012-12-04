@@ -13,15 +13,11 @@
 	<artifactId>org.lunifera.dependencies.feature.derby</artifactId>
 	<packaging>eclipse-feature</packaging>
 
-	<properties>
-		<derby-version>10.9.1.0</derby-version>
-	</properties>
-	
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.derby</groupId>
-			<artifactId>derbyclient</artifactId>
-			<version>${derby-version}</version>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.derby</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 

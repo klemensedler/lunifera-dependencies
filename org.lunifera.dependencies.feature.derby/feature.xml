@@ -17,8 +17,12 @@
       %license
    </license>
 
+   <requires>
+      <import plugin="org.apache.derby" version="10.9.0.1" match="greaterOrEqual"/>
+   </requires>
+
    <plugin
-         id="derbyclient"
+         id="org.apache.derby"
          download-size="0"
          install-size="0"
          version="0.0.0"
