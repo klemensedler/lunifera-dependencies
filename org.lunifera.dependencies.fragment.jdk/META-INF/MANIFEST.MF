@@ -39,8 +39,6 @@ Export-Package: com.sun.codemodel,
  javax.swing.border,
  javax.swing.plaf,
  javax.sql,
- javax.servlet,
- javax.servlet.http,
  javax.transaction,
  javax.transaction.xa
  
