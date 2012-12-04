@@ -1,0 +1,58 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.lunifera.dependencies</groupId>
+		<artifactId>org.lunifera.dependencies</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>org.lunifera.dependencies.bundle.derby</artifactId>
+	<packaging>bundle</packaging>
+	<description>Derby Client and Server</description>
+	<properties>
+		<derby-version>10.9.1.0</derby-version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derbyclient</artifactId>
+			<version>${derby-version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+			<version>${derby-version}</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>2.3.7</version>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>						
+						<Bundle-Name>org.apache.derby</Bundle-Name>
+						<Bundle-Version>10.9.1.0</Bundle-Version>
+						<Bundle-SymbolicName>org.apache.derby;singleton:=true</Bundle-SymbolicName>
+						<Embed-Dependency>
+							derbyclient;scope=compile;inline=false,
+							derby;scope=compile;inline=false
+						</Embed-Dependency>
+						<Import-Package>!com.ibm.jvm,!org.apache.derby.impl.drda, *</Import-Package>
+						<_nouses>true</_nouses>
+						<_exportcontents>
+							*
+						</_exportcontents>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
