@@ -18,7 +18,7 @@
 		<tycho-version>0.16.0</tycho-version>
 		<eclipse-repo>http://download.eclipse.org/releases/kepler</eclipse-repo>
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20120917013952/repository/</orbit-site>
-		<vaadin-version>7.0.0.beta10</vaadin-version>
+		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
 	</properties>
 
 	<developers>
@@ -67,7 +67,6 @@
 			<modules>
 				<module>org.lunifera.dependencies.bundle.vaadin.addon.icepush</module>
 				<module>org.lunifera.dependencies.bundle.derby</module>
-				<module>org.lunifera.dependencies.bundle.json</module>
 			</modules>
 		</profile>
 
@@ -141,6 +140,16 @@
 			<id>com.springsource.repository.bundles.external</id>
 			<name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
 			<url>http://repository.springsource.com/maven/bundles/external</url>
+		</repository>
+		<repository>
+			<id>vaadin-snapshots</id>
+			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
 		</repository>
 	</repositories>
 

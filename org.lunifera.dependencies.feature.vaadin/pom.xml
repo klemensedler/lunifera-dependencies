@@ -42,12 +42,7 @@
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-shared-deps</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.json</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>1.0.2</version>
 		</dependency>
 
 	</dependencies>
