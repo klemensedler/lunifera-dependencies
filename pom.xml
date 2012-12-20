@@ -91,6 +91,7 @@
 				<module>org.lunifera.dependencies.feature.mongodb</module>
 				<module>org.lunifera.dependencies.p2</module>
 				<module>org.lunifera.dependencies.feature.equinox</module>
+				<module>org.lunifera.dependencies.feature.xtext.headless</module>
 				<module>org.lunifera.dependencies.fragment.jdk</module>
 			</modules>
 		</profile>

@@ -11,19 +11,18 @@
 	<packaging>bundle</packaging>
 	<description>ICEPush addon</description>
 
+
+
 	<dependencies>
 		<dependency>
 			<groupId>org.vaadin.addons</groupId>
 			<artifactId>icepush</artifactId>
 			<version>0.5.2</version>
 		</dependency>
-	<!-- 
-	mvn install:install-file -Dfile=icepush.jar -DgroupId=org.icepush \
-    -DartifactId=icepush -Dversion=2.0.0-alpha3 -Dpackaging=jar 
-
-	mvn install:install-file -Dfile=icepush-gwt.jar -DgroupId=org.icepush \
-    -DartifactId=icepush-gwt -Dversion=2.0.0-alpha3 -Dpackaging=jar 
-    -->
+		<!-- mvn install:install-file -Dfile=icepush.jar -DgroupId=org.icepush 
+			\ -DartifactId=icepush -Dversion=2.0.0-alpha3 -Dpackaging=jar -->
+		<!-- mvn install:install-file -Dfile=icepush-gwt.jar -DgroupId=org.icepush 
+			\ -DartifactId=icepush-gwt -Dversion=2.0.0-alpha3 -Dpackaging=jar -->
 		<dependency>
 			<groupId>org.icepush</groupId>
 			<artifactId>icepush-gwt</artifactId>
@@ -34,9 +33,8 @@
 			<artifactId>icepush</artifactId>
 			<version>2.0.0-alpha3</version>
 		</dependency>
-		
-	</dependencies>
 
+	</dependencies>
 	<build>
 		<plugins>
 			<plugin>

@@ -189,6 +189,14 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>
+				org.lunifera.dependencies.feature.xtext.headless
+			</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>eclipse-feature</type>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
 				org.lunifera.dependencies.feature.mongodb
 			</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
