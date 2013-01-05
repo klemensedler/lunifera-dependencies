@@ -36,5 +36,12 @@
    <feature id="org.lunifera.dependencies.feature.xtext.headless" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.jackrabbit" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <category-def name="lunifera_osgi_deps" label="OSGi Dependencies"/>
+   <feature id="org.lunifera.dependencies.feature.jackrabbit.source" version="0.0.0">
+      <category name="lunifera_osgi_deps_src"/>
+   </feature>
+   <category-def name="lunifera_osgi_deps_src" label="OSGi Dependencies Source"/>
 </site>

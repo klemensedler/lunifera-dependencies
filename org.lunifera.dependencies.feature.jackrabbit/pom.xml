@@ -16,6 +16,43 @@
 	<artifactId>org.lunifera.dependencies.feature.jackrabbit</artifactId>
 	<packaging>eclipse-feature</packaging>
 
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-source-feature-plugin</artifactId>
+				<version>${tychoExtrasVersion}</version>
+				<executions>
+					<execution>
+						<id>source-feature</id>
+						<phase>package</phase>
+						<goals>
+							<goal>source-feature</goal>
+						</goals>
+						<configuration>
+							<plugins>
+								<plugin id="org.lunifera.dependencies.bundle.jackrabbit-core"
+									versionRange="0.0.0" />
+							</plugins>
+							<excludes>
+								<plugin id="javax.jcr" />
+								<plugin id="org.apache.jackrabbit.jackrabbit-api" />
+								<plugin id="org.apache.jackrabbit.jackrabbit-jcr-commons" />
+								<plugin id="org.apache.jackrabbit.jackrabbit-spi" />
+								<plugin id="org.apache.jackrabbit.jackrabbit-spi-commons" />
+								<plugin id="org.apache.jackrabbit.jackrabbit-webdav" />
+								<plugin id="org.apache.jackrabbit.jackrabbit-jcr2spi" />
+								<plugin id="org.apache.tika.core" />
+								<plugin id="org.apache.commons.io" />
+								<plugin id="org.apache.commons.collections" />
+								<plugin id="org.apache.commons.codec" />
+							</excludes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
 	<dependencies>
 		<!-- The JCR API -->
 		<dependency>
@@ -29,6 +66,12 @@
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId>
 			<version>${jackrabbit-version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId>
+			<version>${jackrabbit-version}</version>
+			<classifier>sources</classifier>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.jackrabbit</groupId>

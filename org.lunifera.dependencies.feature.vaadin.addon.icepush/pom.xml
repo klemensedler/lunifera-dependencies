@@ -19,7 +19,7 @@
 			<artifactId>
 				org.lunifera.dependencies.bundle.vaadin.addon.icepush
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.portlet</groupId>
@@ -31,11 +31,5 @@
 			<artifactId>vaadin-client</artifactId>
 			<version>${vaadin-version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.json</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-
 	</dependencies>
 </project>

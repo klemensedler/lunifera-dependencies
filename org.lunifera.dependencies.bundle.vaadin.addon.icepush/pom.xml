@@ -11,13 +11,11 @@
 	<packaging>bundle</packaging>
 	<description>ICEPush addon</description>
 
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.vaadin.addons</groupId>
 			<artifactId>icepush</artifactId>
-			<version>0.5.2</version>
+			<version>0.5.4</version>
 		</dependency>
 		<!-- mvn install:install-file -Dfile=icepush.jar -DgroupId=org.icepush 
 			\ -DartifactId=icepush -Dversion=2.0.0-alpha3 -Dpackaging=jar -->

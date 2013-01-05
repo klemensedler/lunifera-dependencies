@@ -127,7 +127,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.jbpm
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -135,7 +135,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.security.shiro
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -143,7 +143,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.camel
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -151,7 +151,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.mysql
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -159,7 +159,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.db4o
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -167,7 +167,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.derby
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -175,7 +175,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.weld
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -183,7 +183,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.equinox
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -191,7 +191,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.xtext.headless
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -199,7 +199,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.mongodb
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -207,7 +207,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.vaadin
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
@@ -215,7 +215,15 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.vaadin.addon.icepush
 			</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
+			<type>eclipse-feature</type>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
+				org.lunifera.dependencies.feature.jackrabbit
+			</artifactId>
+			<version>${project.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 	</dependencies>
