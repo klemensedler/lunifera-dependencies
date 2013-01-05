@@ -12,10 +12,15 @@
 	<packaging>pom</packaging>
 	<name>Lunifera : Dependencies :: Parent POM</name>
 
+	<organization>
+		<name>Lunifera.org</name>
+	</organization>
+
 	<properties>
 		<next-release>0.0.2-SNAPSHOT</next-release>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<tycho-version>0.16.0</tycho-version>
+		<tychoExtrasVersion>0.16.0</tychoExtrasVersion>
 		<eclipse-repo>http://download.eclipse.org/releases/kepler</eclipse-repo>
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20120917013952/repository/</orbit-site>
 		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
@@ -67,6 +72,7 @@
 			<modules>
 				<module>org.lunifera.dependencies.bundle.vaadin.addon.icepush</module>
 				<module>org.lunifera.dependencies.bundle.derby</module>
+				<module>org.lunifera.dependencies.bundle.jackrabbit-core</module>
 			</modules>
 		</profile>
 
@@ -89,10 +95,11 @@
 				<module>org.lunifera.dependencies.feature.weld</module>
 				<module>org.lunifera.dependencies.feature.db4o</module>
 				<module>org.lunifera.dependencies.feature.mongodb</module>
-				<module>org.lunifera.dependencies.p2</module>
+				<module>org.lunifera.dependencies.feature.jackrabbit</module>
 				<module>org.lunifera.dependencies.feature.equinox</module>
 				<module>org.lunifera.dependencies.feature.xtext.headless</module>
 				<module>org.lunifera.dependencies.fragment.jdk</module>
+				<!-- <module>org.lunifera.dependencies.p2</module> -->
 			</modules>
 		</profile>
 	</profiles>
