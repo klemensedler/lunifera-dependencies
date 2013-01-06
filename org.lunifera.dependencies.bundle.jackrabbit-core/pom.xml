@@ -185,7 +185,6 @@
 					</execution>
 				</executions>
 				<configuration>
-					<finalName>${project.name}-${project.version}-source.jar</finalName>
 					<excludeResources>true</excludeResources>
 					<excludes>
 						<exclude>**/jars/**</exclude>
