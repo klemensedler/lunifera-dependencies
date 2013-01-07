@@ -8,7 +8,6 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId>
-	<version>2.5.2</version>
 	<packaging>bundle</packaging>
 	<properties>
 		<jackrabbit-version>2.5.2</jackrabbit-version>
@@ -43,27 +42,6 @@
 			<groupId>org.apache.lucene</groupId>
 			<artifactId>lucene-core</artifactId>
 			<version>3.6.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.jackrabbit</groupId>
-			<artifactId>jackrabbit-core</artifactId>
-			<version>${jackrabbit-version}</version>
-			<classifier>sources</classifier>
-			<!-- <scope>provided</scope> -->
-			<exclusions>
-				<exclusion>
-					<groupId>javax.jcr</groupId>
-					<artifactId>jcr</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.slf4j</groupId>
-					<artifactId>slf4j-api</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.slf4j</groupId>
-					<artifactId>jcl-over-slf4j</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.jackrabbit</groupId>
@@ -117,6 +95,35 @@
 				<version>1.7</version>
 				<executions>
 					<execution>
+						<id>remove-old-artifacts</id>
+						<phase>package</phase>
+						<goals>
+							<goal>remove-project-artifact</goal>
+						</goals>
+						<configuration>
+							<removeAll>true</removeAll><!-- When true, remove all built artifacts 
+								including all versions. When false, remove all built artifacts of this project 
+								version -->
+						</configuration>
+					</execution>
+					<execution>
+						<id>add-resource</id>
+						<phase>generate-resources</phase>
+						<goals>
+							<goal>add-resource</goal>
+						</goals>
+						<configuration>
+							<resources>
+								<resource>
+									<directory>${project.build.directory}/sources</directory>
+								</resource>
+							</resources>
+							<sources>
+								<source>${project.build.directory}/sources</source>
+							</sources>
+						</configuration>
+					</execution>
+					<execution>
 						<id>parse-version</id>
 						<goals>
 							<goal>parse-version</goal>
@@ -134,7 +141,7 @@
 				<configuration>
 					<instructions>
 						<Bundle-Name>org.lunifera.dependencies.bundle.jackrabbit-core</Bundle-Name>
-						<Bundle-Version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}</Bundle-Version>
+						<Bundle-Version>${jackrabbit-version}</Bundle-Version>
 						<Bundle-SymbolicName>org.lunifera.dependencies.bundle.jackrabbit-core;singleton:=true</Bundle-SymbolicName>
 						<Embed-Dependency>
 							<!-- jackrabbit-core;inline=true, -->
@@ -145,7 +152,7 @@
 						<Import-Package>!com.ibm.jvm,!org.apache.derby.impl.drda, *</Import-Package>
 						<_nouses>true</_nouses>
 						<Export-Package>
-							org.apache.jackrabbit.api.*;version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}"
+							org.apache.jackrabbit.api.*;version="${jackrabbit-version}"
 						</Export-Package>
 						<Import-Package>
 							*,
@@ -173,6 +180,39 @@
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.6</version>
+				<executions>
+					<execution>
+						<id>src-dependencies</id>
+						<phase>initialize</phase>
+						<goals>
+							<goal>unpack</goal>
+						</goals>
+						<configuration>
+							<artifactItems>
+								<artifactItem>
+									<groupId>org.apache.jackrabbit</groupId>
+									<artifactId>jackrabbit-core</artifactId>
+									<version>${jackrabbit-version}</version>
+									<classifier>sources</classifier>
+								</artifactItem>
+								<artifactItem>
+									<groupId>org.apache.lucene</groupId>
+									<artifactId>lucene-core</artifactId>
+									<version>3.6.0</version>
+									<classifier>sources</classifier>
+								</artifactItem>
+							</artifactItems>
+							<includes>**/*.java</includes>
+							<failOnMissingClassifierArtifact>false</failOnMissingClassifierArtifact>
+							<outputDirectory>${project.build.directory}/sources</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
 				<version>2.2.1</version>
 				<executions>
@@ -185,18 +225,14 @@
 					</execution>
 				</executions>
 				<configuration>
-					<excludeResources>true</excludeResources>
-					<excludes>
-						<exclude>**/jars/**</exclude>
-					</excludes>
 					<archive>
 						<manifestEntries>
 							<Bundle-ManifestVersion>2</Bundle-ManifestVersion>
 							<Bundle-Name>${project.name}</Bundle-Name>
 							<Bundle-SymbolicName>${project.artifactId}.source</Bundle-SymbolicName>
 							<Bundle-Vendor>${project.organization.name}</Bundle-Vendor>
-							<Bundle-Version>${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}</Bundle-Version>
-							<Eclipse-SourceBundle>${project.artifactId};version="${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}";roots:="."</Eclipse-SourceBundle>
+							<Bundle-Version>${jackrabbit-version}</Bundle-Version>
+							<Eclipse-SourceBundle>${jackrabbit-version}";roots:="."</Eclipse-SourceBundle>
 						</manifestEntries>
 					</archive>
 				</configuration>
