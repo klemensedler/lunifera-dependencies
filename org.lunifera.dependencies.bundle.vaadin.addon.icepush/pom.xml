@@ -7,9 +7,14 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
+	<properties>
+		<icepush-version>0.5.4</icepush-version>
+	</properties>
+
 	<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.icepush</artifactId>
 	<packaging>bundle</packaging>
 	<description>ICEPush addon</description>
+	<version>${icepush-version}</version>
 
 	<dependencies>
 		<dependency>

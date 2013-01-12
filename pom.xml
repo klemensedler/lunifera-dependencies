@@ -2,9 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<prerequisites>
-		<maven>3.0</maven>
-	</prerequisites>
+	<parent>
+		<groupId>org.lunifera</groupId>
+		<artifactId>org.lunifera</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>org.lunifera.dependencies</artifactId>
@@ -12,30 +14,12 @@
 	<packaging>pom</packaging>
 	<name>Lunifera : Dependencies :: Parent POM</name>
 
-	<organization>
-		<name>Lunifera.org</name>
-	</organization>
-
 	<properties>
 		<next-release>0.0.2-SNAPSHOT</next-release>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tycho-version>0.16.0</tycho-version>
-		<tychoExtrasVersion>0.16.0</tychoExtrasVersion>
 		<eclipse-repo>http://download.eclipse.org/releases/kepler</eclipse-repo>
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20120917013952/repository/</orbit-site>
 		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
-		<maven.build.timestamp.format>yyyyMMddHHmmss</maven.build.timestamp.format>
-		<build.timestamp>${maven.build.timestamp}</build.timestamp>
 	</properties>
-
-	<developers>
-		<developer>
-			<id>cvgaviao</id>
-			<name>Cristiano Gavião</name>
-			<email>cvgaviao@gmail.com</email>
-			<timezone>-3</timezone>
-		</developer>
-	</developers>
 
 	<profiles>
 		<profile>
@@ -164,17 +148,11 @@
 	</repositories>
 
 	<build>
-
 		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-			</plugin>
 
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
-
 			</plugin>
 
 			<plugin>
@@ -190,23 +168,6 @@
 
 		<pluginManagement>
 			<plugins>
-				<!-- enable tycho build -->
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-maven-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<extensions>true</extensions>
-				</plugin>
-				<plugin>
-					<groupId>org.eclipse.tycho</groupId>
-					<artifactId>tycho-compiler-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<encoding>UTF-8</encoding>
-						<source>1.6</source>
-						<target>1.6</target>
-					</configuration>
-				</plugin>
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>target-platform-configuration</artifactId>
@@ -236,14 +197,6 @@
 								<arch>x86_64</arch>
 							</environment>
 						</environments>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-resources-plugin</artifactId>
-					<version>2.6</version>
-					<configuration>
-						<encoding>UTF-8</encoding>
 					</configuration>
 				</plugin>
 			</plugins>

@@ -9,6 +9,7 @@
 
 	<artifactId>org.lunifera.dependencies.bundle.derby</artifactId>
 	<packaging>bundle</packaging>
+	<version>${derby-version}</version>
 	<description>Derby Client and Server</description>
 	<properties>
 		<derby-version>10.9.1.0</derby-version>

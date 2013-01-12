@@ -17,7 +17,7 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.derby</artifactId>
-			<version>${project.version}</version>
+			<version>10.9.1.0</version>
 		</dependency>
 	</dependencies>
 
