@@ -144,12 +144,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.xtext.xbase.junit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-   <plugin
          id="org.eclipse.emf.mwe.core"
          download-size="0"
          install-size="0"
