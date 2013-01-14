@@ -70,12 +70,12 @@
 			<activation>
 				<activeByDefault>false</activeByDefault>
 				<property>
-					<name>DEPLOY-DIR</name>
+					<name>LUNIFERA-DEPLOY-DIR</name>
 				</property>
 			</activation>
 			<properties>
 				<from-repo>${project.build.directory}/repository</from-repo>
-				<output.dir>${PLATFORM-DEPLOY-DIR}/${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}</output.dir>
+				<output.dir>${PLATFORM-LUNIFERA-DEPLOY-DIR}/${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}</output.dir>
 			</properties>
 			<build>
 				<plugins>

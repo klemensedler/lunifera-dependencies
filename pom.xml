@@ -68,7 +68,7 @@
 			<properties>
 				<eclipse-repo>http://download.eclipse.org/releases/kepler</eclipse-repo>
 				<associate.p2>${eclipse-repo},${orbit-site}</associate.p2>
-				<PLATFORM-DEPLOY-DIR>${DEPLOY-DIR}/kepler/dependencies</PLATFORM-DEPLOY-DIR>				
+				<PLATFORM-LUNIFERA-DEPLOY-DIR>${LUNIFERA-DEPLOY-DIR}/kepler/dependencies</PLATFORM-LUNIFERA-DEPLOY-DIR>				
 			</properties>
 			<build>
 				<defaultGoal>clean verify</defaultGoal>
@@ -99,12 +99,14 @@
 			</activation>
 			<properties>
 				<eclipse-repo>http://download.eclipse.org/releases/juno</eclipse-repo>
-				<PLATFORM-DEPLOY-DIR>${DEPLOY-DIR}/juno/dependencies</PLATFORM-DEPLOY-DIR>				
+				<associate.p2>${eclipse-repo},${orbit-site}</associate.p2>
+				<PLATFORM-LUNIFERA-DEPLOY-DIR>${LUNIFERA-DEPLOY-DIR}/juno/dependencies</PLATFORM-LUNIFERA-DEPLOY-DIR>				
 			</properties>
 			<build>
 				<defaultGoal>clean verify</defaultGoal>
 			</build>
 			<modules>
+				<module>org.lunifera.dependencies.feature.assert-utilities</module>
 				<module>org.lunifera.dependencies.feature.camel</module>
 				<module>org.lunifera.dependencies.feature.derby</module>
 				<module>org.lunifera.dependencies.feature.jbpm</module>
