@@ -15,8 +15,7 @@
 
 	<properties>
 		<next-release>0.0.2-SNAPSHOT</next-release>
-		<eclipse-repo>http://download.eclipse.org/releases/kepler</eclipse-repo>
-		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20120917013952/repository/</orbit-site>
+		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20121207152029/repository/</orbit-site>
 		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
 	</properties>
 
@@ -66,6 +65,42 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
+			<properties>
+				<eclipse-repo>http://download.eclipse.org/releases/kepler</eclipse-repo>
+				<associate.p2>${eclipse-repo},${orbit-site}</associate.p2>
+				<PLATFORM-DEPLOY-DIR>${DEPLOY-DIR}/kepler/dependencies</PLATFORM-DEPLOY-DIR>				
+			</properties>
+			<build>
+				<defaultGoal>clean verify</defaultGoal>
+			</build>
+			<modules>
+				<module>org.lunifera.dependencies.feature.assert-utilities</module>
+				<module>org.lunifera.dependencies.feature.camel</module>
+				<module>org.lunifera.dependencies.feature.derby</module>
+				<module>org.lunifera.dependencies.feature.jbpm</module>
+				<module>org.lunifera.dependencies.feature.mysql</module>
+				<module>org.lunifera.dependencies.feature.security.shiro</module>
+				<module>org.lunifera.dependencies.feature.vaadin</module>
+				<module>org.lunifera.dependencies.feature.vaadin.addon.icepush</module>
+				<module>org.lunifera.dependencies.feature.weld</module>
+				<module>org.lunifera.dependencies.feature.db4o</module>
+				<module>org.lunifera.dependencies.feature.mongodb</module>
+				<module>org.lunifera.dependencies.feature.jackrabbit</module>
+				<module>org.lunifera.dependencies.feature.equinox</module>
+				<module>org.lunifera.dependencies.feature.xtext.headless</module>
+				<module>org.lunifera.dependencies.fragment.jdk</module>
+				<module>org.lunifera.dependencies.p2</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>p2-juno</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
+			<properties>
+				<eclipse-repo>http://download.eclipse.org/releases/juno</eclipse-repo>
+				<PLATFORM-DEPLOY-DIR>${DEPLOY-DIR}/juno/dependencies</PLATFORM-DEPLOY-DIR>				
+			</properties>
 			<build>
 				<defaultGoal>clean verify</defaultGoal>
 			</build>
@@ -153,7 +188,7 @@
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-maven-plugin</artifactId>
 			</plugin>
-
+			
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>tycho-compiler-plugin</artifactId>

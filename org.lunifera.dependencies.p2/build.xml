@@ -7,12 +7,7 @@
                    
      cvgaviao                                                                
      ====================================================================== -->
-<project default="copy.repo.to.dir" name="C4biz OSGi Utilities P2 aggregate repository build.xml">
-	<!--
-	To test output, run maven in root folder:
-		$ mvn clean verify -DP2_BASE_FOLDER=/somedir/lunifera-p2/repository"
-	-->
-
+<project default="copy.repo.to.dir" name="Lunifera P2 aggregate repository build.xml">
 
 	<target name="init">
 		<property name="update.site.source.dir" value="${from-repo}" />
@@ -56,6 +51,7 @@
 			</and>
 			<then>
 				<!-- counter variable -->
+				<echo>p2.repos=${associate.sites}</echo>
 				<var name="associate.sites.0" value="" />
 				<for param="associate.site" list="${associate.sites}" delimiter=",">
 					<sequential>

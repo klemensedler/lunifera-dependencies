@@ -11,18 +11,21 @@
 	<packaging>eclipse-repository</packaging>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho</groupId>
-				<artifactId>tycho-maven-plugin</artifactId>
-				<extensions>true</extensions>
-			</plugin>
+		<resources>
+			<resource>
+				<directory>./</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>associate.properties</include>
+				</includes>
+			</resource>
+		</resources>
 
+		<plugins>
 			<!-- Build helper maven plugin sets the parsedVersion.osgiVersion property -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>build-helper-maven-plugin</artifactId>
-				<version>1.7</version>
 				<executions>
 					<execution>
 						<id>parse-version</id>
@@ -51,7 +54,13 @@
 					<compress>true</compress>
 				</configuration>
 			</plugin>
-
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -61,12 +70,12 @@
 			<activation>
 				<activeByDefault>false</activeByDefault>
 				<property>
-					<name>P2_BASE_FOLDER</name>
+					<name>DEPLOY-DIR</name>
 				</property>
 			</activation>
 			<properties>
 				<from-repo>${project.build.directory}/repository</from-repo>
-				<output.dir>${P2_BASE_FOLDER}/${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}</output.dir>
+				<output.dir>${PLATFORM-DEPLOY-DIR}/${parsedVersion.majorVersion}.${parsedVersion.minorVersion}.${parsedVersion.incrementalVersion}.${build.timestamp}</output.dir>
 			</properties>
 			<build>
 				<plugins>
@@ -81,6 +90,7 @@
 									<target>
 										<!-- called AFTER generating p2 repo to add in extra content -->
 										<ant antfile="build.xml" target="copy.repo.to.dir" dir=".">
+											<property name="output.dir" value="${output.dir}" />
 											<property name="output.dir" value="${output.dir}" />
 											<property name="inputRepo" value="${from-repo}" />
 										</ant>
@@ -122,6 +132,14 @@
 	</profiles>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
+				org.lunifera.dependencies.feature.assert-utilities
+			</artifactId>
+			<version>${project.version}</version>
+			<type>eclipse-feature</type>
+		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>
