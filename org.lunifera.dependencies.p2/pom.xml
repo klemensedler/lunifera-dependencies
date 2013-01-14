@@ -135,6 +135,14 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>
+				org.lunifera.dependencies.feature.vaadin.cdi
+			</artifactId>
+			<version>${project.version}</version>
+			<type>eclipse-feature</type>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
 				org.lunifera.dependencies.feature.assert-utilities
 			</artifactId>
 			<version>${project.version}</version>

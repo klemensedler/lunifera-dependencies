@@ -74,6 +74,7 @@
 				<defaultGoal>clean verify</defaultGoal>
 			</build>
 			<modules>
+				<module>org.lunifera.dependencies.feature.vaadin.cdi</module>
 				<module>org.lunifera.dependencies.feature.assert-utilities</module>
 				<module>org.lunifera.dependencies.feature.camel</module>
 				<module>org.lunifera.dependencies.feature.derby</module>
