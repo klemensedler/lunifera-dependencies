@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin"
       label="%featureName"
-      version="0.0.1.qualifier"
+      version="7.0.0.qualifier"
       provider-name="%providerName">
 
    <description>
@@ -17,12 +17,6 @@
       %license
    </license>
 
-   <plugin
-         id="com.vaadin.cdi"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
    <plugin
          id="com.vaadin.client"
          download-size="0"

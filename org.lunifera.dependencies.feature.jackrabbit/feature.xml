@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.jackrabbit"
       label="%featureName"
-      version="0.0.1.qualifier"
+      version="2.5.2"
       provider-name="%providerName">
 
    <description>
@@ -23,6 +23,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.lunifera.dependencies.bundle.jackrabbit-core"
          download-size="0"
@@ -36,6 +37,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.apache.jackrabbit.jackrabbit-jcr-commons"
          download-size="0"
@@ -98,6 +100,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.apache.commons.dbcp"
          download-size="0"
@@ -111,12 +114,14 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.apache.commons.codec"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
    <plugin
          id="org.apache.commons.httpclient"
          download-size="0"

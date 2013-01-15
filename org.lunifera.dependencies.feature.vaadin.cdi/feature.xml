@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin.cdi"
       label="%featureName"
-      version="0.0.1.qualifier"
+      version="1.0.0.qualifier"
       provider-name="%providerName">
 
    <description>
@@ -18,8 +18,8 @@
    </license>
 
    <requires>
-      <import feature="org.lunifera.dependencies.feature.vaadin" version="0.0.0"/>
-      <import feature="org.lunifera.dependencies.feature.weld" version="0.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.vaadin" version="7.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.weld" version="1.2.0"/>
    </requires>
 
    <plugin

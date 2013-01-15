@@ -11,10 +11,11 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.camel</artifactId>
+	<version>2.10.3</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<camel-version>2.10.2</camel-version>
+		<camel-version>2.10.3</camel-version>
 	</properties>
 
 	<dependencies>

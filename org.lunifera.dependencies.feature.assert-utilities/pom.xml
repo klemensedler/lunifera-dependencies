@@ -9,11 +9,9 @@
 		<artifactId>org.lunifera.dependencies</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<properties>
-		<jackrabbit-version>2.5.2</jackrabbit-version>
-	</properties>
 
 	<artifactId>org.lunifera.dependencies.feature.assert-utilities</artifactId>
+	<version>1.0.1</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>

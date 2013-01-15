@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.jbpm"
       label="%featureName"
-      version="0.0.1.qualifier"
+      version="5.4.0.Final"
       provider-name="%providerName">
 
    <description>
@@ -128,13 +128,6 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
-   <!-- <plugin
-         id="org.jboss.spec.javax.interceptor.jboss-interceptors-api_1.1_spec"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/> for jbpm6-->
 
    <plugin
          id="javax.el"

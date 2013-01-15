@@ -12,7 +12,7 @@
 
 	<artifactId>org.lunifera.dependencies.feature.vaadin.addon.icepush</artifactId>
 	<packaging>eclipse-feature</packaging>
-
+	<version>0.5.4</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>

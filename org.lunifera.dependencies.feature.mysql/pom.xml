@@ -11,6 +11,7 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.mysql</artifactId>
+	<version>5.1.21</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>

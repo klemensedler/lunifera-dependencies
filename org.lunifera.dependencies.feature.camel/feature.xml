@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.camel"
       label="%featureName"
-      version="0.0.1.qualifier"
+      version="2.10.3"
       provider-name="%providerName">
 
    <description>
@@ -22,7 +22,6 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         fragment="true"
          unpack="false"/>
 
 </feature>

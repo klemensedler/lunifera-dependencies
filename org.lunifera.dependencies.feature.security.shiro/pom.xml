@@ -11,6 +11,7 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.security.shiro</artifactId>
+	<version>1.2.1</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>

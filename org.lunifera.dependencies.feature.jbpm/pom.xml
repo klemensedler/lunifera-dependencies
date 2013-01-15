@@ -11,11 +11,11 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.jbpm</artifactId>
+	<version>5.4.0.Final</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
 		<drools.version>5.5.0.Final</drools.version>
-		<weld.version>1.2.0-SNAPSHOT</weld.version>
 		<jbpm.version>5.4.0.Final</jbpm.version>
 	</properties>
 
