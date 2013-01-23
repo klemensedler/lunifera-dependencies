@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--#======================================================================= -->
 <!--# Copyright (c) 2012, 2013 Committers of lunifera.org - Lunifera.org. -->
 <!--# All rights reserved. This program and the accompanying materials -->
@@ -9,41 +8,47 @@
 <!--# Contributors: -->
 <!--# Cristiano Gavião - initial API and implementation -->
 <!--#======================================================================= -->
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.parent</artifactId>
+		<groupId>org.lunifera.releng</groupId>
+		<artifactId>org.lunifera.releng.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath>../org.lunifera.dependencies.parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>org.lunifera.dependencies.feature.db4o</artifactId>
-	<version>8.1.0-SNAPSHOT</version>
-	<packaging>eclipse-feature</packaging>
+	<groupId>org.lunifera.dependencies</groupId>
+	<artifactId>org.lunifera.dependencies.pomfirst</artifactId>
+	<packaging>pom</packaging>
 
 	<properties>
-		<db4o-version>8.1-SNAPSHOT</db4o-version>
+		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
 	</properties>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.db4o</groupId>
-			<artifactId>db4o-osgi</artifactId>
-			<version>${db4o-version}</version>
-		</dependency>
-
-	</dependencies>
+	<modules>
+		<module>org.lunifera.dependencies.bundle.vaadin.addon.icepush</module>
+		<module>org.lunifera.dependencies.bundle.derby</module>
+		<module>org.lunifera.dependencies.bundle.jackrabbit-core</module>
+	</modules>
 
 	<repositories>
 		<repository>
-			<id>db40</id>
-			<url>https://source.db4o.com/maven/</url>
+			<id>snapshots.jboss.org</id>
+			<name>JBoss Snapshot Repository</name>
+			<url>http://snapshots.jboss.org/maven2</url>
 			<releases>
+				<enabled>false</enabled>
+			</releases>
+			<snapshots>
 				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>vaadin-snapshots</id>
+			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
+			<releases>
+				<enabled>false</enabled>
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
