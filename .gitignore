@@ -3,3 +3,4 @@
 target/
 .classpath
 bin/
+/build.dependencies.kepler.latest.log.properties
