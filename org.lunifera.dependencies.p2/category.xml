@@ -39,7 +39,13 @@
    <feature id="org.lunifera.dependencies.feature.equinox" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.equinox.testing" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.xtext.headless" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.xtext.testing" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.jackrabbit" version="0.0.0">

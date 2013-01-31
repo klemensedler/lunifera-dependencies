@@ -36,13 +36,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.junit"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="javax.activation"
          download-size="0"
          install-size="0"
@@ -58,41 +51,6 @@
 
    <plugin
          id="org.json"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.hamcrest.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.hamcrest.integration"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.hamcrest.library"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.hamcrest.text"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.hamcrest"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -139,7 +97,6 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
 
    <plugin
          id="org.eclipse.osgi"
@@ -275,13 +232,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.hadoop.zookeeper"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.kohsuke.args4j"
          download-size="0"
          install-size="0"
@@ -360,13 +310,6 @@
 
    <plugin
          id="org.eclipse.equinox.launcher"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.log"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -558,6 +501,13 @@
 
    <plugin
          id="org.eclipse.core.databinding.property"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.databinding"
          download-size="0"
          install-size="0"
          version="0.0.0"
