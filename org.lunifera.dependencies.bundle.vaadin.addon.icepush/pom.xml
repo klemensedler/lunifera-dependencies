@@ -17,33 +17,29 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<properties>
-		<icepush-version>0.5.4</icepush-version>
-	</properties>
-
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.icepush</artifactId>
 	<packaging>bundle</packaging>
 	<description>ICEPush addon</description>
-	<version>0.5.4</version>
+	<version>0.5.5</version>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.vaadin.addons</groupId>
 			<artifactId>icepush</artifactId>
-			<version>${icepush-version}</version>
+			<version>${project.version}</version>
 		</dependency>
-		<!-- mvn install:install-file -Dfile=icepush.jar -DgroupId=org.icepush 
+		<!-- mvn install:install-file -Dfile=icepush.jar -DgroupId=org.icefaces 
 			\ -DartifactId=icepush -Dversion=2.0.0-alpha3 -Dpackaging=jar -->
-		<!-- mvn install:install-file -Dfile=icepush-gwt.jar -DgroupId=org.icepush 
+		<!-- mvn install:install-file -Dfile=icepush-gwt.jar -DgroupId=org.icefaces 
 			\ -DartifactId=icepush-gwt -Dversion=2.0.0-alpha3 -Dpackaging=jar -->
 		<dependency>
-			<groupId>org.icepush</groupId>
+			<groupId>org.icefaces</groupId>
 			<artifactId>icepush-gwt</artifactId>
 			<version>2.0.0-alpha3</version>
 		</dependency>
 		<dependency>
-			<groupId>org.icepush</groupId>
+			<groupId>org.icefaces</groupId>
 			<artifactId>icepush</artifactId>
 			<version>2.0.0-alpha3</version>
 		</dependency>

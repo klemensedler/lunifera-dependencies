@@ -23,14 +23,14 @@
 
 	<artifactId>org.lunifera.dependencies.feature.vaadin.addon.icepush</artifactId>
 	<packaging>eclipse-feature</packaging>
-	<version>0.5.4</version>
+	<version>0.5.5</version>
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>
 				org.lunifera.dependencies.bundle.vaadin.addon.icepush
 			</artifactId>
-			<version>0.5.4</version>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.portlet</groupId>

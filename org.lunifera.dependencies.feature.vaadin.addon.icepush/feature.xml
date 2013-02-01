@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin.addon.icepush"
       label="%featureName"
-      version="0.5.4"
+      version="0.5.5"
       provider-name="%providerName">
 
    <description>
