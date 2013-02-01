@@ -49,7 +49,6 @@
 				<module>org.lunifera.dependencies.feature.mysql</module>
 				<module>org.lunifera.dependencies.feature.security.shiro</module>
 				<module>org.lunifera.dependencies.feature.vaadin</module>
-				<module>org.lunifera.dependencies.feature.vaadin.addon.cdi</module>
 				<module>org.lunifera.dependencies.feature.vaadin.addon.icepush</module>
 				<module>org.lunifera.dependencies.feature.weld</module>
 				<module>org.lunifera.dependencies.feature.db4o</module>
