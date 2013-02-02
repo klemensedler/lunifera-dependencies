@@ -55,11 +55,11 @@
 				<configuration>
 					<unpackBundle>true</unpackBundle>
 					<instructions>
-						<Bundle-SymbolicName>org.vaadin.addon.icepush;singleton:=true</Bundle-SymbolicName>
+						<Bundle-SymbolicName>org.lunifera.dependencies.bundle.vaadin.addon.icepush;singleton:=true</Bundle-SymbolicName>
 						<Embed-Dependency>
 							groupId=org.vaadin.addons;artifactId=icepush;scope=compile;inline=false,
-							groupId=org.icepush;artifactId=icepush-gwt;scope=compile;inline=false,
-							groupId=org.icepush;artifactId=icepush;scope=compile;inline=false
+							groupId=org.icefaces;artifactId=icepush-gwt;scope=compile;inline=false,
+							groupId=org.icefaces;artifactId=icepush;scope=compile;inline=false
 						</Embed-Dependency>
 						<_exportcontents>
 							*

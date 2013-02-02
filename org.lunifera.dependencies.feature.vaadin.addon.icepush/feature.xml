@@ -22,7 +22,7 @@
    </requires>
 
    <plugin
-         id="org.vaadin.addon.icepush"
+         id="org.lunifera.dependencies.bundle.vaadin.addon.icepush"
          download-size="0"
          install-size="0"
          version="0.0.0"
