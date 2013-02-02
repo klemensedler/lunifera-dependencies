@@ -42,5 +42,8 @@ Export-Package: com.sun.codemodel,
  javax.transaction,
  javax.xml.transform.stax,
  javax.xml.stream,
+ javax.xml.parsers,
+ org.xml.sax,
+ org.xml.sax.helpers,
  javax.transaction.xa
  
