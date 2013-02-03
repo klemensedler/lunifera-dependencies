@@ -57,13 +57,14 @@
 					<instructions>
 						<Bundle-SymbolicName>org.lunifera.dependencies.bundle.vaadin.addon.icepush;singleton:=true</Bundle-SymbolicName>
 						<Embed-Dependency>
-							groupId=org.vaadin.addons;artifactId=icepush;scope=compile;inline=false,
-							groupId=org.icefaces;artifactId=icepush-gwt;scope=compile;inline=false,
-							groupId=org.icefaces;artifactId=icepush;scope=compile;inline=false
+							groupId=org.vaadin.addons;artifactId=icepush;scope=compile;inline=true,
+							groupId=org.icefaces;artifactId=icepush-gwt;scope=compile;inline=true,
+							groupId=org.icefaces;artifactId=icepush;scope=compile;inline=true
 						</Embed-Dependency>
 						<_exportcontents>
 							*
 						</_exportcontents>
+						<Import-Package>!com.google.gwt.*, *</Import-Package>
 					</instructions>
 				</configuration>
 			</plugin>
