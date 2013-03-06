@@ -13,16 +13,13 @@
 -->
 <project default="basic.build" name="Lunifera Dependencies P2 with aggregate repositories">
 
+	<taskdef resource="net/sf/antcontrib/antlib.xml"/>
+	
 	<target name="init">
 		<property name="update.site.source.dir" value="${lunifera.build.p2.source.dir}" />
 
-		<!-- load properties from file -->
-		<condition property="associate.properties" value="${basedir}/associate.properties">
-			<available file="${basedir}/associate.properties" type="file" />
-		</condition>
-
-		<property file="${associate.properties}" />
-		<echo>Loaded associate sites from ${associate.properties}</echo>
+		<echo>Loaded associate sites: ${associate.sites}</echo>
+		<echo>Source dir: ${update.site.source.dir}</echo>
 
 	</target>
 
@@ -62,6 +59,9 @@
 				<for param="associate.site" list="${associate.sites}" delimiter=",">
 					<sequential>
 						<!-- insert into content.xml -->
+						
+						<echo>Adding associate p2: @{associate.site}</echo>
+						
 						<echo file="${update.site.source.dir}/content.xml" append="true">    &lt;repository uri='@{associate.site}' url='@{associate.site}' type='0' options='1'/>
     &lt;repository uri='@{associate.site}' url='@{associate.site}' type='1' options='1'/>
 </echo>

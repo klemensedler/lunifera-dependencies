@@ -34,9 +34,6 @@
 			<activation>
 				<activeByDefault>false</activeByDefault>
 			</activation>
-			<properties>
-				<associate.p2>${eclipse-repo},${orbit-site}</associate.p2>
-			</properties>
 			<build>
 				<defaultGoal>clean verify</defaultGoal>
 			</build>

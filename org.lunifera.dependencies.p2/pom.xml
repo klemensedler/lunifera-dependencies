@@ -21,36 +21,17 @@
 	<artifactId>org.lunifera.dependencies.p2</artifactId>
 	<packaging>eclipse-repository</packaging>
 
-	<build>
-		<resources>
-			<resource>
-				<directory>./</directory>
-				<filtering>true</filtering>
-				<includes>
-					<include>associate.properties</include>
-				</includes>
-			</resource>
-		</resources>
-
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-resources-plugin</artifactId>
-				<configuration>
-					<encoding>UTF-8</encoding>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
-
 	<profiles>
 		<profile>
-			<id>deploy-p2</id>
+			<id>lunifera.build.p2</id>
 			<activation>
-				<property>
-					<name>deployP2</name>
-				</property>
+				<activeByDefault>false</activeByDefault>
 			</activation>
+			<properties>
+				<ecfview-p2>http://lun.lunifera.org/downloads/p2/ecview/nightly/</ecfview-p2>
+				<lunifera.build.p2.source.dir>${project.build.directory}/repository</lunifera.build.p2.source.dir>
+				<associate.p2>${lunifera.build.eclipse.platform.p2.url},${orbit-site},${ecfview-p2}</associate.p2>
+			</properties>
 			<build>
 				<plugins>
 					<plugin>
@@ -63,6 +44,7 @@
 									<target>
 										<ant antfile="build.xml" target="basic.build" dir=".">
 											<property name="lunifera.build.p2.source.dir" value="${lunifera.build.p2.source.dir}" />
+											<property name="associate.sites" value="${associate.p2}" />
 										</ant>
 									</target>
 								</configuration>
