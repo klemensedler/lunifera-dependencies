@@ -95,7 +95,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.assert-utilities
 			</artifactId>
-			<version>1.1.0</version>
+			<version>1.2.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
@@ -121,9 +121,23 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>
-				org.lunifera.dependencies.feature.jbpm
+				org.lunifera.dependencies.feature.jboss.jbpm
 			</artifactId>
-			<version>5.4.0.Final</version>
+			<version>6.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
+				org.lunifera.dependencies.feature.jboss.drools
+			</artifactId>
+			<version>6.0.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
+				org.lunifera.dependencies.feature.jboss.kie
+			</artifactId>
+			<version>6.0.0-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>

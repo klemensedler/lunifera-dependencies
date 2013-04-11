@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lunifera.dependencies.feature.jboss.jbpm"
+      label="%featureName"
+      version="6.0.0.qualifier"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.lunifera.dependencies.feature.jboss.drools" version="6.0.0"/>
+      <import plugin="org.jbpm.flow.core" version="6.0.0"/>
+      <import plugin="org.jbpm.flow.builder" version="6.0.0"/>
+      <import plugin="org.jbpm.persistence.jpa" version="6.0.0"/>
+      <import plugin="org.jbpm.bpmn2" version="6.0.0"/>
+      <import plugin="org.jbpm.bpmn2.emfextmodel" version="6.0.0"/>
+   </requires>
+
+   <plugin
+         id="org.jbpm.flow.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.flow.builder"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.persistence.jpa"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.bpmn2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.bpmn2.emfextmodel"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
