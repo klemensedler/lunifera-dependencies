@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.assert-utilities"
       label="%featureName"
-      version="1.1.0"
+      version="1.2.0"
       provider-name="%providerName">
 
    <description>
