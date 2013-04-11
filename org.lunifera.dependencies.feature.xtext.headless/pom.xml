@@ -40,7 +40,10 @@
 				</executions>
 				<configuration>
 					<labelSuffix> (source)</labelSuffix>
-
+                    <excludes>
+                        <plugin id="org.apache.commons.cli" />
+                        <plugin id="com.google.guava" />
+                    </excludes>
 				</configuration>
 			</plugin>
 			<plugin>
