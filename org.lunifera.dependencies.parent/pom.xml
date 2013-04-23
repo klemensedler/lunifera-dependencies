@@ -26,7 +26,7 @@
 	<properties>
 		<next-release>0.0.1-RC1</next-release>
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20121207152029/repository/</orbit-site>
-		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
+		<vaadin-version>7.1-SNAPSHOT</vaadin-version>
 	</properties>
 
 
