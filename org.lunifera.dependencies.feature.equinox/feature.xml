@@ -295,20 +295,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.jetty.jmx"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.jetty.util"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.device"
          download-size="0"
          install-size="0"
@@ -447,35 +433,49 @@
          id="org.eclipse.jetty.http"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="8.1.9"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.jetty.io"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="8.1.9"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.jetty.security"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="8.1.9"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.jetty.server"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="8.1.9"
          unpack="false"/>
 
    <plugin
          id="org.eclipse.jetty.servlet"
          download-size="0"
          install-size="0"
+         version="8.1.9"
+         unpack="false"/>
+         
+   <plugin
+         id="org.eclipse.jetty.jmx"
+         download-size="0"
+         install-size="0"
          version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="0"
+         install-size="0"
+         version="8.1.9"
          unpack="false"/>
 
    <plugin

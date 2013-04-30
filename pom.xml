@@ -51,6 +51,7 @@
 				<module>org.lunifera.dependencies.feature.vaadin.addon.icepush</module>
 				<module>org.lunifera.dependencies.feature.weld</module>
 <!-- 				<module>org.lunifera.dependencies.feature.db4o</module> -->
+				<module>org.lunifera.dependencies.feature.wicket</module>
 				<module>org.lunifera.dependencies.feature.mongodb</module>
 				<module>org.lunifera.dependencies.feature.jackrabbit</module>
 				<module>org.lunifera.dependencies.feature.equinox</module>
