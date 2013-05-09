@@ -21,52 +21,49 @@
 		<relativePath>../org.lunifera.dependencies.parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
-	<version>7.1.0-SNAPSHOT</version>
+	<artifactId>org.lunifera.dependencies.feature.wicket</artifactId>
+	<version>6.7.0</version>
 	<packaging>eclipse-feature</packaging>
+
+	<properties>
+		<wicket-version>6.7.0</wicket-version>
+	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-shared</artifactId>
-			<version>${vaadin-version}</version>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-core</artifactId>
+			<version>${wicket-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-client</artifactId>
-			<version>${vaadin-version}</version>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-datetime</artifactId>
+			<version>${wicket-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-client-compiled</artifactId>
-			<version>${vaadin-version}</version>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-extensions</artifactId>
+			<version>${wicket-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-server</artifactId>
-			<version>${vaadin-version}</version>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-ioc</artifactId>
+			<version>${wicket-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-themes</artifactId>
-			<version>${vaadin-version}</version>
-		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-push</artifactId> -->
-<!-- 			<version>${vaadin-version}</version> -->
-<!-- 		</dependency> -->
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-shared-deps</artifactId>
-			<version>1.0.2</version>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-request</artifactId>
+			<version>${wicket-version}</version>
 		</dependency>
 		<dependency>
-			<groupId>commons-io</groupId>
-			<artifactId>commons-io</artifactId>
-			<version>2.4</version>
+			<groupId>org.apache.wicket</groupId>
+			<artifactId>wicket-util</artifactId>
+			<version>${wicket-version}</version>
 		</dependency>
-
+		<!-- <dependency> -->
+		<!-- <groupId>ch.qos.cal10n</groupId> -->
+		<!-- <artifactId>cal10n-api</artifactId> -->
+		<!-- <version>0.7.4</version> -->
+		<!-- </dependency> -->
 	</dependencies>
-
 </project>
