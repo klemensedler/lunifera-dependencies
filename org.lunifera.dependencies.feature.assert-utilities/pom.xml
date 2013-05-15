@@ -22,11 +22,11 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.assert-utilities</artifactId>
-	<version>1.2.1</version>
+	<version>1.2.2</version>
 	<packaging>eclipse-feature</packaging>
     
     <properties>
-        <knowhowlab.osgi>1.2.1</knowhowlab.osgi>
+        <knowhowlab.osgi>1.2.2</knowhowlab.osgi>
     </properties>
 
 	<dependencies>

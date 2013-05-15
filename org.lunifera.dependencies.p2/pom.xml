@@ -95,7 +95,7 @@
 			<artifactId>
 				org.lunifera.dependencies.feature.assert-utilities
 			</artifactId>
-			<version>1.2.1</version>
+			<version>1.2.2</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
