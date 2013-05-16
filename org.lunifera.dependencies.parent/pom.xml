@@ -30,8 +30,12 @@
 		<atmosphere-version>1.0.12</atmosphere-version>
 	</properties>
 
-
 	<repositories>
+		<repository>
+			<id>jetty.p2</id>
+			<url>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.9.v20130131</url>
+			<layout>p2</layout>
+		</repository>
 		<repository>
 			<id>vaadin-snapshots</id>
 			<url>http://oss.sonatype.org/content/repositories/vaadin-snapshots/</url>
