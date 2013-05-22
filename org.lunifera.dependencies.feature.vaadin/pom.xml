@@ -51,11 +51,11 @@
 			<artifactId>vaadin-themes</artifactId>
 			<version>${vaadin-version}</version>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-push</artifactId> -->
-<!-- 			<version>${vaadin-version}</version> -->
-<!-- 		</dependency> -->
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-push</artifactId>
+			<version>${vaadin-version}</version>
+		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-shared-deps</artifactId>
