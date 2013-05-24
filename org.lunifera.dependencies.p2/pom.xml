@@ -203,8 +203,8 @@
 			<version>6.7.0</version>
 		</dependency>
 		<dependency>
-			<groupId>org.atmosphere</groupId>
-			<artifactId>atmosphere-runtime</artifactId>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId>
 			<version>${atmosphere-version}</version>
 		</dependency>
 	</dependencies>
