@@ -70,6 +70,7 @@
 				<configuration>
 					<labelSuffix> (source)</labelSuffix>
 					<excludes>
+						<plugin id="com.ibm.icu" />
 						<plugin id="org.apache.commons.collections" />
 						<plugin id="org.json" />
 						<plugin id="ch.qos.logback.classic" />
