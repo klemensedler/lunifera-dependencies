@@ -28,6 +28,7 @@
 		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20121207152029/repository/</orbit-site>
 		<vaadin-version>7.1-SNAPSHOT</vaadin-version>
 		<atmosphere-version>1.0.14-SNAPSHOT</atmosphere-version>
+		<aries-subsystems-version>1.0.0</aries-subsystems-version>
 	</properties>
 
 	<repositories>

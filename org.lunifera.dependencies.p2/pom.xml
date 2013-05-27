@@ -207,5 +207,10 @@
 			<artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId>
 			<version>${atmosphere-version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.aries.subsystems</artifactId>
+			<version>${aries-subsystems-version}</version>
+		</dependency>
 	</dependencies>
 </project>
