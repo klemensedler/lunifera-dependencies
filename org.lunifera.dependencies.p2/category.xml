@@ -45,10 +45,10 @@
    <feature id="org.lunifera.dependencies.feature.jackrabbit.source" version="0.0.0">
       <category name="lunifera_osgi_deps_src"/>
    </feature>
-   <feature url="features/org.lunifera.dependencies.feature.wicket_6.7.0.jar" id="org.lunifera.dependencies.feature.wicket" version="6.7.0">
+   <feature id="org.lunifera.dependencies.feature.wicket" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature url="features/org.lunifera.dependencies.feature.atmosphere_1.0.14.qualifier.jar" id="org.lunifera.dependencies.feature.atmosphere" version="1.0.14.qualifier">
+   <feature id="org.lunifera.dependencies.feature.atmosphere" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <category-def name="lunifera_osgi_deps" label="OSGi Dependencies"/>
