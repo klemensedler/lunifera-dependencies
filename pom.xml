@@ -55,6 +55,7 @@
 				<module>org.lunifera.dependencies.feature.mongodb</module>
 				<module>org.lunifera.dependencies.feature.jackrabbit</module>
 				<module>org.lunifera.dependencies.feature.equinox</module>
+				<module>org.lunifera.dependencies.feature.ecf</module>
 				<module>org.lunifera.dependencies.feature.equinox.testing</module>
 				<module>org.lunifera.dependencies.feature.xtext.headless</module>
 				<module>org.lunifera.dependencies.feature.xtext.testing</module>
