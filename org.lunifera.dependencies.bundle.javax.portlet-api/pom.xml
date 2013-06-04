@@ -20,5 +20,5 @@
 
 	<artifactId>org.lunifera.dependencies.bundle.javax.portlet-api</artifactId>
 	<packaging>eclipse-plugin</packaging>
-
+	<version>2.0.0</version>
 </project>
