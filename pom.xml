@@ -62,6 +62,7 @@
 				<module>org.lunifera.dependencies.fragment.jdk</module>
 				<module>org.lunifera.dependencies.feature.atmosphere</module>
 				<module>org.lunifera.dependencies.feature.aries.subsystems</module>
+				<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
 				<module>org.lunifera.dependencies.p2</module>
 			</modules>
 		</profile>
