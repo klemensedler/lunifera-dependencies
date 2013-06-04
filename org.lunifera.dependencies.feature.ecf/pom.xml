@@ -42,36 +42,36 @@
 				</executions>
 				<configuration>
 					<labelSuffix> (source)</labelSuffix>
-					<excludes>
-						<plugin id="org.eclipse.ecf.presence" />
-						<plugin id="org.eclipse.ecf.provider.irc" />
-						<plugin id="org.eclipse.ecf.provider.bittorrent" />
-						<plugin id="org.eclipse.ecf.provider.msn" />
-						<plugin id="org.eclipse.ecf.presence.bot" />
-						<plugin id="org.eclipse.ecf.telephony.call" />
-						<plugin id="org.eclipse.ecf.protocol.msn" />
-						<plugin id="org.eclipse.ecf.provider.filetransfer.efs" />
-						<plugin id="org.eclipse.ecf.docshare" />
-						<plugin id="org.eclipse.ecf.provider.filetransfer.scp" />
-						<plugin id="org.eclipse.ecf.remoteservice.ui" />
-						<plugin id="org.eclipse.ecf.protocol.bittorrent" />
-						<plugin id="org.eclipse.ecf.sync" />
-						<plugin id="org.eclipse.ecf.storage" />
-						<feature id="org.eclipse.ecf.xmpp.feature" />
-						<feature id="org.eclipse.ecf.discovery.feature" />
-						<feature id="org.eclipse.ecf.datashare.feature" />
-						<feature id="org.eclipse.ecf.discovery.zookeeper.feature" />
-						<feature id="org.eclipse.ecf.discovery.dnssd.feature" />
-						<feature id="org.eclipse.ecf.discovery.jmdns.feature" />
-						<feature id="org.eclipse.ecf.discovery.slp.feature" />
-						<feature id="org.eclipse.ecf.osgi.services.feature" />
-						<feature id="org.eclipse.ecf.server.generic.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.soap.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.rest.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.rosgi.feature" />
-						<feature id="org.eclipse.ecf.xmpp.feature" />
-					</excludes>
+<!-- 					<excludes> -->
+<!-- 						<plugin id="org.eclipse.ecf.presence" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.provider.irc" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.provider.bittorrent" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.provider.msn" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.presence.bot" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.telephony.call" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.protocol.msn" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.provider.filetransfer.efs" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.docshare" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.provider.filetransfer.scp" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.remoteservice.ui" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.protocol.bittorrent" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.sync" /> -->
+<!-- 						<plugin id="org.eclipse.ecf.storage" /> -->
+<!-- 						<feature id="org.eclipse.ecf.xmpp.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.discovery.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.datashare.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.discovery.zookeeper.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.discovery.dnssd.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.discovery.jmdns.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.discovery.slp.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.osgi.services.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.server.generic.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.remoteservice.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.remoteservice.soap.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.remoteservice.rest.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.remoteservice.rosgi.feature" /> -->
+<!-- 						<feature id="org.eclipse.ecf.xmpp.feature" /> -->
+<!-- 					</excludes> -->
 				</configuration>
 			</plugin>
 			<plugin>

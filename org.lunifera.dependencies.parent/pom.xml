@@ -25,8 +25,9 @@
 
 	<properties>
 		<next-release>0.0.1-RC1</next-release>
-		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20121207152029/repository/</orbit-site>
+		<orbit-site>http://build.eclipse.org/orbit/committers/orbit-I/20130528180513/I20130528180513/repository/</orbit-site>
 		<jetty-site>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.11.v20130520</jetty-site>
+		<ecf-site>http://download.eclipse.org/rt/ecf/3.6.1/site.p2</ecf-site>
 		<vaadin-version>7.1-SNAPSHOT</vaadin-version>
 		<atmosphere-version>1.0.14-SNAPSHOT</atmosphere-version>
 		<aries-subsystems-version>1.0.0</aries-subsystems-version>
@@ -66,6 +67,11 @@
 		<repository>
 			<id>jetty.p2</id>
 			<url>${jetty-site}</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>ecf.p2</id>
+			<url>${ecf-site}</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
