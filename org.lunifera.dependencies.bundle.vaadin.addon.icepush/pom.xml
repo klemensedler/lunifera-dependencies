@@ -50,7 +50,6 @@
 			<plugin>
 				<groupId>org.apache.felix</groupId>
 				<artifactId>maven-bundle-plugin</artifactId>
-				<version>2.3.7</version>
 				<extensions>true</extensions>
 				<configuration>
 					<unpackBundle>true</unpackBundle>
@@ -64,7 +63,12 @@
 						<_exportcontents>
 							*
 						</_exportcontents>
-						<Import-Package>!com.google.gwt.*, *</Import-Package>
+						<Import-Package>com.google.gwt.*;resolution:=optional,
+						 javax.portlet;resolution:=optional,
+						 *
+						 </Import-Package>
+						 <_removeheaders>Ignore-Package</_removeheaders>
+						 <_nouses>true</_nouses>
 					</instructions>
 				</configuration>
 			</plugin>
