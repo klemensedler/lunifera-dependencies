@@ -65,6 +65,11 @@
 
 	<repositories>
 		<repository>
+			<id>orbit.p2</id>
+			<url>${orbit-site}</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
 			<id>jetty.p2</id>
 			<url>${jetty-site}</url>
 			<layout>p2</layout>

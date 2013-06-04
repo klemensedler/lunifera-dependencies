@@ -22,10 +22,6 @@
 	<artifactId>org.lunifera.dependencies.pomfirst</artifactId>
 	<packaging>pom</packaging>
 
-	<properties>
-		<vaadin-version>7.0-SNAPSHOT</vaadin-version>
-	</properties>
-
 	<modules>
 		<module>org.lunifera.dependencies.bundle.vaadin.addon.icepush</module>
 		<module>org.lunifera.dependencies.bundle.derby</module>
