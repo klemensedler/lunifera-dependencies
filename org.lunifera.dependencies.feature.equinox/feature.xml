@@ -32,6 +32,7 @@
       <import plugin="org.eclipse.jetty.util" version="8.1.11" match="compatible"/>
       <import plugin="org.eclipse.jetty.websocket" version="8.1.11" match="compatible"/>
       <import plugin="com.ibm.icu" version="50.1.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="0.14.1"/>
    </requires>
 
    <plugin
@@ -41,6 +42,13 @@
          version="0.0.0"
          unpack="false"/>
 
+  <plugin
+         id="com.google.guava"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
    <plugin
          id="com.ibm.icu"
          download-size="0"
