@@ -91,6 +91,7 @@
 						<plugin id="javax.activation" />
 						<plugin id="javax.annotation" />
 						<plugin id="javax.xml.bind" />
+						<plugin id="com.google.guava" />
 						<plugin id="org.lunifera.dependencies.fragment.jdk" />
 					</excludes>
 				</configuration>
