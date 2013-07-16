@@ -17,6 +17,10 @@
       %license
    </license>
 
+   <requires>
+      <import plugin="com.google.guava" version="0.14.1"/>
+   </requires>
+
    <plugin
          id="org.eclipse.xtext"
          download-size="0"
