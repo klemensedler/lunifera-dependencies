@@ -31,6 +31,11 @@
             <artifactId>atmosphere-runtime</artifactId>
             <version>1.0.14.vaadin4</version>
         </dependency>
+        <dependency>
+            <groupId>com.vaadin.external.slf4j</groupId>
+            <artifactId>vaadin-slf4j-jdk14</artifactId>
+            <version>1.6.1</version>
+        </dependency>
 	</dependencies>
 
 </project>
