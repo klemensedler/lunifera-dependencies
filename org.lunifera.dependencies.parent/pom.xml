@@ -25,7 +25,7 @@
 
 	<properties>
 		<next-release>0.0.1-RC1</next-release>
-		<orbit-site>http://build.eclipse.org/orbit/committers/orbit-I/20130528180513/I20130528180513/repository/</orbit-site>
+		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/I20130724151342/repository/</orbit-site>
 		<jetty-site>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.11.v20130520</jetty-site>
 		<ecf-site>http://download.eclipse.org/rt/ecf/3.6.1/site.p2</ecf-site>
 		<vaadin-version>7.1-SNAPSHOT</vaadin-version>

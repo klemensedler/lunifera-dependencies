@@ -42,6 +42,7 @@
 				<module>org.lunifera.dependencies.feature.assert-utilities</module>
 				<module>org.lunifera.dependencies.feature.camel</module>
 				<module>org.lunifera.dependencies.feature.derby</module>
+				<module>org.lunifera.dependencies.feature.atmosphere</module>
 <!-- 				<module>org.lunifera.dependencies.feature.jboss.kie</module> -->
 <!-- 				<module>org.lunifera.dependencies.feature.jboss.drools</module> -->
 <!-- 				<module>org.lunifera.dependencies.feature.jboss.jbpm</module> -->
@@ -60,7 +61,6 @@
 				<module>org.lunifera.dependencies.feature.xtext.headless</module>
 				<module>org.lunifera.dependencies.feature.xtext.testing</module>
 				<module>org.lunifera.dependencies.fragment.jdk</module>
-				<module>org.lunifera.dependencies.feature.atmosphere</module>
 				<module>org.lunifera.dependencies.feature.aries.subsystems</module>
 				<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
 				<module>org.lunifera.dependencies.p2</module>

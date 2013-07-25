@@ -27,10 +27,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.atmosphere</groupId>
-			<artifactId>atmosphere-runtime</artifactId>
-			<version>${atmosphere-version}</version>
-		</dependency>
+            <groupId>com.vaadin.external.atmosphere</groupId>
+            <artifactId>atmosphere-runtime</artifactId>
+            <version>1.0.14.vaadin4</version>
+        </dependency>
 	</dependencies>
 
 </project>
