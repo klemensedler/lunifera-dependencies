@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer"
+      label="%featureName"
+      version="3.0.0"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="com.vaadin.server"/>
+   </requires>
+
+   <plugin
+         id="org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

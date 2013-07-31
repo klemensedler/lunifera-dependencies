@@ -205,6 +205,13 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>
+				org.lunifera.dependencies.feature.vaadin.addon.jpacontainer
+			</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>
 				org.lunifera.dependencies.feature.wicket
 			</artifactId>
 			<version>6.7.0</version>
