@@ -66,7 +66,7 @@
    <feature id="org.lunifera.dependencies.feature.aries.subsystems" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature url="features/org.lunifera.dependencies.feature.vaadin.addon.jpacontainer_3.0.0.jar" id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer" version="3.0.0">
+   <feature id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <category-def name="lunifera_osgi_deps" label="OSGi Dependencies"/>

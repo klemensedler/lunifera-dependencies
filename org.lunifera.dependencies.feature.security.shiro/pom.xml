@@ -22,11 +22,11 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.security.shiro</artifactId>
-	<version>1.2.1</version>
+	<version>1.2.2</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<shiro-version>1.2.1</shiro-version>
+		<shiro-version>1.2.2</shiro-version>
 	</properties>
 
 	<repositories>
