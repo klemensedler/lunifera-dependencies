@@ -13,8 +13,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.lunifera.releng</groupId>
-		<artifactId>org.lunifera.releng.parent</artifactId>
+		<artifactId>org.lunifera.releng.parent.felix</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../lunifera-releng/org.lunifera.releng.parent.felix/pom.xml</relativePath>
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
