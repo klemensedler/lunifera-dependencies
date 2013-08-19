@@ -24,10 +24,10 @@
 	<artifactId>org.lunifera.dependencies.feature.assert-utilities</artifactId>
 	<version>1.2.2</version>
 	<packaging>eclipse-feature</packaging>
-    
-    <properties>
-        <knowhowlab.osgi>1.2.2</knowhowlab.osgi>
-    </properties>
+
+	<properties>
+		<knowhowlab.osgi>1.2.2</knowhowlab.osgi>
+	</properties>
 
 	<dependencies>
 		<dependency>
@@ -61,9 +61,24 @@
 			</exclusions>
 		</dependency>
 		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>log4j-over-slf4j</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.10</version>
 			<scope>test</scope>
 		</dependency>
 
