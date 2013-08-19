@@ -30,7 +30,7 @@
 		<ecf-site>http://download.eclipse.org/rt/ecf/3.6.1/site.p2</ecf-site>
 		<vaadin-version>7.1-SNAPSHOT</vaadin-version>
 		<atmosphere-version>1.0.14-SNAPSHOT</atmosphere-version>
-		<aries-subsystems-version>1.0.0</aries-subsystems-version>
+		<apache.aries.subsystem.version>1.0.0</apache.aries.subsystem.version>
 	</properties>
 
 	<dependencyManagement>
