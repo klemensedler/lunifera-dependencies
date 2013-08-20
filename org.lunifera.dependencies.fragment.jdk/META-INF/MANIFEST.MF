@@ -47,5 +47,7 @@ Export-Package: com.sun.codemodel,
  javax.xml.parsers,
  org.xml.sax,
  org.xml.sax.helpers,
- javax.transaction.xa
+ javax.transaction.xa,
+ javax.persistence.criteria,
+ javax.persistence.metamodel
  
