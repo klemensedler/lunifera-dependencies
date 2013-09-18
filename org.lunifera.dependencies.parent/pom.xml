@@ -25,7 +25,6 @@
 
 	<properties>
 		<next-release>0.0.1-RC1</next-release>
-		<orbit-site>http://download.eclipse.org/tools/orbit/downloads/drops/S20130724151342/repository/</orbit-site>
 		<jetty-site>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.11.v20130520</jetty-site>
 		<ecf-site>http://download.eclipse.org/rt/ecf/3.6.1/site.p2</ecf-site>
 		<vaadin-version>7.1-SNAPSHOT</vaadin-version>
@@ -33,22 +32,24 @@
 		<apache.aries.subsystem.version>1.0.0</apache.aries.subsystem.version>
 	</properties>
 
+
+	<!-- TODO: these repositories must be removed to local machine's setting.xml -->
 	<repositories>
 		<repository>
 			<id>orbit.p2</id>
 			<url>${orbit-site}</url>
 			<layout>p2</layout>
 		</repository>
-<!-- 		<repository> -->
-<!-- 			<id>jetty.p2</id> -->
-<!-- 			<url>${jetty-site}</url> -->
-<!-- 			<layout>p2</layout> -->
-<!-- 		</repository> -->
-<!-- 		<repository> -->
-<!-- 			<id>ecf.p2</id> -->
-<!-- 			<url>${ecf-site}</url> -->
-<!-- 			<layout>p2</layout> -->
-<!-- 		</repository> -->
+		<!-- <repository> -->
+		<!-- <id>jetty.p2</id> -->
+		<!-- <url>${jetty-site}</url> -->
+		<!-- <layout>p2</layout> -->
+		<!-- </repository> -->
+		<!-- <repository> -->
+		<!-- <id>ecf.p2</id> -->
+		<!-- <url>${ecf-site}</url> -->
+		<!-- <layout>p2</layout> -->
+		<!-- </repository> -->
 		<repository>
 			<id>oss.sonatype.org-snapshot</id>
 			<url>http://oss.sonatype.org/content/repositories/snapshots</url>

@@ -34,7 +34,7 @@
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.jackrabbit.source" version="0.0.0">
-      <category name="lunifera_osgi_deps_src"/>
+      <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.wicket" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
@@ -45,6 +45,5 @@
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <category-def name="lunifera_osgi_deps" label="OSGi Dependencies"/>
-   <category-def name="lunifera_osgi_deps_src" label="OSGi Dependencies Source"/>
+   <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>
 </site>
