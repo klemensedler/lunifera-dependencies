@@ -22,14 +22,14 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.derby</artifactId>
-	<version>10.9.1.0</version>
+	<version>10.10.1.1</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.derby</artifactId>
-			<version>10.9.1.0</version>
+			<version>${derby.version}</version>
 		</dependency>
 	</dependencies>
 </project>
