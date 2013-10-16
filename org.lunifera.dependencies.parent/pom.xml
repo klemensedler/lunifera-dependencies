@@ -23,16 +23,6 @@
 	<packaging>pom</packaging>
 	<name>Lunifera : Dependencies :: Parent POM</name>
 
-	<properties>
-		<next-release>0.0.1-RC1</next-release>
-		<jetty-site>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.11.v20130520</jetty-site>
-		<ecf-site>http://download.eclipse.org/rt/ecf/3.6.1/site.p2</ecf-site>
-		<vaadin-version>7.1.6</vaadin-version>
-		<atmosphere-version>1.0.14-SNAPSHOT</atmosphere-version>
-		<apache.aries.subsystem.version>1.0.0</apache.aries.subsystem.version>
-	</properties>
-
-
 	<!-- TODO: these repositories must be removed to local machine's setting.xml -->
 	<repositories>
 		<repository>
@@ -40,16 +30,17 @@
 			<url>${orbit-site}</url>
 			<layout>p2</layout>
 		</repository>
-		<!-- <repository> -->
-		<!-- <id>jetty.p2</id> -->
-		<!-- <url>${jetty-site}</url> -->
-		<!-- <layout>p2</layout> -->
-		<!-- </repository> -->
-		<!-- <repository> -->
-		<!-- <id>ecf.p2</id> -->
-		<!-- <url>${ecf-site}</url> -->
-		<!-- <layout>p2</layout> -->
-		<!-- </repository> -->
+		<repository>
+			<id>ecf-nhead</id>
+			<url>http://build.ecf-project.org/repo/N-HEAD-sdk.feature/lastSuccessful/archive/site.p2/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<layout>p2</layout>
+		</repository>
 		<repository>
 			<id>oss.sonatype.org-snapshot</id>
 			<url>http://oss.sonatype.org/content/repositories/snapshots</url>

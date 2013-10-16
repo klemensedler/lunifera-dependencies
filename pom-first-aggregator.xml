@@ -25,7 +25,6 @@
 	<modules>
 		<module>org.lunifera.dependencies.bundle.vaadin.addon.icepush</module>
 		<module>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</module>
-		<module>org.lunifera.dependencies.bundle.derby</module>
 		<module>org.lunifera.dependencies.bundle.jackrabbit-core</module>
 		<module>org.lunifera.dependencies.bundle.poi.ooxml</module>
 	</modules>

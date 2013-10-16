@@ -4,3 +4,4 @@ target/
 .classpath
 bin/
 /build.dependencies.kepler.latest.log.properties
+/build.dependencies.luna.latest.log.properties

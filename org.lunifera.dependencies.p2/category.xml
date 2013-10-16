@@ -12,9 +12,6 @@
    <feature id="org.lunifera.dependencies.feature.security.shiro" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.weld" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
    <feature id="org.lunifera.dependencies.feature.mongodb" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
@@ -43,6 +40,18 @@
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.xtext.headless" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.ecf.headless" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.equinox.server" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.equinox.server.source" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>

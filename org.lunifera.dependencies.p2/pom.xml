@@ -86,41 +86,6 @@
 		<!-- <dependency> -->
 		<!-- <groupId>org.lunifera.dependencies</groupId> -->
 		<!-- <artifactId> -->
-		<!-- org.lunifera.dependencies.feature.db4o -->
-		<!-- </artifactId> -->
-		<!-- <version>8.1.0-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.assert-utilities
-			</artifactId>
-			<version>1.2.2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.camel
-			</artifactId>
-			<version>2.10.3</version>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.vaadin.addon.icepush
-			</artifactId>
-			<version>0.5.5</version>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.jackrabbit
-			</artifactId>
-			<version>2.5.2</version>
-		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId> -->
 		<!-- org.lunifera.dependencies.feature.jboss.jbpm -->
 		<!-- </artifactId> -->
 		<!-- <version>6.0.0-SNAPSHOT</version> -->
@@ -141,69 +106,83 @@
 		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.security.shiro
-			</artifactId>
-			<version>1.2.2</version>
+			<artifactId>org.lunifera.dependencies.feature.assert-utilities</artifactId>
+			<version>${assert.utils.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.mysql
-			</artifactId>
-			<version>5.1.21</version>
+			<artifactId>org.lunifera.dependencies.feature.camel</artifactId>
+			<version>${camel.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.derby
-			</artifactId>
-			<version>10.9.1.0</version>
+			<artifactId>org.lunifera.dependencies.feature.vaadin.addon.icepush</artifactId>
+			<version>${vaadin.addon.icepush.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.weld
-			</artifactId>
-			<version>1.2.0-SNAPSHOT</version>
+			<artifactId>org.lunifera.dependencies.feature.jackrabbit</artifactId>
+			<version>${jackrabbit.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.security.shiro</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.mysql</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.derby</artifactId>
+			<version>${derby.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
-			<version>1.0.13</version>
+			<version>${logback.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.mongodb
-			</artifactId>
-			<version>2.10.0</version>
+			<artifactId>org.lunifera.dependencies.feature.mongodb</artifactId>
+			<version>${mongodb.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.vaadin
-			</artifactId>
-			<version>7.1.0-SNAPSHOT</version>
+			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.vaadin.addon.jpacontainer
-			</artifactId>
-			<version>3.0.0</version>
+			<artifactId>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</artifactId>
+			<version>${vaadin.addon.jpacontainer.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.feature.wicket
-			</artifactId>
-			<version>6.7.0</version>
+			<artifactId>org.lunifera.dependencies.feature.wicket</artifactId>
+			<version>${wicket.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId>
-			<version>${atmosphere-version}</version>
+			<version>${atmosphere.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId>
+			<version>3.10.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.ecf.headless</artifactId>
+			<version>3.7.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.xtext.headless</artifactId>
+			<version>2.5.0.v201310010713</version>
 		</dependency>
 	</dependencies>
 </project>

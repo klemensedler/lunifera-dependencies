@@ -52,14 +52,15 @@
 				<module>org.lunifera.dependencies.feature.vaadin</module>
 				<module>org.lunifera.dependencies.feature.vaadin.addon.icepush</module>
 				<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
-				<module>org.lunifera.dependencies.feature.weld</module>
-<!-- 				<module>org.lunifera.dependencies.feature.db4o</module> -->
 				<module>org.lunifera.dependencies.feature.wicket</module>
 				<module>org.lunifera.dependencies.feature.mongodb</module>
 				<module>org.lunifera.dependencies.feature.jackrabbit</module>
 				<module>org.lunifera.dependencies.fragment.jdk</module>
 				<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
 				<module>org.lunifera.dependencies.p2</module>
+				<module>org.lunifera.dependencies.feature.ecf.headless</module>
+				<module>org.lunifera.dependencies.feature.xtext.headless</module>
+				<module>org.lunifera.dependencies.feature.equinox.server</module>
 			</modules>
 		</profile>
 	</profiles>
