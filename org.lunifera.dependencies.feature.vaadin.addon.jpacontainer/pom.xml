@@ -27,20 +27,18 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-				org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer
-			</artifactId>
-			<version>${project.version}</version>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</artifactId>
+			<version>${vaadin.addon.jpacontainer.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-server</artifactId>
-			<version>${vaadin-version}</version>
+			<version>${vaadin.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-client</artifactId>
-			<version>${vaadin-version}</version>
+			<version>${vaadin.version}</version>
 		</dependency>
 	</dependencies>
 </project>
