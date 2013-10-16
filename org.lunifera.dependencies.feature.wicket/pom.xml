@@ -22,43 +22,42 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.wicket</artifactId>
-	<version>6.7.0</version>
+	<version>6.11.0</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<wicket-version>6.7.0</wicket-version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-core</artifactId>
-			<version>${wicket-version}</version>
+			<version>${wicket.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-datetime</artifactId>
-			<version>${wicket-version}</version>
+			<version>${wicket.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-extensions</artifactId>
-			<version>${wicket-version}</version>
+			<version>${wicket.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-ioc</artifactId>
-			<version>${wicket-version}</version>
+			<version>${wicket.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-request</artifactId>
-			<version>${wicket-version}</version>
+			<version>${wicket.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.wicket</groupId>
 			<artifactId>wicket-util</artifactId>
-			<version>${wicket-version}</version>
+			<version>${wicket.version}</version>
 		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>ch.qos.cal10n</groupId> -->
