@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.jackrabbit"
       label="%featureName"
-      version="2.5.2"
+      version="2.7.1"
       provider-name="%providerName">
 
    <description>
