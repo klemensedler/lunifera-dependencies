@@ -26,16 +26,13 @@
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<drools.version>6.0.0-SNAPSHOT</drools.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>
-                org.lunifera.dependencies.feature.jboss.kie
-            </artifactId>
-			<version>${drools.version}</version>
+			<artifactId>org.lunifera.dependencies.feature.jboss.kie</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.drools</groupId>
