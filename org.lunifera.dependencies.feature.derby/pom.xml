@@ -26,10 +26,16 @@
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.derby</artifactId>
-			<version>${derby.version}</version>
-		</dependency>
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>${derby.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>${derby.version}</version>
+        </dependency>
 	</dependencies>
 </project>

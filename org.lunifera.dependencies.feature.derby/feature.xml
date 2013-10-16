@@ -18,10 +18,17 @@
    </license>
 
    <plugin
-         id="org.apache.derby"
+         id="derby"
          download-size="0"
          install-size="0"
-         version="10.9.1.0"
+         version="10.10.1000001.1458268"
+         unpack="false"/>
+
+   <plugin
+         id="derbyclient"
+         download-size="0"
+         install-size="0"
+         version="10.10.1000001.1458268"
          unpack="false"/>
 
 </feature>
