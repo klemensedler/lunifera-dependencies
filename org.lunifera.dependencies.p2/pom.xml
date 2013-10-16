@@ -172,7 +172,7 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId>
-			<version>3.10.0-SNAPSHOT</version>
+			<version>3.9.1</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
