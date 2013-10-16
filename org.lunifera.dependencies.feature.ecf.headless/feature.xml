@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lunifera.dependencies.feature.ecf.headless"
+      label="%featureName"
+      version="3.7.0.qualifier"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.ecf.datashare.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.discovery.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.discovery.zookeeper.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.eventadmin.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.osgi.services.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.remoteservice.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.remoteservice.rosgi.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.xmpp.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.discovery.dnssd.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.discovery.jmdns.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.discovery.slp.feature"
+         version="0.0.0"/>
+
+   <includes
+         id="org.eclipse.ecf.remoteservice.rest.feature"
+         version="0.0.0"/>
+
+   <requires>
+      <import feature="org.eclipse.ecf.datashare.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.discovery.dnssd.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.discovery.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.discovery.jmdns.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.discovery.slp.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.discovery.zookeeper.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.eventadmin.feature" version="2.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.osgi.services.feature" version="2.0.1.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.remoteservice.examples.feature" version="1.2.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.remoteservice.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.remoteservice.rest.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.remoteservice.rosgi.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+      <import feature="org.eclipse.ecf.xmpp.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.identity"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.filetransfer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpclient"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.httpcomponents.httpcore"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--#======================================================================= -->
+<!--# Copyright (c) 2012, 2013 Committers of lunifera.org - Lunifera.org. -->
+<!--# All rights reserved. This program and the accompanying materials -->
+<!--# are made available under the terms of the Eclipse Public License v1.0 -->
+<!--# which accompanies this distribution, and is available at -->
+<!--# http://www.eclipse.org/legal/epl-v10.html -->
+<!--# -->
+<!--# Contributors: -->
+<!--# Cristiano Gavião - initial API and implementation -->
+<!--#======================================================================= -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+        <groupId>org.lunifera.dependencies</groupId>
+        <artifactId>org.lunifera.dependencies.parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath>../org.lunifera.dependencies.parent/pom.xml</relativePath>
+	</parent>
+
+	<artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId>
+	<version>3.10.0-SNAPSHOT</version>
+	<packaging>eclipse-feature</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.utils</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.modeller</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.install</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.management</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.default.local.platform</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.application</groupId>
+			<artifactId>org.apache.aries.application.deployment.management</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.subsystem</groupId>
+			<artifactId>org.apache.aries.subsystem.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.subsystem</groupId>
+			<artifactId>org.apache.aries.subsystem.api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.blueprint</groupId>
+			<artifactId>org.apache.aries.blueprint</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.proxy</groupId>
+			<artifactId>org.apache.aries.proxy</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries</groupId>
+			<artifactId>org.apache.aries.util</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.fileinstall</artifactId>
+		</dependency>
+	</dependencies>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho.extras</groupId>
+				<artifactId>tycho-source-feature-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>source-feature</id>
+						<phase>package</phase>
+						<goals>
+							<goal>source-feature</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<labelSuffix> (source)</labelSuffix>
+					<excludes>
+						<plugin id="com.ibm.icu" />
+						<plugin id="org.apache.commons.cli" />
+						<plugin id="com.ibm.icu" />
+						<plugin id="org.apache.commons.collections" />
+						<plugin id="org.json" />
+						<plugin id="org.apache.commons.codec" />
+						<plugin id="org.apache.commons.io" />
+						<plugin id="javax.xml" />
+						<plugin id="org.apache.commons.beanutils" />
+						<plugin id="javax.activation" />
+						<plugin id="javax.annotation" />
+						<plugin id="javax.xml.bind" />
+						<plugin id="javax.xml.stream" />
+						<plugin id="com.google.guava" />
+						<plugin id="org.lunifera.dependencies.fragment.jdk" />
+						<plugin id="org.eclipse.equinox.launcher.gtk.linux.x86" />
+						<plugin id="org.eclipse.equinox.launcher.gtk.linux.x86_64" />
+						<plugin id="org.eclipse.equinox.launcher.win32.win32.x86_64" />
+						<plugin id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64" />
+						<plugin id="org.apache.aries.application.api" />
+						<plugin id="org.apache.aries.application.modeller" />
+						<plugin id="org.apache.aries.application.utils" />
+						<plugin id="org.apache.aries.blueprint" />
+						<plugin id="org.apache.aries.proxy" />
+						<plugin id="org.apache.aries.subsystem.api" />
+						<plugin id="org.apache.aries.subsystem.core" />
+						<plugin id="org.apache.aries.util" />
+						<plugin id="org.apache.felix.fileinstall" />
+						<feature id="org.eclipse.ecf.xmpp.feature" />
+						<feature id="org.eclipse.ecf.discovery.feature" />
+						<feature id="org.eclipse.ecf.datashare.feature" />
+						<feature id="org.eclipse.ecf.discovery.zookeeper.feature" />
+						<feature id="org.eclipse.ecf.discovery.dnssd.feature" />
+						<feature id="org.eclipse.ecf.discovery.jmdns.feature" />
+						<feature id="org.eclipse.ecf.discovery.slp.feature" />
+						<feature id="org.eclipse.ecf.osgi.services.feature" />
+						<feature id="org.eclipse.ecf.server.generic.feature" />
+						<feature id="org.eclipse.ecf.remoteservice.feature" />
+						<feature id="org.eclipse.ecf.remoteservice.soap.feature" />
+						<feature id="org.eclipse.ecf.remoteservice.rest.feature" />
+						<feature id="org.eclipse.ecf.remoteservice.rosgi.feature" />
+						<feature id="org.eclipse.ecf.xmpp.feature" />
+						<plugin id="org.eclipse.emf.ecore" />
+						<plugin id="org.eclipse.emf.common" />
+						<feature id="org.eclipse.equinox.executable" />
+						<feature id="org.eclipse.equinox.server.jetty" />
+					</excludes>
+				</configuration>
+			</plugin>
+			<plugin>
+				<!-- workaround while bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=398250 
+					is not fixed -->
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-p2-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<executions>
+					<execution>
+						<id>attached-p2-metadata</id>
+						<phase>package</phase>
+						<goals>
+							<goal>p2-metadata</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
