@@ -69,6 +69,7 @@
 						<feature id="org.eclipse.ecf.discovery.jmdns.feature" />
 						<feature id="org.eclipse.ecf.discovery.slp.feature" />
 						<feature id="org.eclipse.ecf.remoteservice.rest.feature" />
+						<feature id="org.eclipse.ecf.provider.jms.feature" />
 					</excludes>
 				</configuration>
 			</plugin>
