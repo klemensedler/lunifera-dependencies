@@ -26,8 +26,13 @@
 	<!-- TODO: these repositories must be removed to local machine's setting.xml -->
 	<repositories>
 		<repository>
-			<id>ecf-nhead</id>
+			<id>ecf</id>
 			<url>http://download.eclipse.org/rt/ecf/3.7.0/site.p2</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>ecf-jms</id>
+			<url>http://download.ecf-project.org/repo/C-HEAD-jms.feature/lastSuccessful/archive/site.p2/</url>
 			<layout>p2</layout>
 		</repository>
 		<repository>
