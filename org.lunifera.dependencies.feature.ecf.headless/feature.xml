@@ -46,6 +46,10 @@
          version="0.0.0"/>
 
    <includes
+         id="org.eclipse.ecf.provider.jms.feature"
+         version="0.0.0"/>
+
+   <includes
          id="org.eclipse.ecf.xmpp.feature"
          version="0.0.0"/>
 
@@ -74,7 +78,6 @@
       <import feature="org.eclipse.ecf.discovery.zookeeper.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
       <import feature="org.eclipse.ecf.eventadmin.feature" version="2.0.0.v20130605-1748" match="greaterOrEqual"/>
       <import feature="org.eclipse.ecf.osgi.services.feature" version="2.0.1.v20130605-1748" match="greaterOrEqual"/>
-      <import feature="org.eclipse.ecf.remoteservice.examples.feature" version="1.2.0.v20130605-1748" match="greaterOrEqual"/>
       <import feature="org.eclipse.ecf.remoteservice.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
       <import feature="org.eclipse.ecf.remoteservice.rest.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
       <import feature="org.eclipse.ecf.remoteservice.rosgi.feature" version="1.0.0.v20130605-1748" match="greaterOrEqual"/>
