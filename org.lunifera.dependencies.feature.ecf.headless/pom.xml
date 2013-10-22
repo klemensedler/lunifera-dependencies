@@ -52,6 +52,8 @@
 						<plugin id="com.ibm.icu" />
 						<plugin id="org.apache.commons.cli" />
 						<plugin id="com.google.guava" />
+						<plugin id="org.apache.ws.commons.util" />
+						<plugin id="org.apache.xmlrpc" />
 						<feature id="org.eclipse.ecf.datashare.feature" />
 						<feature id="org.eclipse.ecf.discovery.feature" />
 						<feature id="org.eclipse.ecf.discovery.zookeeper.feature" />
