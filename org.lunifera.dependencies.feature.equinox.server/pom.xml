@@ -153,6 +153,7 @@
 						<plugin id="org.kohsuke.args4j" />
 						<feature id="org.eclipse.equinox.executable" />
 						<feature id="org.eclipse.equinox.server.jetty" />
+						<feature id="org.objectweb.asm" />
 					</excludes>
 				</configuration>
 			</plugin>
