@@ -23,7 +23,7 @@
          search-location="self"/>
 
    <requires>
-      <import plugin="com.google.guava" version="0.15.0"/>
+      <import plugin="com.google.guava" version="15.0.0"/>
    </requires>
 
    <plugin
