@@ -22,6 +22,10 @@
          version="0.0.0"
          search-location="self"/>
 
+   <requires>
+      <import plugin="com.google.guava" version="0.15.0"/>
+   </requires>
+
    <plugin
          id="org.objectweb.asm"
          download-size="0"
@@ -208,7 +212,6 @@
          install-size="0"
          version="0.0.0"
          fragment="true"/>
-
 
    <plugin
          id="org.eclipse.equinox.util"
