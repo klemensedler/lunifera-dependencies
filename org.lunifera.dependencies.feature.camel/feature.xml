@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.camel"
       label="%featureName"
-      version="2.10.3"
+      version="2.12.2"
       provider-name="%providerName">
 
    <description>
@@ -19,6 +19,20 @@
 
    <plugin
          id="org.apache.camel.camel-core-osgi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.camel.camel-context"
          download-size="0"
          install-size="0"
          version="0.0.0"

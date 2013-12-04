@@ -3,19 +3,10 @@
    <feature id="org.lunifera.dependencies.feature.camel" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.camel.source" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.derby" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
-   <feature id="org.lunifera.dependencies.feature.mysql" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
-   <feature id="org.lunifera.dependencies.feature.security.shiro" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
-   <feature id="org.lunifera.dependencies.feature.mongodb" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
-   <feature id="org.lunifera.dependencies.feature.vaadin" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.logback" version="0.0.0">
@@ -24,7 +15,7 @@
    <feature id="org.lunifera.dependencies.feature.assert-utilities" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.vaadin.addon.icepush" version="0.0.0">
+   <feature id="org.lunifera.dependencies.feature.security.shiro" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.jackrabbit" version="0.0.0">
@@ -33,13 +24,25 @@
    <feature id="org.lunifera.dependencies.feature.jackrabbit.source" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.mysql" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.wicket" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.atmosphere" version="0.0.0">
+   <feature id="org.lunifera.dependencies.feature.vaadin" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.vaadin.addon.icepush" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.mongodb" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.atmosphere" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.xtext.headless" version="0.0.0">
