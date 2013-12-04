@@ -22,7 +22,7 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
-	<version>7.1.7</version>
+	<version>7.1.8</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
