@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.mysql"
       label="%featureName"
-      version="5.1.26"
+      version="5.1.27"
       provider-name="%providerName">
 
    <description>
