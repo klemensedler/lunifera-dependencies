@@ -64,6 +64,7 @@
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
 			<version>${logback.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
 
 	</dependencies>
