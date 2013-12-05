@@ -45,10 +45,6 @@
          id="org.eclipse.ecf.remoteservice.rosgi.feature"
          version="0.0.0"/>
 
-   <!--includes
-         id="org.eclipse.ecf.provider.jms.feature"
-         version="0.0.0"/-->
-
    <includes
          id="org.eclipse.ecf.xmpp.feature"
          version="0.0.0"/>
@@ -69,6 +65,34 @@
          id="org.eclipse.ecf.remoteservice.rest.feature"
          version="0.0.0"/>
 
+   <plugin
+         id="org.eclipse.ecf.provider.jms"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.jms.activemq"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.jms.activemq.broker"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="javax.jms"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
    <plugin
          id="org.eclipse.ecf"
          download-size="0"
