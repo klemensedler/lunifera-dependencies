@@ -193,12 +193,6 @@
 		</dependency>		
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.vaadin.addon.icepush</artifactId>
-			<version>${vaadin.addon.icepush.version}</version>
-			<type>eclipse-feature</type>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
 			<version>${vaadin.version}</version>
 			<type>eclipse-feature</type>
@@ -231,6 +225,12 @@
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.xtext.headless</artifactId>
 			<version>2.5.0-SNAPSHOT</version>
+			<type>eclipse-feature</type>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.stanbol.solr</artifactId>
+			<version>${stanbol.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
 		<!-- <dependency> -->

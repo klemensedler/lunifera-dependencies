@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.lunifera.dependencies.feature.vaadin.addon.icepush"
+      id="org.lunifera.dependencies.feature.stanbol.solr"
       label="%featureName"
-      version="0.5.5"
+      version="0.11.0"
       provider-name="%providerName">
 
    <description>
@@ -17,23 +17,25 @@
       %license
    </license>
 
-   <requires>
-      <import plugin="com.vaadin.client"/>
-   </requires>
-
    <plugin
-         id="org.lunifera.dependencies.bundle.vaadin.addon.icepush"
+         id="org.apache.stanbol.commons.solr.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="org.lunifera.dependencies.bundle.javax.portlet-api"
+         id="org.apache.stanbol.commons.solr.managed"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
+   <plugin
+         id="org.apache.stanbol.commons.stanboltools.datafileprovider"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>

@@ -17,7 +17,7 @@
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>org.lunifera.releng.maven.parent.tycho.aggregator</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/>
+		<relativePath />
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
@@ -45,18 +45,18 @@
 				<module>org.lunifera.dependencies.feature.atmosphere</module>
 				<module>org.lunifera.dependencies.feature.wicket</module>
 				<module>org.lunifera.dependencies.feature.vaadin</module>
-				<module>org.lunifera.dependencies.feature.vaadin.addon.icepush</module>
 				<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
 				<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
 				<module>org.lunifera.dependencies.fragment.jdk</module>
 				<module>org.lunifera.dependencies.feature.mongodb</module>
+				<module>org.lunifera.dependencies.feature.stanbol.solr</module>
 				<module>org.lunifera.dependencies.feature.xtext.headless</module>
 				<module>org.lunifera.dependencies.feature.ecf.headless</module>
 				<module>org.lunifera.dependencies.feature.equinox.server</module>
 
-<!-- 				<module>org.lunifera.dependencies.feature.jboss.kie</module> -->
-<!-- 				<module>org.lunifera.dependencies.feature.jboss.drools</module> -->
-<!-- 				<module>org.lunifera.dependencies.feature.jboss.jbpm</module> -->
+				<!-- <module>org.lunifera.dependencies.feature.jboss.kie</module> -->
+				<!-- <module>org.lunifera.dependencies.feature.jboss.drools</module> -->
+				<!-- <module>org.lunifera.dependencies.feature.jboss.jbpm</module> -->
 			</modules>
 		</profile>
 		<profile>
