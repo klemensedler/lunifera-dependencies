@@ -57,5 +57,8 @@
    <feature id="org.lunifera.dependencies.feature.equinox.server.source" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature url="org.lunifera.dependencies.feature.stanbol.solr" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>
 </site>
