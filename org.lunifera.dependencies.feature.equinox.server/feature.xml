@@ -23,18 +23,11 @@
          search-location="self"/>
 
    <requires>
-      <import plugin="com.google.guava" version="15.0.0"/>
+      <import plugin="com.google.guava" version="15.0.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
          id="org.objectweb.asm"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.kohsuke.args4j"
          download-size="0"
          install-size="0"
          version="0.0.0"
