@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.xtext.headless"
       label="%featureName"
-      version="2.5.0.v201310010713"
+      version="2.5.0.qualifier"
       provider-name="%providerName">
 
    <description>

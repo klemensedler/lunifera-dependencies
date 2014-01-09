@@ -22,7 +22,7 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.wicket</artifactId>
-	<version>6.11.0</version>
+	<version>6.12.0</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>

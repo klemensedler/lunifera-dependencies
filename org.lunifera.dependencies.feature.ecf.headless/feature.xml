@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.ecf.headless"
       label="%featureName"
-      version="3.7.0.qualifier"
+      version="3.7.1"
       provider-name="%providerName">
 
    <description>

@@ -24,9 +24,6 @@
    <feature id="org.lunifera.dependencies.feature.assert-utilities" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.vaadin.addon.icepush" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
    <feature id="org.lunifera.dependencies.feature.jackrabbit" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>

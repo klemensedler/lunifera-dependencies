@@ -22,14 +22,14 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId>
-	<version>1.0.14-SNAPSHOT</version>
+	<version>1.0.18-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
 		<dependency>
             <groupId>com.vaadin.external.atmosphere</groupId>
             <artifactId>atmosphere-runtime</artifactId>
-            <version>1.0.14.vaadin4</version>
+            <version>1.0.18.vaadin1</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin.external.slf4j</groupId>

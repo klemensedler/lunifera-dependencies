@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.equinox.server"
       label="%featureName"
-      version="3.9.1"
+      version="3.10.0.qualifier"
       provider-name="%providerName">
 
    <description>
@@ -697,17 +697,5 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
-   <plugin
-         id="jbosgi-repository"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
-
-   <plugin
-         id="org.jboss.logging.jboss-logging"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"/>
 
 </feature>

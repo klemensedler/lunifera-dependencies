@@ -28,7 +28,7 @@
 	<properties>
 		<knowhowlab.osgi>1.2.2</knowhowlab.osgi>
 	</properties>
-
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.knowhowlab.osgi</groupId>
@@ -64,9 +64,8 @@
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
 			<version>${logback.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
 
 	</dependencies>
-
-
 </project>
