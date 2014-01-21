@@ -154,6 +154,7 @@
 						<feature id="org.eclipse.equinox.executable" />
 						<feature id="org.eclipse.equinox.server.jetty" />
 						<plugin id="org.objectweb.asm" />
+						<plugin id="org.eclipse.equinox.console.jaas.fragment" />
 					</excludes>
 				</configuration>
 			</plugin>
