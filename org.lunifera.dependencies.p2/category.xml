@@ -51,5 +51,8 @@
    <feature id="org.lunifera.dependencies.feature.equinox.server.source" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature url="features/org.lunifera.dependencies.feature.jetty_8.1.11.jar" id="org.lunifera.dependencies.feature.jetty" version="8.1.11">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>
 </site>

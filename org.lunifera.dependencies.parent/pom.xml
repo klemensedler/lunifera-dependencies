@@ -28,6 +28,14 @@
 		<vaadin.version>7.1.9</vaadin.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>jetty</id>
+			<url>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.14.v20131031</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
+
 	<build>
 		<pluginManagement>
 			<plugins>
