@@ -31,6 +31,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-core</artifactId>
+			<version>1.9.5</version>
+		</dependency>
+		<dependency>
 			<groupId>org.knowhowlab.osgi</groupId>
 			<artifactId>org.knowhowlab.osgi.testing.utils</artifactId>
 			<version>${knowhowlab.osgi}</version>
@@ -60,14 +65,5 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
-			<version>${logback.version}</version>
-			<type>eclipse-feature</type>
-		</dependency>
-
 	</dependencies>
-
-
 </project>
