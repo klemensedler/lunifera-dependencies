@@ -60,5 +60,11 @@
    <feature id="org.lunifera.dependencies.feature.stanbol.solr" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.hazelcast" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.zookeeper" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
 	<category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies" />
 </site>

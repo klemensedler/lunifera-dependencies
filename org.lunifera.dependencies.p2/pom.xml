@@ -233,6 +233,18 @@
 			<version>${stanbol.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.zookeeper</artifactId>
+			<version>${zookeeper.version}</version>
+			<type>eclipse-feature</type>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.hazelcast</artifactId>
+			<version>${hazelcast.version}</version>
+			<type>eclipse-feature</type>
+		</dependency>
 		<!-- <dependency> -->
 		<!-- <groupId>org.lunifera.dependencies</groupId> -->
 		<!-- <artifactId> -->
