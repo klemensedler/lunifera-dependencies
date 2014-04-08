@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.assert-utilities"
       label="%featureName"
-      version="1.2.2"
+      version="1.2.2.2"
       provider-name="%providerName">
 
    <description>
@@ -19,7 +19,7 @@
 
    <requires>
       <import plugin="org.junit" version="4.11.0" match="greaterOrEqual"/>
-      <import plugin="org.mockito.mockito-core" version="1.9.5" match="greaterOrEqual"/>
+      <import plugin="org.mockito" version="1.9.5" match="greaterOrEqual"/>
       <import plugin="org.hamcrest.core" version="1.3.0" match="greaterOrEqual"/>
       <import plugin="org.hamcrest.integration" version="1.3.0" match="greaterOrEqual"/>
       <import plugin="org.hamcrest.library" version="1.3.0" match="greaterOrEqual"/>
@@ -54,7 +54,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.mockito.mockito-core"
+         id="org.mockito"
          download-size="0"
          install-size="0"
          version="0.0.0"
