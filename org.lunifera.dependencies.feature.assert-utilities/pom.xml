@@ -31,14 +31,16 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
-			<version>1.9.5</version>
-		</dependency>
+			</dependency>
 		<dependency>
 			<groupId>org.knowhowlab.osgi</groupId>
 			<artifactId>org.knowhowlab.osgi.testing.utils</artifactId>
-			<version>${knowhowlab.osgi}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.osgi</groupId>
@@ -53,7 +55,6 @@
 		<dependency>
 			<groupId>org.knowhowlab.osgi</groupId>
 			<artifactId>org.knowhowlab.osgi.testing.assertions</artifactId>
-			<version>${knowhowlab.osgi}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.osgi</groupId>
