@@ -138,6 +138,10 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.enterprise</artifactId>
+		</dependency>
+		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.camel</artifactId>
 			<version>${camel.version}</version>
@@ -174,47 +178,47 @@
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
-		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.feature.mysql</artifactId>
-		<version>${mysql.connector.version}</version>
-		<type>eclipse-feature</type>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.mysql</artifactId>
+			<version>${mysql.connector.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
-		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.feature.wicket</artifactId>
-		<version>${wicket.version}</version>
-		<type>eclipse-feature</type>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.wicket</artifactId>
+			<version>${wicket.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin.external.atmosphere</groupId>
 			<artifactId>atmosphere-runtime</artifactId>
 			<version>1.0.14.vaadin4</version>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
-<!-- 			<artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId> -->
-<!-- 			<version>${atmosphere.version}</version> -->
-<!-- 			<type>eclipse-feature</type> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.lunifera.dependencies</groupId> -->
+		<!-- <artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId> -->
+		<!-- <version>${atmosphere.version}</version> -->
+		<!-- <type>eclipse-feature</type> -->
+		<!-- </dependency> -->
 		<dependency>
-		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
-		<version>${vaadin.version}</version>
-		<type>eclipse-feature</type>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
+			<version>${vaadin.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
-		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</artifactId>
-		<version>${vaadin.addon.jpacontainer.version}</version>
-		<type>eclipse-feature</type>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</artifactId>
+			<version>${vaadin.addon.jpacontainer.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
-		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.feature.mongodb</artifactId>
-		<version>${mongodb.version}</version>
-		<type>eclipse-feature</type>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.mongodb</artifactId>
+			<version>${mongodb.version}</version>
+			<type>eclipse-feature</type>
 		</dependency>
-<!-- 		<dependency> -->
+		<!-- <dependency> -->
 		<!-- <groupId>org.lunifera.dependencies</groupId> -->
 		<!-- <artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId> -->
 		<!-- <version>3.10.0-SNAPSHOT</version> -->
