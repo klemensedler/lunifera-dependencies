@@ -138,15 +138,35 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.osgi</groupId>
-			<artifactId>org.osgi.enterprise</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.camel</artifactId>
 			<version>${camel.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.feature.aries.subsystems</artifactId> -->
+<!-- 			<version>1.0.1-SNAPSHOT</version> -->
+<!-- 			<type>eclipse-feature</type> -->
+<!-- 		</dependency> -->
+		<dependency>
+			<groupId>org.apache.aries.subsystem</groupId>
+			<artifactId>org.apache.aries.subsystem.api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries</groupId>
+			<artifactId>org.apache.aries.util</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.subsystem</groupId>
+			<artifactId>org.apache.aries.subsystem.core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.aries.subsystem</groupId>
+			<artifactId>org.apache.aries.subsystem.obr</artifactId>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>

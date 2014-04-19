@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
+   <feature id="org.lunifera.dependencies.feature.aries.subsystems" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.xtext.headless" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
