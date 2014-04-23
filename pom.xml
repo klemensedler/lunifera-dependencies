@@ -26,12 +26,12 @@
 
 	<profiles>
 		<profile>
-			<id>lunifera.build.features</id>
+			<id>build.features</id>
 			<activation>
 				<activeByDefault>false</activeByDefault>
 			</activation>
 			<build>
-				<defaultGoal>clean verify</defaultGoal>
+				<defaultGoal>clean install</defaultGoal>
 			</build>
 			<modules>
 				<module>org.lunifera.dependencies.parent</module>
@@ -62,13 +62,22 @@
 			</modules>
 		</profile>
 		<profile>
-			<id>lunifera.build.p2</id>
+			<id>build.p2</id>
 			<activation>
 				<activeByDefault>false</activeByDefault>
 			</activation>
 			<build>
 				<defaultGoal>clean verify</defaultGoal>
 			</build>
+			<modules>
+				<module>org.lunifera.dependencies.p2</module>
+			</modules>
+		</profile>
+		<profile>
+			<id>deploy.p2</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+			</activation>
 			<modules>
 				<module>org.lunifera.dependencies.p2</module>
 			</modules>
