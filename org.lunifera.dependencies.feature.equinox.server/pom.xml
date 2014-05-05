@@ -63,14 +63,6 @@
 			<artifactId>org.apache.aries.subsystem.api</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.aries.blueprint</groupId>
-			<artifactId>org.apache.aries.blueprint</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.proxy</groupId>
-			<artifactId>org.apache.aries.proxy</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.apache.aries</groupId>
 			<artifactId>org.apache.aries.util</artifactId>
 		</dependency>

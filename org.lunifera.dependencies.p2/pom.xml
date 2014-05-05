@@ -211,18 +211,18 @@
 			<version>${mongodb.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId>
-			<version>3.10.0-SNAPSHOT</version>
-			<type>eclipse-feature</type>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.ecf.headless</artifactId>
-			<version>${ecf.version}</version>
-			<type>eclipse-feature</type>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId> -->
+<!-- 			<version>3.10.0-SNAPSHOT</version> -->
+<!-- 			<type>eclipse-feature</type> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.feature.ecf.headless</artifactId> -->
+<!-- 			<version>${ecf.version}</version> -->
+<!-- 			<type>eclipse-feature</type> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.xtext.headless</artifactId>

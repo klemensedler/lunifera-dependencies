@@ -17,12 +17,11 @@
       %license
    </license>
 
-   <requires>
+  <requires>
       <import plugin="org.junit" version="4.11.0" match="greaterOrEqual"/>
       <import plugin="org.hamcrest.core" version="1.3.0" match="greaterOrEqual"/>
       <import plugin="org.hamcrest.integration" version="1.3.0" match="greaterOrEqual"/>
       <import plugin="org.hamcrest.library" version="1.3.0" match="greaterOrEqual"/>
-      <import feature="org.lunifera.dependencies.feature.logback" version="1.0.13"/>
    </requires>
 
    <plugin
@@ -31,7 +30,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
+         
    <plugin
          id="org.knowhowlab.osgi.testing.assertions"
          download-size="0"
@@ -46,6 +45,20 @@
          version="0.0.0"
          unpack="false"/>
          
+   <plugin
+         id="org.objenesis"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.mockito"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
    <plugin
          id="org.hamcrest.core"
          download-size="0"
@@ -62,6 +75,13 @@
 
    <plugin
          id="org.hamcrest.library"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.google.guava"
          download-size="0"
          install-size="0"
          version="0.0.0"
