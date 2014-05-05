@@ -33,6 +33,13 @@
 		<developerConnection>scm:git:ssh://git@github.com:lunifera/lunifera-dependencies.git</developerConnection>
 		<url>https://github.com/lunifera/lunifera-dependencies</url>
 	</scm>
+	<repositories>
+		<repository>
+			<id>jetty</id>
+			<url>http://download.eclipse.org/jetty/updates/jetty-bundles-8.x/8.1.14.v20131031</url>
+			<layout>p2</layout>
+		</repository>
+	</repositories>
 
 	<build>
 		<pluginManagement>
