@@ -52,6 +52,7 @@
 						<plugin id="com.ibm.icu" />
 						<plugin id="org.apache.commons.cli" />
 						<plugin id="com.google.guava" />
+						<plugin id="org.apache.commons.lang" />
 					</excludes>
 				</configuration>
 			</plugin>

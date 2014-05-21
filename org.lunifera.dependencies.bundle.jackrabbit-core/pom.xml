@@ -176,7 +176,7 @@
 							org.apache.derby.impl.drda;resolution:=optional
 						</Import-Package>
 						<Bundle-Activator>
-							org.apache.jackrabbit.bundle.Activator
+							org.lunifera.dependencies.bundle.jackrabbit.Activator
 						</Bundle-Activator>
 						<_exportcontents>
 							*

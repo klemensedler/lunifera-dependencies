@@ -91,17 +91,22 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.jboss.netty</groupId>
+			<artifactId>netty</artifactId>
+			<version>3.2.2.Final</version>
+		</dependency>
+		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.camel</artifactId>
 			<version>${camel.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
-<!-- 			<artifactId>org.lunifera.dependencies.feature.aries.subsystems</artifactId> -->
-<!-- 			<version>1.0.1-SNAPSHOT</version> -->
-<!-- 			<type>eclipse-feature</type> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.lunifera.dependencies</groupId> -->
+		<!-- <artifactId>org.lunifera.dependencies.feature.aries.subsystems</artifactId> -->
+		<!-- <version>1.0.1-SNAPSHOT</version> -->
+		<!-- <type>eclipse-feature</type> -->
+		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.apache.aries.subsystem</groupId>
 			<artifactId>org.apache.aries.subsystem.api</artifactId>

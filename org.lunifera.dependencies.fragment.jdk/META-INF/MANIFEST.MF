@@ -4,7 +4,7 @@ Bundle-Name: %pluginName
 Bundle-SymbolicName: org.lunifera.dependencies.fragment.jdk
 Bundle-Version: 0.0.1.qualifier
 Bundle-Vendor: %providerName
-Fragment-Host: org.eclipse.osgi;extension:=framework
+Fragment-Host: system.bundle; extension:=framework
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6, JavaSE-1.7
 Export-Package: com.sun.codemodel,
  com.sun.msv.datatype,
