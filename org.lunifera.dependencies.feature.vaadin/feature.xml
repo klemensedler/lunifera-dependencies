@@ -18,7 +18,7 @@
    </license>
 
    <requires>
-      <import feature="org.lunifera.dependencies.feature.atmosphere" version="1.0.14.qualifier"/>
+      <import feature="org.lunifera.dependencies.feature.atmosphere" version="0.0.0"/>
    </requires>
 
    <plugin
