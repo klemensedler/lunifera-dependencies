@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin"
       label="%featureName"
-      version="7.1.9"
+      version="7.2.2"
       provider-name="%providerName">
 
    <description>
