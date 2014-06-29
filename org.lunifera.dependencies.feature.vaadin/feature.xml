@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin"
       label="%featureName"
-      version="7.1.8"
+      version="7.2.3"
       provider-name="%providerName">
 
    <description>
@@ -53,13 +53,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.vaadin.shared.deps"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.vaadin.push"
          download-size="0"
          install-size="0"
@@ -75,6 +68,13 @@
 
    <plugin
          id="com.vaadin.sass-compiler"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="com.vaadin.external.atmosphere.atmosphere-runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"

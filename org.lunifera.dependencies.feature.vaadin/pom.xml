@@ -24,7 +24,7 @@
 	<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
 	<version>7.2.3</version>
 	<packaging>eclipse-feature</packaging>
- 
+
 	<dependencies>
 		<dependency>
 			<groupId>org.json</groupId>
@@ -77,6 +77,11 @@
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-sass-compiler</artifactId>
 			<version>0.9.2</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin.external.atmosphere</groupId>
+			<artifactId>atmosphere-runtime</artifactId>
+			<version>1.0.14.vaadin4</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin.external.slf4j</groupId>
