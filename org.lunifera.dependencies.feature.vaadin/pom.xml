@@ -81,7 +81,7 @@
 		<dependency>
 			<groupId>com.vaadin.external.atmosphere</groupId>
 			<artifactId>atmosphere-runtime</artifactId>
-			<version>1.0.14.vaadin4</version>
+			<version>2.1.2.vaadin2</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin.external.slf4j</groupId>
