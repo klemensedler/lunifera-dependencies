@@ -187,12 +187,6 @@
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId>
-			<version>${atmosphere.version}</version>
-			<type>eclipse-feature</type>
-		</dependency>		
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
 			<version>${vaadin.version}</version>
 			<type>eclipse-feature</type>

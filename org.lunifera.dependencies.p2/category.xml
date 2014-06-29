@@ -54,9 +54,6 @@
    <feature id="org.lunifera.dependencies.feature.mongodb" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.atmosphere" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
    <feature id="org.lunifera.dependencies.feature.stanbol.solr" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>

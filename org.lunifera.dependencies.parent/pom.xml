@@ -67,4 +67,5 @@
 			</plugins>
 		</pluginManagement>
 	</build>
+	<version>0.7.0</version>
 </project>

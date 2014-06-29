@@ -65,10 +65,6 @@
          id="org.eclipse.ecf.remoteservice.rest.feature"
          version="0.0.0"/>
 
-   <includes
-         id="org.eclipse.ecf.provider.jms.feature"
-         version="0.0.0"/>
-         
    <plugin
          id="org.eclipse.ecf"
          download-size="0"
