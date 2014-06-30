@@ -25,9 +25,9 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</module>
 		<module>org.lunifera.dependencies.bundle.jackrabbit-core</module>
 		<module>org.lunifera.dependencies.bundle.poi.ooxml</module>
+		<module>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</module>
 	</modules>
 
 	<repositories>

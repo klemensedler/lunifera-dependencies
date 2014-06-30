@@ -22,11 +22,10 @@
 	<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</artifactId>
 	<packaging>bundle</packaging>
 	<description>JPAContainer</description>
-	<version>3.0.0</version>
+	<version>3.1.1</version>
 
     <properties>
-        <vaadin.version>7.1.7</vaadin.version>
-        <vaadin.addon.jpacontainer.version>3.0.0</vaadin.addon.jpacontainer.version>        
+        <vaadin.addon.jpacontainer.version>3.1.1</vaadin.addon.jpacontainer.version>        
     </properties>
 
 	<dependencies>

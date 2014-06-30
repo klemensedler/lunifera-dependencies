@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer"
       label="%featureName"
-      version="3.0.0"
+      version="3.1.1"
       provider-name="%providerName">
 
    <description>
