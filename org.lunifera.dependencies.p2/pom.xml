@@ -91,6 +91,11 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>com.vaadin.external.atmosphere</groupId>
+			<artifactId>atmosphere-runtime</artifactId>
+			<version>2.1.2.vaadin2</version>
+		</dependency>
+		<dependency>
 			<groupId>org.jboss.netty</groupId>
 			<artifactId>netty</artifactId>
 			<version>3.2.2.Final</version>
@@ -101,12 +106,6 @@
 			<version>${camel.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.aries.subsystems</artifactId> -->
-		<!-- <version>1.0.1-SNAPSHOT</version> -->
-		<!-- <type>eclipse-feature</type> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.apache.aries.subsystem</groupId>
 			<artifactId>org.apache.aries.subsystem.api</artifactId>
@@ -123,8 +122,6 @@
 			<groupId>org.apache.aries.subsystem</groupId>
 			<artifactId>org.apache.aries.subsystem.obr</artifactId>
 		</dependency>
-
-
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
@@ -168,17 +165,6 @@
 			<type>eclipse-feature</type>
 		</dependency>
 		<dependency>
-			<groupId>com.vaadin.external.atmosphere</groupId>
-			<artifactId>atmosphere-runtime</artifactId>
-			<version>1.0.14.vaadin4</version>
-		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.atmosphere</artifactId> -->
-		<!-- <version>${atmosphere.version}</version> -->
-		<!-- <type>eclipse-feature</type> -->
-		<!-- </dependency> -->
-		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
 			<version>${vaadin.version}</version>
@@ -196,62 +182,17 @@
 			<version>${mongodb.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.equinox.server</artifactId> -->
-		<!-- <version>3.10.0-SNAPSHOT</version> -->
-		<!-- <type>eclipse-feature</type> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.ecf.headless</artifactId> -->
-		<!-- <version>${ecf.version}</version> -->
-		<!-- <type>eclipse-feature</type> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.xtext.headless</artifactId> -->
-		<!-- <version>2.5.0-SNAPSHOT</version> -->
-		<!-- <type>eclipse-feature</type> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.stanbol.solr</artifactId>
 			<version>${stanbol.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.zookeeper</artifactId> -->
-		<!-- <version>${zookeeper.version}</version> -->
-		<!-- <type>eclipse-feature</type> -->
-		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.hazelcast</artifactId>
 			<version>${hazelcast.version}</version>
 			<type>eclipse-feature</type>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId> -->
-		<!-- org.lunifera.dependencies.feature.jboss.jbpm -->
-		<!-- </artifactId> -->
-		<!-- <version>6.0.0-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId> -->
-		<!-- org.lunifera.dependencies.feature.jboss.drools -->
-		<!-- </artifactId> -->
-		<!-- <version>6.0.0-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId> -->
-		<!-- org.lunifera.dependencies.feature.jboss.kie -->
-		<!-- </artifactId> -->
-		<!-- <version>6.0.0-SNAPSHOT</version> -->
-		<!-- </dependency> -->
 	</dependencies>
 </project>
