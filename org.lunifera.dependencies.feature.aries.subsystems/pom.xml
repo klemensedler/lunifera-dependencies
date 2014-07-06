@@ -17,7 +17,7 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>org.lunifera.dependencies.parent</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.9-SNAPSHOT</version>
 		<relativePath>../org.lunifera.dependencies.parent/pom.xml</relativePath>
 	</parent>
 
@@ -27,20 +27,10 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.aries.subsystem</groupId>
-			<artifactId>org.apache.aries.subsystem.api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries</groupId>
-			<artifactId>org.apache.aries.util</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.subsystem</groupId>
-			<artifactId>org.apache.aries.subsystem.core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.subsystem</groupId>
-			<artifactId>org.apache.aries.subsystem.obr</artifactId>
+			<groupId>org.lunifera.releng.maven</groupId>
+			<artifactId>org.lunifera.releng.maven.pom.node</artifactId>
+			<version>0.7.2</version>
+			<type>pom</type>
 		</dependency>
 	</dependencies>
 	<build>
@@ -61,11 +51,6 @@
 				<configuration>
 					<labelSuffix> (source)</labelSuffix>
 					<excludes>
-						<plugin id="org.apache.aries.application.api" />
-						<plugin id="org.apache.aries.application.modeller" />
-						<plugin id="org.apache.aries.application.utils" />
-						<plugin id="org.apache.aries.blueprint" />
-						<plugin id="org.apache.aries.proxy" />
 						<plugin id="org.apache.aries.subsystem.api" />
 						<plugin id="org.apache.aries.subsystem.core" />
 						<plugin id="org.apache.aries.util" />
