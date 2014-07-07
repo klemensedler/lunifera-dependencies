@@ -21,37 +21,8 @@
 		<relativePath>../org.lunifera.dependencies.parent/pom.xml</relativePath>
 	</parent>
 
-	<artifactId>org.lunifera.dependencies.feature.stanbol.solr</artifactId>
-	<version>0.11.0</version>
+	<artifactId>org.lunifera.dependencies.feature.jetty.websockets</artifactId>
+	<version>8.1.14</version>
 	<packaging>eclipse-feature</packaging>
-
-	<dependencies>
-		<dependency>
-			<groupId>org.apache.stanbol</groupId>
-			<artifactId>
-  			org.apache.stanbol.commons.solr.core
-  		</artifactId>
-			<version>${stanbol.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.stanbol</groupId>
-			<artifactId>
-  			org.apache.stanbol.commons.solr.managed
-  		</artifactId>
-			<version>${stanbol.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.stanbol</groupId>
-			<artifactId>
-  			org.apache.stanbol.commons.stanboltools.datafileprovider
-  		</artifactId>
-			<version>${stanbol.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.directory.studio</groupId>
-			<artifactId>org.apache.commons.codec</artifactId>
-			<version>1.8</version>
-		</dependency>
-	</dependencies>
 
 </project>

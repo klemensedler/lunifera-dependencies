@@ -52,6 +52,7 @@
 				<module>org.lunifera.dependencies.feature.stanbol.solr</module>
 				<module>org.lunifera.dependencies.feature.xtext.headless</module>
 				<module>org.lunifera.dependencies.feature.aries.subsystems</module>
+				<module>org.lunifera.dependencies.feature.jetty.websockets</module>
 <!-- 				<module>org.lunifera.dependencies.feature.ecf.headless</module> -->
 <!-- 				<module>org.lunifera.dependencies.feature.equinox.server</module> -->
 				<module>org.lunifera.dependencies.feature.zookeeper</module>
@@ -83,4 +84,5 @@
 			</modules>
 		</profile>
 	</profiles>
+	<version>0.7.3-SNAPSHOT</version>
 </project>
