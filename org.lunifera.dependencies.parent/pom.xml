@@ -15,13 +15,13 @@
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>org.lunifera.releng.maven.parent.tycho</artifactId>
-		<version>0.7.1</version>
+		<version>0.7.2</version>
 		<relativePath />
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>org.lunifera.dependencies.parent</artifactId>
-	<version>0.7.3-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Lunifera : Dependencies :: Parent POM</name>
 

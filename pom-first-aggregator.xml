@@ -15,12 +15,13 @@
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>org.lunifera.releng.maven.parent.mbp.aggregator</artifactId>
-		<version>0.7.1</version>
+		<version>0.7.2</version>
 		<relativePath/>
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>org.lunifera.dependencies.pomfirst</artifactId>
+	<version>0.0.9-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<modules>
