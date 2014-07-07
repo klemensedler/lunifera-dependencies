@@ -21,7 +21,7 @@
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>org.lunifera.dependencies.p2</artifactId>
 	<packaging>eclipse-repository</packaging>
-	<version>0.7.3-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	
 	<properties>
 		<lunifera.deployment.p2.label>dependencies</lunifera.deployment.p2.label>
