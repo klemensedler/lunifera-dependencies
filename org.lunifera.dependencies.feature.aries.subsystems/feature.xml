@@ -19,6 +19,9 @@
 
    <requires>
       <import plugin="com.google.guava" version="15.0.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.command" version="0.14.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.runtime" version="0.12.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.shell" version="0.11.0" match="greaterOrEqual"/>
    </requires>
 
    <plugin
@@ -51,6 +54,30 @@
 
    <plugin
          id="org.apache.aries.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.felix.bundlerepository"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.felix.gogo.runtime"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.felix.gogo.shell"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.felix.gogo.command"
          download-size="0"
          install-size="0"
          version="0.0.0"

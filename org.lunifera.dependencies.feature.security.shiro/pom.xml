@@ -16,13 +16,12 @@
 
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
-		<artifactId>org.lunifera.dependencies.parent</artifactId>
-		<version>0.0.9-SNAPSHOT</version>
-		<relativePath>../org.lunifera.dependencies.parent/pom.xml</relativePath>
+		<artifactId>lunifera-dependencies</artifactId>
+		<version>0.1.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.security.shiro</artifactId>
-	<version>1.2.2</version>
+	<version>1.2.3</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>

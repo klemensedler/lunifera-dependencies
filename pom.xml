@@ -15,74 +15,108 @@
 
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
-		<artifactId>org.lunifera.releng.maven.parent.tycho.aggregator</artifactId>
-		<version>0.7.2</version>
+		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
+		<version>0.9.3-SNAPSHOT</version>
 		<relativePath />
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
-	<artifactId>org.lunifera.dependencies.aggregator</artifactId>
-	<version>0.0.9-SNAPSHOT</version>
+	<artifactId>lunifera-dependencies</artifactId>
+	<version>0.1.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
+
+	<url>${lunifera.site.repository.url}</url>
+	<scm>
+		<url>${lunifera.scm.url}</url>
+		<connection>${lunifera.scm.connection}</connection>
+		<developerConnection>${lunifera.scm.connection.dev}</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+	<distributionManagement>
+		<site>
+			<id>gh-pages</id>
+			<name>Lunifera GitHub Pages</name>
+			<url>${distribution.site.url}</url>
+		</site>
+	</distributionManagement>
+
+	<properties>
+		<license.copyrightOwners>C4biz Softwares ME, Loetz KG</license.copyrightOwners>
+		<lunifera.gitrepo.name>lunifera-dependencies</lunifera.gitrepo.name>
+		<lunifera.releng.version>0.9.3-SNAPSHOT</lunifera.releng.version>
+	</properties>
+
+	<modules>
+		<module>org.lunifera.dependencies.feature.camel</module>
+		<module>org.lunifera.dependencies.feature.assert-utilities</module>
+		<module>org.lunifera.dependencies.feature.logback</module>
+		<module>org.lunifera.dependencies.feature.derby</module>
+		<module>org.lunifera.dependencies.feature.jackrabbit</module>
+		<module>org.lunifera.dependencies.feature.security.shiro</module>
+		<module>org.lunifera.dependencies.feature.mysql</module>
+		<module>org.lunifera.dependencies.feature.atmosphere</module>
+		<module>org.lunifera.dependencies.feature.wicket</module>
+		<module>org.lunifera.dependencies.feature.vaadin</module>
+		<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
+		<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
+		<module>org.lunifera.dependencies.fragment.jdk</module>
+		<module>org.lunifera.dependencies.feature.mongodb</module>
+		<module>org.lunifera.dependencies.feature.stanbol.solr</module>
+		<module>org.lunifera.dependencies.feature.xtext.headless</module>
+		<module>org.lunifera.dependencies.feature.aries.subsystems</module>
+		<module>org.lunifera.dependencies.feature.jetty.websockets</module>
+		<module>org.lunifera.dependencies.feature.zookeeper</module>
+		<module>org.lunifera.dependencies.feature.hazelcast</module>
+	</modules>
 
 	<profiles>
 		<profile>
-			<id>build.features</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
-			</activation>
-			<build>
-				<defaultGoal>clean install</defaultGoal>
-			</build>
-			<modules>
-				<module>org.lunifera.dependencies.parent</module>
-				<module>org.lunifera.dependencies.feature.camel</module>
-				<module>org.lunifera.dependencies.feature.assert-utilities</module>
-				<module>org.lunifera.dependencies.feature.logback</module>
-				<module>org.lunifera.dependencies.feature.derby</module>
-				<module>org.lunifera.dependencies.feature.jackrabbit</module>
-				<module>org.lunifera.dependencies.feature.security.shiro</module>
-				<module>org.lunifera.dependencies.feature.mysql</module>
-				<module>org.lunifera.dependencies.feature.atmosphere</module>
-				<module>org.lunifera.dependencies.feature.wicket</module>
-				<module>org.lunifera.dependencies.feature.vaadin</module>
-				<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
-				<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
-				<module>org.lunifera.dependencies.fragment.jdk</module>
-				<module>org.lunifera.dependencies.feature.mongodb</module>
-				<module>org.lunifera.dependencies.feature.stanbol.solr</module>
-				<module>org.lunifera.dependencies.feature.xtext.headless</module>
-				<module>org.lunifera.dependencies.feature.aries.subsystems</module>
-				<module>org.lunifera.dependencies.feature.jetty.websockets</module>
-<!-- 				<module>org.lunifera.dependencies.feature.ecf.headless</module> -->
-<!-- 				<module>org.lunifera.dependencies.feature.equinox.server</module> -->
-				<module>org.lunifera.dependencies.feature.zookeeper</module>
-				<module>org.lunifera.dependencies.feature.hazelcast</module>
-				<!-- <module>org.lunifera.dependencies.feature.jboss.kie</module> -->
-				<!-- <module>org.lunifera.dependencies.feature.jboss.drools</module> -->
-				<!-- <module>org.lunifera.dependencies.feature.jboss.jbpm</module> -->
-			</modules>
-		</profile>
-		<profile>
 			<id>build.p2</id>
 			<activation>
-				<activeByDefault>false</activeByDefault>
-			</activation>
-			<build>
-				<defaultGoal>clean verify</defaultGoal>
-			</build>
-			<modules>
-				<module>org.lunifera.dependencies.p2</module>
-			</modules>
-		</profile>
-		<profile>
-			<id>stage.p2</id>
-			<activation>
-				<activeByDefault>false</activeByDefault>
+				<property>
+					<name>lunifera.build.p2</name>
+				</property>
 			</activation>
 			<modules>
 				<module>org.lunifera.dependencies.p2</module>
 			</modules>
 		</profile>
 	</profiles>
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.eclipse.tycho</groupId>
+					<artifactId>target-platform-configuration</artifactId>
+					<version>${tycho-version}</version>
+					<configuration>
+						<resolver>p2</resolver>
+						<pomDependencies>consider</pomDependencies>
+						<environments>
+							<environment>
+								<os>win32</os>
+								<ws>win32</ws>
+								<arch>x86_64</arch>
+							</environment>
+							<environment>
+								<os>linux</os>
+								<ws>gtk</ws>
+								<arch>x86</arch>
+							</environment>
+							<environment>
+								<os>linux</os>
+								<ws>gtk</ws>
+								<arch>x86_64</arch>
+							</environment>
+							<environment>
+								<os>macosx</os>
+								<ws>cocoa</ws>
+								<arch>x86_64</arch>
+							</environment>
+						</environments>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
 </project>
