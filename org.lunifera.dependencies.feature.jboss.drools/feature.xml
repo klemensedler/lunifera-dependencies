@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.jboss.drools"
       label="%featureName"
-      version="6.0.0.qualifier"
+      version="6.1.0.CR2"
       provider-name="%providerName">
 
    <description>
@@ -17,14 +17,33 @@
       %license
    </license>
 
-   <requires>
-      <import feature="org.lunifera.dependencies.feature.jboss.kie"/>
-      <import plugin="org.drools.compiler" version="6.0.0"/>
-      <import plugin="org.drools.core" version="6.0.0"/>
-      <import plugin="org.drools.decisiontables" version="6.0.0"/>
-      <import plugin="org.drools.templates" version="6.0.0"/>
-      <import plugin="org.drools.persistence.jpa" version="6.0.0"/>
-   </requires>
+   <plugin
+         id="org.kie.internalapi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-interceptor_1.1_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.kie.api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.kie.scanner.osgi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
    <plugin
          id="org.drools.compiler"
@@ -61,11 +80,118 @@
          version="0.0.0"
          unpack="false"/>
 
-
    <plugin
-         id="org.apache.poi.ooxml"
+         id="org.apache.servicemix.bundles.antlr-runtime"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.poi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.emf.ecore.xmi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.mvel2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.xstream"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.xmlpull"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.xpp3"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.bundles.woodstox"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-jcdi_1.0_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-atinject_1.0_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-activation_1.1_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-el_2.2_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="com.google.protobuf"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-jacc_1.4_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-stax-api_1.2_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-jaxb_2.2_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
 </feature>

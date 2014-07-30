@@ -16,13 +16,13 @@
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.9.3-SNAPSHOT</version>
+		<version>0.9.6</version>
 		<relativePath />
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>lunifera-dependencies</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<packaging>pom</packaging>
 
 	<url>${lunifera.site.repository.url}</url>
@@ -43,7 +43,7 @@
 	<properties>
 		<license.copyrightOwners>C4biz Softwares ME, Loetz KG</license.copyrightOwners>
 		<lunifera.gitrepo.name>lunifera-dependencies</lunifera.gitrepo.name>
-		<lunifera.releng.version>0.9.3-SNAPSHOT</lunifera.releng.version>
+		<lunifera.releng.version>0.9.4</lunifera.releng.version>
 	</properties>
 
 	<modules>
@@ -67,6 +67,8 @@
 		<module>org.lunifera.dependencies.feature.jetty.websockets</module>
 		<module>org.lunifera.dependencies.feature.zookeeper</module>
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
+		<module>org.lunifera.dependencies.feature.jboss.drools</module>
+		<module>org.lunifera.dependencies.feature.jboss.jbpm</module>
 	</modules>
 
 	<profiles>

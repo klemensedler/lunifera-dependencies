@@ -11,91 +11,94 @@
 <!--#======================================================================= -->
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>org.lunifera.dependencies</groupId>
-        <artifactId>lunifera-dependencies</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
-    </parent>
+	<parent>
+		<groupId>org.lunifera.dependencies</groupId>
+		<artifactId>lunifera-dependencies</artifactId>
+		<version>0.1.2</version>
+	</parent>
 
-    <artifactId>org.lunifera.dependencies.feature.jboss.jbpm</artifactId>
-    <version>6.0.0-SNAPSHOT</version>
-    <packaging>eclipse-feature</packaging>
+	<artifactId>org.lunifera.dependencies.feature.jboss.jbpm</artifactId>
+	<version>6.1.0.CR2</version>
+	<packaging>eclipse-feature</packaging>
 
-    <properties>
-    </properties>
+	<dependencies>
+		<!-- jBPM Dependencies -->
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-flow</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-flow-builder</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-bpmn2</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-persistence-jpa</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-bpmn2-emfextmodel</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.drools</groupId>
+			<artifactId>drools-persistence-jpa</artifactId>
+			<version>${drools.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-human-task-core</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-human-task-workitems</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-human-task-jpa</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-audit</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jbpm</groupId>
+			<artifactId>jbpm-human-task-audit</artifactId>
+			<version>${jbpm.version}</version>
+		</dependency>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.lunifera.dependencies</groupId>
-            <artifactId>org.lunifera.dependencies.feature.jboss.drools</artifactId>
-            <version>${project.version}</version>
-        </dependency>
-        <!-- jBPM Dependencies -->
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-flow</artifactId>
-            <version>${jbpm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-flow-builder</artifactId>
-            <version>${jbpm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-bpmn2</artifactId>
-            <version>${jbpm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-persistence-jpa</artifactId>
-            <version>${jbpm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jbpm</groupId>
-            <artifactId>jbpm-bpmn2-emfextmodel</artifactId>
-            <version>${jbpm.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.drools</groupId>
-            <artifactId>drools-persistence-jpa</artifactId>
-            <version>${drools.version}</version>
-        </dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>1.9.13</version>
+		</dependency>
+		<dependency>
+			<groupId>joda-time</groupId>
+			<artifactId>joda-time</artifactId>
+			<version>1.6.2</version>
+		</dependency>
 
-
-    </dependencies>
-
-
-    <repositories>
-        <!-- <repository> -->
-        <!-- <id>jboss-public-repository-group</id> -->
-        <!-- <name>JBoss Public Maven Repository Group</name> -->
-        <!-- <url>https://repository.jboss.org/nexus/content/groups/public/</url> -->
-        <!-- <layout>default</layout> -->
-        <!-- <releases> -->
-        <!-- <enabled>true</enabled> -->
-        <!-- <updatePolicy>never</updatePolicy> -->
-        <!-- </releases> -->
-        <!-- <snapshots> -->
-        <!-- <enabled>false</enabled> -->
-        <!-- </snapshots> -->
-        <!-- </repository> -->
-
-        <!-- <repository> -->
-        <!-- <id>jboss-snapshot-repository-group</id> -->
-        <!-- <name>JBoss SNAPSHOT Maven Repository Group</name> -->
-        <!-- <url>https://repository.jboss.org/nexus/content/repositories/snapshots/</url> -->
-        <!-- <layout>default</layout> -->
-        <!-- <releases> -->
-        <!-- <enabled>false</enabled> -->
-        <!-- </releases> -->
-        <!-- <snapshots> -->
-        <!-- <enabled>true</enabled> -->
-        <!-- <updatePolicy>never</updatePolicy> -->
-        <!-- </snapshots> -->
-        <!-- </repository> -->
-    </repositories>
+		<!-- from other feature -->
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.jboss.drools</artifactId>
+			<version>6.1.0.CR2</version>
+			<type>eclipse-feature</type>
+		</dependency>
+	</dependencies>
 </project>

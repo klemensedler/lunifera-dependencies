@@ -14,10 +14,10 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.1.1-SNAPSHOT</version>
+		<version>0.1.2</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.fragment.jdk</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.1.2</version>
 	<packaging>eclipse-plugin</packaging>
 </project>

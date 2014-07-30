@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.jboss.jbpm"
       label="%featureName"
-      version="6.0.0.qualifier"
+      version="6.1.0.CR2"
       provider-name="%providerName">
 
    <description>
@@ -18,12 +18,7 @@
    </license>
 
    <requires>
-      <import feature="org.lunifera.dependencies.feature.jboss.drools" version="6.0.0"/>
-      <import plugin="org.jbpm.flow.core" version="6.0.0"/>
-      <import plugin="org.jbpm.flow.builder" version="6.0.0"/>
-      <import plugin="org.jbpm.persistence.jpa" version="6.0.0"/>
-      <import plugin="org.jbpm.bpmn2" version="6.0.0"/>
-      <import plugin="org.jbpm.bpmn2.emfextmodel" version="6.0.0"/>
+      <import feature="org.lunifera.dependencies.feature.jboss.drools" version="6.1.0"/>
    </requires>
 
    <plugin
@@ -48,6 +43,41 @@
          unpack="false"/>
 
    <plugin
+         id="org.jbpm.services.task.wih"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.services.task.jpa"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.process.audit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.services.task.audit"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.jbpm.services.task"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="org.jbpm.bpmn2"
          download-size="0"
          install-size="0"
@@ -56,6 +86,20 @@
 
    <plugin
          id="org.jbpm.bpmn2.emfextmodel"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="joda-time"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-core-asl"
          download-size="0"
          install-size="0"
          version="0.0.0"
