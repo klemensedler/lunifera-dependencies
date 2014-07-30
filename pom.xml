@@ -43,7 +43,7 @@
 	<properties>
 		<license.copyrightOwners>C4biz Softwares ME, Loetz KG</license.copyrightOwners>
 		<lunifera.gitrepo.name>lunifera-dependencies</lunifera.gitrepo.name>
-		<lunifera.releng.version>0.9.4</lunifera.releng.version>
+		<lunifera.releng.version>0.9.6</lunifera.releng.version>
 	</properties>
 
 	<modules>
