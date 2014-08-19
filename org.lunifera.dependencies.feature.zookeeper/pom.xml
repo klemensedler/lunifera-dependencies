@@ -17,13 +17,16 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.1.2</version>
+		<version>0.2.0</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.zookeeper</artifactId>
 	<version>3.4.5</version>
 	<packaging>eclipse-feature</packaging>
 
+	<properties>
+		<zookeeper.version>3.4.5</zookeeper.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.releng.maven</groupId>

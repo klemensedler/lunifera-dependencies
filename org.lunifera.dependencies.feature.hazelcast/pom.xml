@@ -17,13 +17,17 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.1.2</version>
+		<version>0.2.0</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.hazelcast</artifactId>
 	<version>3.1.5</version>
 	<packaging>eclipse-feature</packaging>
 
+	<properties>
+		<hazelcast.version>3.1.5</hazelcast.version>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>com.hazelcast</groupId>

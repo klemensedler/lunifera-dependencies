@@ -17,15 +17,18 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.1.2</version>
+		<version>0.2.0</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.camel</artifactId>
 	<version>2.12.2</version>
 	<packaging>eclipse-feature</packaging>
 
+	<properties>
+		<camel.version>2.12.2</camel.version>
+	</properties>
+
 	<dependencies>
-		
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
@@ -42,11 +45,11 @@
 			<artifactId>camel-core-osgi</artifactId>
 			<version>${camel.version}</version>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.camel</groupId> -->
-<!-- 			<artifactId>camel-crypto</artifactId> -->
-<!-- 			<version>${camel.version}</version> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.camel</groupId> -->
+		<!-- <artifactId>camel-crypto</artifactId> -->
+		<!-- <version>${camel.version}</version> -->
+		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-context</artifactId>
@@ -58,12 +61,12 @@
 			<version>${camel.version}</version>
 			<classifier>sources</classifier>
 		</dependency>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.apache.camel</groupId> -->
-<!-- 			<artifactId>camel-crypto</artifactId> -->
-<!-- 			<version>${camel.version}</version> -->
-<!-- 			<classifier>sources</classifier> -->
-<!-- 		</dependency> -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.apache.camel</groupId> -->
+		<!-- <artifactId>camel-crypto</artifactId> -->
+		<!-- <version>${camel.version}</version> -->
+		<!-- <classifier>sources</classifier> -->
+		<!-- </dependency> -->
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-context</artifactId>

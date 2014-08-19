@@ -17,7 +17,7 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.1.2</version>
+		<version>0.2.0</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.weld</artifactId>
@@ -25,6 +25,7 @@
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
+		<weld.version>2.1.0.Final</weld.version>
 	</properties>
 
 	<dependencies>

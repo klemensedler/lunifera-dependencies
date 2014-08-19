@@ -16,13 +16,13 @@
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.9.6</version>
+		<version>0.12.2</version>
 		<relativePath />
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>lunifera-dependencies</artifactId>
-	<version>0.1.2</version>
+	<version>0.2.0</version>
 	<packaging>pom</packaging>
 
 	<url>${lunifera.site.repository.url}</url>
@@ -43,7 +43,7 @@
 	<properties>
 		<license.copyrightOwners>C4biz Softwares ME, Loetz KG</license.copyrightOwners>
 		<lunifera.gitrepo.name>lunifera-dependencies</lunifera.gitrepo.name>
-		<lunifera.releng.version>0.9.6</lunifera.releng.version>
+		<lunifera.releng.version>0.12.2</lunifera.releng.version>
 	</properties>
 
 	<modules>
@@ -87,6 +87,13 @@
 	<build>
 		<pluginManagement>
 			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<configuration>
+						<skip>true</skip>
+					</configuration>
+				</plugin>
 				<plugin>
 					<groupId>org.eclipse.tycho</groupId>
 					<artifactId>target-platform-configuration</artifactId>

@@ -17,33 +17,30 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.1.2</version>
+		<version>0.2.0</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.stanbol.solr</artifactId>
 	<version>0.11.0</version>
 	<packaging>eclipse-feature</packaging>
 
+	<properties>
+		<stanbol.version>0.11.0</stanbol.version>
+	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.stanbol</groupId>
-			<artifactId>
-  			org.apache.stanbol.commons.solr.core
-  		</artifactId>
+			<artifactId>org.apache.stanbol.commons.solr.core</artifactId>
 			<version>${stanbol.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.stanbol</groupId>
-			<artifactId>
-  			org.apache.stanbol.commons.solr.managed
-  		</artifactId>
+			<artifactId>org.apache.stanbol.commons.solr.managed</artifactId>
 			<version>${stanbol.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.stanbol</groupId>
-			<artifactId>
-  			org.apache.stanbol.commons.stanboltools.datafileprovider
-  		</artifactId>
+			<artifactId>org.apache.stanbol.commons.stanboltools.datafileprovider</artifactId>
 			<version>${stanbol.version}</version>
 		</dependency>
 		<dependency>
