@@ -26,60 +26,21 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.api</artifactId>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
+			<version>1.0.13</version>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.utils</artifactId>
+			<groupId>org.lunifera.releng.maven</groupId>
+			<artifactId>lunifera-releng-maven-fpom-equinox-luna</artifactId>
+			<version>${lunifera.releng.version}</version>
+			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.modeller</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.install</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.management</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.default.local.platform</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.application</groupId>
-			<artifactId>org.apache.aries.application.deployment.management</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.subsystem</groupId>
-			<artifactId>org.apache.aries.subsystem.core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.subsystem</groupId>
-			<artifactId>org.apache.aries.subsystem.api</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.blueprint</groupId>
-			<artifactId>org.apache.aries.blueprint</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.proxy</groupId>
-			<artifactId>org.apache.aries.proxy</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries</groupId>
-			<artifactId>org.apache.aries.util</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.google.guava</groupId>
-			<artifactId>guava</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.felix</groupId>
-			<artifactId>org.apache.felix.fileinstall</artifactId>
+			<groupId>org.lunifera.releng.maven</groupId>
+			<artifactId>lunifera-releng-maven-fpom-node</artifactId>
+			<version>${lunifera.releng.version}</version>
+			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>org.ow2.asm</groupId>
@@ -124,29 +85,10 @@
 						<plugin id="org.eclipse.equinox.launcher.gtk.linux.x86_64" />
 						<plugin id="org.eclipse.equinox.launcher.win32.win32.x86_64" />
 						<plugin id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64" />
-						<plugin id="org.apache.aries.application.api" />
-						<plugin id="org.apache.aries.application.modeller" />
-						<plugin id="org.apache.aries.application.utils" />
-						<plugin id="org.apache.aries.blueprint" />
-						<plugin id="org.apache.aries.proxy" />
-						<plugin id="org.apache.aries.subsystem.api" />
-						<plugin id="org.apache.aries.subsystem.core" />
-						<plugin id="org.apache.aries.util" />
 						<plugin id="org.apache.felix.fileinstall" />
-						<feature id="org.eclipse.ecf.xmpp.feature" />
-						<feature id="org.eclipse.ecf.discovery.feature" />
-						<feature id="org.eclipse.ecf.datashare.feature" />
-						<feature id="org.eclipse.ecf.discovery.zookeeper.feature" />
-						<feature id="org.eclipse.ecf.discovery.dnssd.feature" />
-						<feature id="org.eclipse.ecf.discovery.jmdns.feature" />
-						<feature id="org.eclipse.ecf.discovery.slp.feature" />
-						<feature id="org.eclipse.ecf.osgi.services.feature" />
-						<feature id="org.eclipse.ecf.server.generic.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.soap.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.rest.feature" />
-						<feature id="org.eclipse.ecf.remoteservice.rosgi.feature" />
-						<feature id="org.eclipse.ecf.xmpp.feature" />
+						<plugin id="org.apache.felix.gogo.command" />
+						<plugin id="org.apache.felix.gogo.runtime" />
+						<plugin id="org.apache.felix.gogo.shell" />
 						<plugin id="org.eclipse.emf.ecore" />
 						<plugin id="org.eclipse.emf.common" />
 						<plugin id="org.kohsuke.args4j" />

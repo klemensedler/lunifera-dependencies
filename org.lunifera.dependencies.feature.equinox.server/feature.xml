@@ -17,13 +17,12 @@
       %license
    </license>
 
-   <includes
-         id="org.eclipse.equinox.server.jetty"
-         version="0.0.0"
-         search-location="self"/>
-
    <requires>
-      <import plugin="com.google.guava" version="15.0.0" match="greaterOrEqual"/>
+      <import plugin="com.google.guava" version="16.0.0" match="greaterOrEqual"/>
+      <import feature="org.lunifera.dependencies.feature.logback" version="1.0.13" match="compatible"/>
+      <import plugin="org.apache.felix.gogo.runtime" version="0.12.1" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.shell" version="0.11.0" match="greaterOrEqual"/>
+      <import plugin="org.apache.felix.gogo.command" version="0.14.0"/>
    </requires>
 
    <plugin
@@ -42,20 +41,6 @@
 
    <plugin
          id="org.eclipse.core.runtime"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.io"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.ip"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -242,13 +227,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.e4.core.di"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.preferences"
          download-size="0"
          install-size="0"
@@ -348,21 +326,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.device"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.metatype"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.wireadmin"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -421,20 +385,6 @@
          install-size="0"
          version="0.0.0"
          fragment="true"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.http.registry"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.equinox.http.servlet"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
          unpack="false"/>
 
    <plugin
@@ -606,13 +556,6 @@
          unpack="false"/>
 
    <plugin
-         id="org.eclipse.equinox.supplement"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.eclipse.equinox.coordinator"
          download-size="0"
          install-size="0"
@@ -620,63 +563,7 @@
          unpack="false"/>
 
    <plugin
-         id="org.apache.aries.subsystem.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.subsystem.core"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="org.apache.felix.fileinstall"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.application.api"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.application.modeller"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.application.utils"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.proxy"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.blueprint"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.apache.aries.util"
          download-size="0"
          install-size="0"
          version="0.0.0"

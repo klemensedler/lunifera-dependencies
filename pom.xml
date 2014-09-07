@@ -69,6 +69,7 @@
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
 		<module>org.lunifera.dependencies.feature.jboss.drools</module>
 		<module>org.lunifera.dependencies.feature.jboss.jbpm</module>
+		<module>org.lunifera.dependencies.feature.equinox.server</module>
 	</modules>
 
 	<profiles>
