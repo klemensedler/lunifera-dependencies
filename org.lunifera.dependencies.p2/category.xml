@@ -42,9 +42,6 @@
    <feature id="org.lunifera.dependencies.feature.vaadin" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.vaadin.v73" version="0.0.0">
-      <category name="lunifera_osgi_deps"/>
-   </feature>
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.jpacontainer" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
