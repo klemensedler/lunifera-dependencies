@@ -21,7 +21,7 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.jetty.websockets</artifactId>
-	<version>8.1.14</version>
+	<version>8.1.15</version>
 	<packaging>eclipse-feature</packaging>
 
 </project>
