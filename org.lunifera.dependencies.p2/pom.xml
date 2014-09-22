@@ -26,9 +26,14 @@
 
 	<profiles>
 		<profile>
-			<id>build.p2</id>
+			<id>build.p2-inf</id>
 			<activation>
-				<activeByDefault>false</activeByDefault>
+				<file>
+					<exists>.lunifera.releng.eclipse.p2</exists>
+				</file>
+				<property>
+					<name>lunifera.stage.p2</name>
+				</property>
 			</activation>
 			<properties>
 				<ecfview-p2>http://lun.lunifera.org/downloads/p2/ecview/nightly/</ecfview-p2>
@@ -86,6 +91,7 @@
 			</build>
 		</profile>
 	</profiles>
+
 
 	<dependencies>
 		<dependency>
