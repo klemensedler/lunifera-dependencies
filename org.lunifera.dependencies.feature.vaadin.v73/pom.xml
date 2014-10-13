@@ -25,7 +25,7 @@
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<vaadin.version>7.3.1</vaadin.version>
+		<vaadin73.version>[7.3.0,7.3.2)</vaadin73.version>
 	</properties>
 
 	<dependencyManagement>
@@ -33,38 +33,37 @@
 			<dependency>
 				<groupId>org.json</groupId>
 				<artifactId>json</artifactId>
-				<version>20080701</version>
-				<scope>provided</scope>
+				<version>20131108.vaadin1</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-shared</artifactId>
-				<version>${vaadin.version}</version>
+				<version>${vaadin73.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-client</artifactId>
-				<version>${vaadin.version}</version>
+				<version>${vaadin73.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-client-compiled</artifactId>
-				<version>${vaadin.version}</version>
+				<version>${vaadin73.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-server</artifactId>
-				<version>${vaadin.version}</version>
+				<version>${vaadin73.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-themes</artifactId>
-				<version>${vaadin.version}</version>
+				<version>${vaadin73.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
 				<artifactId>vaadin-push</artifactId>
-				<version>${vaadin.version}</version>
+				<version>${vaadin73.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
@@ -81,48 +80,58 @@
 				<artifactId>commons-io</artifactId>
 				<version>2.4</version>
 			</dependency>
+			<dependency>
+				<groupId>com.vaadin.external.google</groupId>
+				<artifactId>guava</artifactId>
+				<version>16.0.1.vaadin1</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
-<!-- 	<dependencies> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.json</groupId> -->
-<!-- 			<artifactId>json</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-shared</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-client</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-client-compiled</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-server</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-themes</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-push</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-client-compiler-deps</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>com.vaadin</groupId> -->
-<!-- 			<artifactId>vaadin-sass-compiler</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>commons-io</groupId> -->
-<!-- 			<artifactId>commons-io</artifactId> -->
-<!-- 		</dependency> -->
-<!-- 	</dependencies> -->
+	<dependencies>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-shared</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client-compiled</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-server</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-themes</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-push</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client-compiler-deps</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-sass-compiler</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin.external.google</groupId>
+			<artifactId>guava</artifactId>
+		</dependency>
+
+	</dependencies>
 </project>
