@@ -65,7 +65,7 @@
 		<module>org.lunifera.dependencies.feature.stanbol.solr</module>
 		<module>org.lunifera.dependencies.feature.vaadin</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
-		<module>org.lunifera.dependencies.feature.vaadin.v73</module>
+<!-- 		<module>org.lunifera.dependencies.feature.vaadin.v73</module> -->
 		<module>org.lunifera.dependencies.feature.wicket</module>
 		<module>org.lunifera.dependencies.feature.xtext.headless</module>
 		<module>org.lunifera.dependencies.feature.zookeeper</module>
