@@ -179,13 +179,12 @@
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
 			<version>7.2.5</version>
-			<type>eclipse-feature</type>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.vaadin.v73</artifactId>
-			<version>7.3.1</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.feature.vaadin.v73</artifactId> -->
+<!-- 			<version>7.3.1</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</artifactId>
