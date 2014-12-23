@@ -17,11 +17,11 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.2.1-SNAPSHOT</version>
+		<version>0.3.1-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.logback</artifactId>
-	<version>1.0.13</version>
+	<version>1.1.2</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
@@ -46,15 +46,19 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>log4j-over-slf4j</artifactId>
-			</dependency>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>jcl-over-slf4j</artifactId>
-			</dependency>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>osgi-over-slf4j</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>jul-to-slf4j</artifactId>
-			</dependency>
+		</dependency>
 	</dependencies>
 
 

@@ -1,7 +1,11 @@
 .settings/
 .project
 target/
+/target/
 .classpath
 bin/
-/build.dependencies.kepler.latest.log.properties
-/build.dependencies.luna.latest.log.properties
+build.org.lunifera.dependencies.p2.kepler.latest.log.properties
+build.org.lunifera.dependencies.p2.luna.latest.log.properties
+build.org.lunifera.dependencies.p2.mars.latest.log.properties
+.DS_Store
+/lib
