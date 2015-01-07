@@ -92,7 +92,11 @@
 				<artifactId>streamhtmlparser-jsilver</artifactId>
 				<version>0.0.10.vaadin1</version>
 			</dependency>
-
+			<dependency>
+				<groupId>com.vaadin.external.google</groupId>
+				<artifactId>guava</artifactId>
+				<version>16.0.1.vaadin1</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	<dependencies>
@@ -144,6 +148,10 @@
 		<dependency>
 			<groupId>com.vaadin.external.streamhtmlparser</groupId>
 			<artifactId>streamhtmlparser-jsilver</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin.external.google</groupId>
+			<artifactId>guava</artifactId>
 		</dependency>
 	</dependencies>
 </project>
