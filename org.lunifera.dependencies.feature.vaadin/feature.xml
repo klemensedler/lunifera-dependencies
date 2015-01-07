@@ -92,7 +92,7 @@
          unpack="false"/>
          
    <plugin
-         id="com.google.gwt.thirdparty.guava.common.annotations"
+         id="com.google.gwt.thirdparty.guava"
          download-size="0"
          install-size="0"
          version="0.0.0"
