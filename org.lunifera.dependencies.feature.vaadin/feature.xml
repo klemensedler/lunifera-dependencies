@@ -57,13 +57,6 @@
          unpack="false"/>
 
    <plugin
-         id="com.vaadin.shared.deps"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
          id="com.vaadin.push"
          download-size="0"
          install-size="0"
@@ -79,6 +72,20 @@
 
    <plugin
          id="org.apache.commons.io"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="org.w3c.flute"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   <plugin
+         id="com.google.gwt.thirdparty.streamhtmlparser"
          download-size="0"
          install-size="0"
          version="0.0.0"
