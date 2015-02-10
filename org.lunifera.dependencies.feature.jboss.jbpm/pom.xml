@@ -18,6 +18,7 @@
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
 		<version>0.3.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.jboss.jbpm</artifactId>
