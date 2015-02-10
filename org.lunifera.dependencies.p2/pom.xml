@@ -163,6 +163,11 @@
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.jboss.drools</artifactId>
+			<version>6.2.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.security.shiro</artifactId>
 			<version>${shiro.version}</version>
 		</dependency>
@@ -205,6 +210,11 @@
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.hazelcast</artifactId>
 			<version>3.1.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.feature.transaction</artifactId>
+			<version>0.3.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
