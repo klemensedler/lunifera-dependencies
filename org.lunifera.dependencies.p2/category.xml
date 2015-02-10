@@ -69,7 +69,10 @@
    <feature id="org.lunifera.dependencies.feature.jboss.drools" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature url="features/org.lunifera.dependencies.feature.vaadin.addon.dcharts_1.7.0.jar" id="org.lunifera.dependencies.feature.vaadin.addon.dcharts" version="1.7.0">
+   <feature id="org.lunifera.dependencies.feature.vaadin.addon.dcharts" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.transaction" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>
