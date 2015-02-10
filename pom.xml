@@ -72,6 +72,7 @@
 		<module>org.lunifera.dependencies.feature.zookeeper</module>
 		<module>org.lunifera.dependencies.fragment.jdk</module>
 		<module>org.lunifera.dependencies.feature.equinox.server</module>
+		<module>org.lunifera.dependencies.p2</module>
 	</modules>
 
 	<profiles>
