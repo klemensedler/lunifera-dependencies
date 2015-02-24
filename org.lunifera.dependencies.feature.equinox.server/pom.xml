@@ -73,36 +73,39 @@
 				<configuration>
 					<labelSuffix> (source)</labelSuffix>
 					<excludes>
+						<plugin id="com.google.guava" />
 						<plugin id="com.ibm.icu" />
-						<plugin id="org.apache.commons.cli" />
 						<plugin id="com.ibm.icu" />
-						<plugin id="org.apache.commons.collections" />
-						<plugin id="org.json" />
-						<plugin id="org.apache.commons.codec" />
-						<plugin id="org.apache.commons.io" />
-						<plugin id="javax.xml" />
-						<plugin id="org.apache.commons.beanutils" />
 						<plugin id="javax.activation" />
 						<plugin id="javax.annotation" />
+						<plugin id="javax.xml" />
 						<plugin id="javax.xml.bind" />
 						<plugin id="javax.xml.stream" />
-						<plugin id="com.google.guava" />
-						<plugin id="org.lunifera.dependencies.fragment.jdk" />
+						<plugin id="org.apache.commons.beanutils" />
+						<plugin id="org.apache.commons.cli" />
+						<plugin id="org.apache.commons.codec" />
+						<plugin id="org.apache.commons.collections" />
+						<plugin id="org.apache.commons.io" />
+						<plugin id="org.apache.felix.fileinstall" />
+						<plugin id="org.apache.felix.gogo.command" />
+						<plugin id="org.apache.felix.gogo.command" />
+						<plugin id="org.apache.felix.gogo.runtime" />
+						<plugin id="org.apache.felix.gogo.runtime" />
+						<plugin id="org.apache.felix.gogo.shell" />
+						<plugin id="org.apache.felix.gogo.shell" />
+						<plugin id="org.eclipse.emf.common" />
+						<plugin id="org.eclipse.emf.ecore" />
+						<plugin id="org.eclipse.equinox.console.jaas.fragment" />
+						<plugin id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64" />
 						<plugin id="org.eclipse.equinox.launcher.gtk.linux.x86" />
 						<plugin id="org.eclipse.equinox.launcher.gtk.linux.x86_64" />
 						<plugin id="org.eclipse.equinox.launcher.win32.win32.x86_64" />
-						<plugin id="org.eclipse.equinox.launcher.cocoa.macosx.x86_64" />
-						<plugin id="org.apache.felix.fileinstall" />
-						<plugin id="org.apache.felix.gogo.command" />
-						<plugin id="org.apache.felix.gogo.runtime" />
-						<plugin id="org.apache.felix.gogo.shell" />
-						<plugin id="org.eclipse.emf.ecore" />
-						<plugin id="org.eclipse.emf.common" />
+						<plugin id="org.lunifera.dependencies.fragment.jdk" />
+						<plugin id="org.json" />
 						<plugin id="org.kohsuke.args4j" />
+						<plugin id="org.objectweb.asm" />
 						<feature id="org.eclipse.equinox.executable" />
 						<feature id="org.eclipse.equinox.server.jetty" />
-						<plugin id="org.objectweb.asm" />
-						<plugin id="org.eclipse.equinox.console.jaas.fragment" />
 					</excludes>
 				</configuration>
 			</plugin>

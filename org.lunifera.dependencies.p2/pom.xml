@@ -132,7 +132,7 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.feature.jboss.drools</artifactId>
-			<version>6.2.0-SNAPSHOT</version>
+			<version>${drools.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
