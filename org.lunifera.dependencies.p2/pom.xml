@@ -281,6 +281,11 @@
 			<version>2.1.2.vaadin6</version>
 		</dependency>
 		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.dcharts</artifactId>
+			<version>1.7.0</version>
+		</dependency>
+		<dependency>
 			<groupId>javax.resource</groupId>
 			<artifactId>com.springsource.javax.resource</artifactId>
 			<version>1.5.0</version>
