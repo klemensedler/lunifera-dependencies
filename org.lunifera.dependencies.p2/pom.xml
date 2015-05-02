@@ -512,5 +512,10 @@
 			<artifactId>oraclejdbc.osgi</artifactId>
 			<version>11.2.0.3</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.servicemix.bundles</groupId>
+			<artifactId>org.apache.servicemix.bundles.jexcelapi</artifactId>
+			<version>2.4.2_4</version>
+		</dependency>
 	</dependencies>
 </project>
