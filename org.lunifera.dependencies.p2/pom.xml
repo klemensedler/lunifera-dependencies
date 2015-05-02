@@ -502,5 +502,10 @@
 			<artifactId>jbpm-human-task-audit</artifactId>
 			<version>${jbpm.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.drools</groupId>
+			<artifactId>org.drools.custom</artifactId>
+			<version>5.5.1.Final</version>
+		</dependency>
 	</dependencies>
 </project>

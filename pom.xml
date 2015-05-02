@@ -53,6 +53,7 @@
 		<module>org.lunifera.dependencies.feature.atmosphere</module>
 		<module>org.lunifera.dependencies.feature.camel</module>
 		<module>org.lunifera.dependencies.feature.derby</module>
+		<module>org.lunifera.dependencies.feature.drools.custom</module>
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
 		<module>org.lunifera.dependencies.feature.jackrabbit</module>
 		<module>org.lunifera.dependencies.feature.jboss.drools</module>
