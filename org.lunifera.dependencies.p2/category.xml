@@ -15,6 +15,9 @@
    <feature id="org.lunifera.dependencies.feature.derby" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.drools.custom" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.jetty.websockets" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
