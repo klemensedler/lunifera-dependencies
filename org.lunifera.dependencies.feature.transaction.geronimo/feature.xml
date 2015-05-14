@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lunifera.dependencies.feature.transaction.geronimo"
+      label="%featureName"
+      version="2.2.1"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-j2ee-connector_1.5_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+         
+   <plugin
+         id="org.apache.geronimo.specs.geronimo-jta_1.1_spec"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>         
+
+   <plugin
+         id="org.apache.geronimo.components.geronimo-transaction"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>         
+
+   <plugin
+         id="org.apache.aries.transaction.manager"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>         
+
+   <plugin
+         id="org.apache.aries.transaction.wrappers"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>         
+
+   <plugin
+         id="org.apache.aries.util"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>
