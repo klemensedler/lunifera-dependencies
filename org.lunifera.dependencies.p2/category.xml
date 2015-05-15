@@ -81,5 +81,11 @@
    <feature id="org.lunifera.dependencies.feature.transaction.geronimo" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.gemini.naming" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.gemini.naming.source" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>
 </site>
