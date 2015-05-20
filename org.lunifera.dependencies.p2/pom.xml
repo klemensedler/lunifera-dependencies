@@ -526,9 +526,9 @@
 			<version>${jbpm.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.drools</groupId>
-			<artifactId>org.drools.custom</artifactId>
-			<version>5.5.1.Final</version>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.drools.allinone</artifactId>
+			<version>5.5.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.oracle</groupId>
