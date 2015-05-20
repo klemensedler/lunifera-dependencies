@@ -168,76 +168,11 @@
 			<artifactId>logback-classic</artifactId>
 			<scope>compile</scope>
 		</dependency>
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.assert-utilities</artifactId> -->
-		<!-- <version>1.2.2.2</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.derby</artifactId> -->
-		<!-- <version>10.10.1.1</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.jackrabbit</artifactId> -->
-		<!-- <version>2.8.0-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.security.shiro</artifactId> -->
-		<!-- <version>${shiro.version}</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.mysql</artifactId> -->
-		<!-- <version>5.1.27</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.wicket</artifactId> -->
-		<!-- <version>6.16.0</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.vaadin</artifactId> -->
-		<!-- <version>7.3.8</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.vaadin.addon.dcharts</artifactId> -->
-		<!-- <version>1.7.0</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</artifactId> -->
-		<!-- <version>3.0.0-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.mongodb</artifactId> -->
-		<!-- <version>2.11.3</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.stanbol.solr</artifactId> -->
-		<!-- <version>0.11.0</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.hazelcast</artifactId> -->
-		<!-- <version>3.1.5</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.transaction</artifactId> -->
-		<!-- <version>0.3.1-SNAPSHOT</version> -->
-		<!-- </dependency> -->
-		<!-- <dependency> -->
-		<!-- <groupId>org.lunifera.dependencies</groupId> -->
-		<!-- <artifactId>org.lunifera.dependencies.feature.aries.subsystems</artifactId> -->
-		<!-- <version>1.0.1-SNAPSHOT</version> -->
-		<!-- </dependency> -->
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.drools.allinone</artifactId>
+			<version>5.5.1-SNAPSHOT</version>
+		</dependency>
 		<dependency>
 			<groupId>org.apache.regexp</groupId>
 			<artifactId>com.springsource.org.apache.regexp</artifactId>
@@ -363,13 +298,11 @@
 			<artifactId>drools-templates</artifactId>
 			<version>${drools.version}</version>
 		</dependency>
-
 		<dependency>
 			<groupId>com.google.protobuf</groupId>
 			<artifactId>protobuf-java</artifactId>
 			<version>2.5.0</version>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-interceptor_1.1_spec</artifactId>
@@ -524,11 +457,6 @@
 			<groupId>org.jbpm</groupId>
 			<artifactId>jbpm-human-task-audit</artifactId>
 			<version>${jbpm.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.drools.allinone</artifactId>
-			<version>5.5.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.oracle</groupId>
