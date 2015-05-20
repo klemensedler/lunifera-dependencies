@@ -28,7 +28,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.drools.allinone</artifactId>
+			<artifactId>org.lunifera.dependencies.bundle.drools.allinone</artifactId>
 			<version>5.5.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
