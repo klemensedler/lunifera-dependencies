@@ -498,5 +498,10 @@
 			<artifactId>org.apache.aries.util</artifactId>
 			<version>1.0.0</version>
 		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.apache.beanvalidation</artifactId>
+			<version>1.1.0</version>
+		</dependency>
 	</dependencies>
 </project>

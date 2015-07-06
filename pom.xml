@@ -51,6 +51,7 @@
 		<module>org.lunifera.dependencies.feature.aries.subsystems</module>
 		<module>org.lunifera.dependencies.feature.assert-utilities</module>
 		<module>org.lunifera.dependencies.feature.atmosphere</module>
+		<module>org.lunifera.dependencies.feature.beanvalidation</module>
 		<module>org.lunifera.dependencies.feature.camel</module>
 		<module>org.lunifera.dependencies.feature.derby</module>
 		<module>org.lunifera.dependencies.feature.drools.allinone</module>
