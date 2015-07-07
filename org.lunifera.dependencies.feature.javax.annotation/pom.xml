@@ -21,45 +21,40 @@
 		<relativePath>..</relativePath>
 	</parent>
 
-	<artifactId>org.lunifera.dependencies.feature.beanvalidation</artifactId>
+	<artifactId>org.lunifera.dependencies.feature.javax.annotation</artifactId>
 	<version>1.1.0</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
 		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.apache.beanvalidation</artifactId>
+			<groupId>javax.annotation</groupId>
+			<artifactId>javax.annotation</artifactId>
 			<version>1.1.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.commons</groupId>
-			<artifactId>commons-lang3</artifactId>
-			<version>3.4</version>
 		</dependency>
 	</dependencies>
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.eclipse.tycho.extras</groupId>
-				<artifactId>tycho-source-feature-plugin</artifactId>
-				<version>${tycho-version}</version>
-				<executions>
-					<execution>
-						<id>source-feature</id>
-						<phase>package</phase>
-						<goals>
-							<goal>source-feature</goal>
-						</goals>
-					</execution>
-				</executions>
-				<configuration>
-					<labelSuffix> (source)</labelSuffix>
-					<excludes>
-						<plugin id="org.apache.beanvalidation" />
-					</excludes>
-				</configuration>
-			</plugin>
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.eclipse.tycho.extras</groupId> -->
+<!-- 				<artifactId>tycho-source-feature-plugin</artifactId> -->
+<!-- 				<version>${tycho-version}</version> -->
+<!-- 				<executions> -->
+<!-- 					<execution> -->
+<!-- 						<id>source-feature</id> -->
+<!-- 						<phase>package</phase> -->
+<!-- 						<goals> -->
+<!-- 							<goal>source-feature</goal> -->
+<!-- 						</goals> -->
+<!-- 					</execution> -->
+<!-- 				</executions> -->
+<!-- 				<configuration> -->
+<!-- 					<labelSuffix> (source)</labelSuffix> -->
+<!-- 					<excludes> -->
+<!-- 						<plugin id="org.apache.beanvalidation" /> -->
+<!-- 					</excludes> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
 			<plugin>
 				<!-- workaround while bug https://bugs.eclipse.org/bugs/show_bug.cgi?id=398250 
 					is not fixed -->

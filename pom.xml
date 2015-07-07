@@ -59,6 +59,7 @@
 		<module>org.lunifera.dependencies.feature.gemini.naming</module>
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
 		<module>org.lunifera.dependencies.feature.jackrabbit</module>
+		<module>org.lunifera.dependencies.feature.javax.annotation</module>
 		<module>org.lunifera.dependencies.feature.jboss.drools</module>
 		<module>org.lunifera.dependencies.feature.jboss.jbpm</module>
 		<module>org.lunifera.dependencies.feature.jetty.websockets</module>
