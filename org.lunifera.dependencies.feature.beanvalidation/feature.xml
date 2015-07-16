@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.beanvalidation"
       label="%featureName"
-      version="1.1.0"
+      version="0.5.0"
       provider-name="%providerName">
 
    <description>
@@ -18,11 +18,11 @@
    </license>
 
    <plugin
-         id="org.apache.beanvalidation"
+         id="org.apache.bval.org.apache.bval.bundle"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
-         
+                  
    <plugin
          id="org.apache.commons.lang3"
          download-size="0"

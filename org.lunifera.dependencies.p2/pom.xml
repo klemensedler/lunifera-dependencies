@@ -541,5 +541,10 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.bval</groupId>
+			<artifactId>org.apache.bval.bundle</artifactId>
+			<version>0.5</version>
+		</dependency>
 	</dependencies>
 </project>
