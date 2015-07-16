@@ -57,6 +57,7 @@
 					<labelSuffix> (source)</labelSuffix>
 					<excludes>
 						<plugin id="org.apache.beanvalidation" />
+						<plugin id="org.apache.commons.lang3" />
 					</excludes>
 				</configuration>
 			</plugin>
