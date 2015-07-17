@@ -49,8 +49,9 @@
 			</exclusions>
 		</dependency>
 		<dependency>
-			<groupId>org.knowhowlab.osgi</groupId>
-			<artifactId>org.knowhowlab.osgi.testing.assertions</artifactId>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.knowhowlab.osgi.testing.assertions</artifactId>
+			<version>1.3.0</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.osgi</groupId>
