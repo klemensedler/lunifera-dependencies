@@ -148,11 +148,11 @@
 			<artifactId>logback-classic</artifactId>
 			<scope>compile</scope>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.drools.allinone</artifactId>
-			<version>5.5.1-SNAPSHOT</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.bundle.drools.allinone</artifactId> -->
+<!-- 			<version>5.5.1-SNAPSHOT</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.apache.jackrabbit</groupId>
 			<artifactId>jackrabbit-spi</artifactId>
@@ -498,11 +498,11 @@
 			<artifactId>org.apache.aries.util</artifactId>
 			<version>1.0.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.apache.beanvalidation</artifactId>
-			<version>1.1.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.bundle.apache.beanvalidation</artifactId> -->
+<!-- 			<version>1.1.0</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>

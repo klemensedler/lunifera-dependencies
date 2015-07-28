@@ -92,17 +92,17 @@
 		</dependency>
 
 		<!-- Jackrabbit content repository -->
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId>
-			<version>${jackrabbit.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId>
-			<version>${jackrabbit.version}</version>
-			<classifier>sources</classifier>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId> -->
+<!-- 			<version>${jackrabbit.version}</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.bundle.jackrabbit-core</artifactId> -->
+<!-- 			<version>${jackrabbit.version}</version> -->
+<!-- 			<classifier>sources</classifier> -->
+<!-- 		</dependency> -->
 	</dependencies>
 
 </project>
