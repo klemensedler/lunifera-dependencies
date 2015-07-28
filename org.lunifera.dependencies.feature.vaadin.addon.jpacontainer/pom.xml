@@ -26,7 +26,7 @@
 	<version>3.0.0-SNAPSHOT</version>
 
 	<properties>
-		<vaadin.addon.jpacontainer.version>3.0.0-5</vaadin.addon.jpacontainer.version>
+		<vaadin.addon.jpacontainer.version>3.0.0-SNAPSHOT</vaadin.addon.jpacontainer.version>
 	</properties>
 
 	<dependencyManagement>
