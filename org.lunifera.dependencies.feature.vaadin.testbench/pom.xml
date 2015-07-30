@@ -29,4 +29,12 @@
 		<vaadin.version>7.4.8</vaadin.version>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.testbench</artifactId>
+			<version>7.4.8</version>
+		</dependency>
+	</dependencies>
+
 </project>
