@@ -78,6 +78,9 @@
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.dcharts" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.vaadin.testbench" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.transaction" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
