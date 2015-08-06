@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.lunifera.dependencies.feature.gemini.naming"
+      label="%featureName"
+      version="1.2.0.M1"
+      provider-name="%providerName"
+      image="eclipse_update_120.jpg">
+
+   <description url="http://eclipse.org/gemini/jpa">
+      %description
+   </description>
+
+   <copyright url="http://eclipse.org/gemini/jpa">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+<!--   <includes
+         id="org.lunifera.org.eclipse.gemini.naming"
+         version="0.0.0"/>
+   <includes
+         id="org.lunifera.org.eclipse.gemini.naming.source"
+         version="0.0.0"/>
+-->
+
+	<plugin
+		id="org.lunifera.org.eclipse.gemini.jpa"
+		download-size="0"
+		install-size="0"
+		version="0.0.0"
+		unpack="false"/>
+
+</feature>

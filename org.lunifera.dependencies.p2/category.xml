@@ -93,6 +93,12 @@
    <feature id="org.lunifera.dependencies.feature.gemini.naming.source" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.gemini.jpa" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.gemini.jpa.source" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.beanvalidation" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
