@@ -33,7 +33,7 @@
 			<type>pom</type>
 		</dependency>
 		<dependency>
-			<groupId>org.eclipse.gemini.naming</groupId>
+			<groupId>org.eclipse.gemini.jpa</groupId>
 			<artifactId>org.lunifera.org.eclipse.gemini.jpa.feature</artifactId>
 			<version>1.2.0.M1</version>
 			<classifier>sources-feature</classifier>
