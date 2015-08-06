@@ -22,20 +22,20 @@
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.gemini.jpa</artifactId>
-	<version>1.2.0-M1</version>
+	<version>1.2.0.M1</version>
 	<packaging>eclipse-feature</packaging>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.eclipse.gemini.jpa</groupId>
 			<artifactId>org.lunifera.org.eclipse.gemini.jpa.feature</artifactId>
-			<version>1.2.0-M1</version>
+			<version>1.2.0.M1</version>
 			<type>pom</type>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.gemini.naming</groupId>
 			<artifactId>org.lunifera.org.eclipse.gemini.jpa.feature</artifactId>
-			<version>1.2.0-M1</version>
+			<version>1.2.0.M1</version>
 			<classifier>sources-feature</classifier>
 		</dependency>
 	</dependencies>
