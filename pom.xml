@@ -76,6 +76,7 @@
 		<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.dcharts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.testbench</module>
+		<module>org.lunifera.dependencies.feature.quartz</module>
 		<module>org.lunifera.dependencies.feature.wicket</module>
 		<module>org.lunifera.dependencies.feature.xtext.headless</module>
 		<module>org.lunifera.dependencies.feature.zookeeper</module>

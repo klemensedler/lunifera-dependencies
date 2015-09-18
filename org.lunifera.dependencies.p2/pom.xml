@@ -574,5 +574,10 @@
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.testbench</artifactId>
 			<version>7.4.8</version>
 		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.quartz</artifactId>
+			<version>2.2.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
