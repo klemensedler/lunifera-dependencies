@@ -23,7 +23,7 @@
 
 	<properties>
 		<lunifera.deployment.p2.label>dependencies</lunifera.deployment.p2.label>
-		<vaadin.version>7.3.8</vaadin.version>
+		<vaadin.version>7.6.0.alpha6</vaadin.version>
 		<drools.version>6.2.0-SNAPSHOT</drools.version>
 		<jbpm.version>6.2.0-SNAPSHOT</jbpm.version>
 		<kie.version>6.2.0-SNAPSHOT</kie.version>
@@ -202,6 +202,11 @@
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
+			<artifactId>vaadin-client-compiler</artifactId>
+			<version>${vaadin.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-server</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
@@ -244,16 +249,6 @@
 			<groupId>javax.resource</groupId>
 			<artifactId>com.springsource.javax.resource</artifactId>
 			<version>1.5.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.manager</artifactId>
-			<version>0.2-incubating</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.wrappers</artifactId>
-			<version>0.2-incubating</version>
 		</dependency>
 		<dependency>
 			<groupId>org.kie</groupId>
@@ -572,7 +567,7 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.testbench</artifactId>
-			<version>7.4.8</version>
+			<version>7.6.0.alpha6</version>
 		</dependency>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>

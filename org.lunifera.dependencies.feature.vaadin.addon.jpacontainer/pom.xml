@@ -29,18 +29,4 @@
 		<vaadin.addon.jpacontainer.version>3.0.0-SNAPSHOT</vaadin.addon.jpacontainer.version>
 	</properties>
 
-	<dependencyManagement>
-	</dependencyManagement>
-	<dependencies>
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
-<!-- 			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</artifactId> -->
-<!-- 			<version>3.0.0</version> -->
-<!-- 		</dependency> -->
-<!-- 		<dependency> -->
-<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
-<!-- 			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId> -->
-<!-- 			<version>7.3.8</version> -->
-<!-- 		</dependency> -->
-	</dependencies>
 </project>

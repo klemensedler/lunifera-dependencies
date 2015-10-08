@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin.testbench"
       label="%featureName"
-      version="7.4.8"
+      version="7.3.8"
       provider-name="%providerName">
 
    <description>
@@ -22,7 +22,7 @@
          id="org.lunifera.dependencies.bundle.vaadin.testbench"
          download-size="0"
          install-size="0"
-         version="7.4.8"
+         version="0.0.0"
          unpack="false"/>
 
 </feature>
