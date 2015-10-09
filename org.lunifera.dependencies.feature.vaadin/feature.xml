@@ -67,7 +67,7 @@
          id="com.vaadin.push"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.6.0.alpha6"
          unpack="false"/>
 
    <plugin
