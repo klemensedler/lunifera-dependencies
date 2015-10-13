@@ -26,14 +26,14 @@
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<vaadin.version>7.3.8</vaadin.version>
+		<vaadin.testbench.version>7.3.8</vaadin.testbench.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.testbench</artifactId>
-			<version>${vaadin.version}</version>
+			<version>${vaadin.testbench.version}</version>
 		</dependency>
 	</dependencies>
 
