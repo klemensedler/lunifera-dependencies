@@ -29,4 +29,11 @@
 		<vaadin.addon.jpacontainer.version>3.0.0-SNAPSHOT</vaadin.addon.jpacontainer.version>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</artifactId>
+			<version>3.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 </project>
