@@ -29,6 +29,8 @@
 		<kie.version>6.2.0-SNAPSHOT</kie.version>
 		<jackrabbit.version>2.8.0-SNAPSHOT</jackrabbit.version>
 		<camel.version>2.12.2</camel.version>
+		<derby.version>10.10.1.1</derby.version>
+		
 	</properties>
 
 	<profiles>
@@ -641,5 +643,16 @@
 			<version>${camel.version}</version>
 			<classifier>sources</classifier>
 		</dependency>
+		 <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>${derby.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derby</artifactId>
+            <version>${derby.version}</version>
+        </dependency>
 	</dependencies>
 </project>
