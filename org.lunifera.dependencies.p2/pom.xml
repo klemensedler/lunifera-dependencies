@@ -23,7 +23,7 @@
 
 	<properties>
 		<lunifera.deployment.p2.label>dependencies</lunifera.deployment.p2.label>
-		<vaadin.version>7.6.0.alpha6</vaadin.version>
+		<vaadin.version>7.5.7</vaadin.version>
 		<drools.version>6.2.0-SNAPSHOT</drools.version>
 		<jbpm.version>6.2.0-SNAPSHOT</jbpm.version>
 		<kie.version>6.2.0-SNAPSHOT</kie.version>

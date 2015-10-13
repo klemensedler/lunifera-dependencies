@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin"
       label="%featureName"
-      version="7.6.0.alpha6"
+      version="7.5.7"
       provider-name="%providerName">
 
    <description>
@@ -67,7 +67,7 @@
          id="com.vaadin.push"
          download-size="0"
          install-size="0"
-         version="7.6.0.alpha6"
+         version="0.0.0"
          unpack="false"/>
 
    <plugin
