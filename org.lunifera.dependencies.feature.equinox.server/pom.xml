@@ -63,6 +63,12 @@
 			<artifactId>javax.annotation</artifactId>
 			<version>1.1.0.v201108011116</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.felix</groupId>
+			<artifactId>org.apache.felix.fileinstall</artifactId>
+			<version>3.5.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
