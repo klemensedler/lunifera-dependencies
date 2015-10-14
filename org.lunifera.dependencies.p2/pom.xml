@@ -767,16 +767,16 @@
 			<artifactId>com.springsource.javax.resource</artifactId>
 			<version>1.5.0</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.manager</artifactId>
-			<version>0.2-incubating</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.wrappers</artifactId>
-			<version>0.2-incubating</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.aries.transaction</groupId> -->
+<!-- 			<artifactId>org.apache.aries.transaction.manager</artifactId> -->
+<!-- 			<version>0.2-incubating</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.aries.transaction</groupId> -->
+<!-- 			<artifactId>org.apache.aries.transaction.wrappers</artifactId> -->
+<!-- 			<version>0.2-incubating</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-j2ee-connector_1.5_spec</artifactId>
