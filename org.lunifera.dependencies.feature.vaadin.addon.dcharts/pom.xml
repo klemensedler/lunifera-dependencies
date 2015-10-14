@@ -26,6 +26,7 @@
 	<version>1.7.0</version>
 
 	<properties>
+		<vaadin.version>7.5.7</vaadin.version>
 		<vaadin.addon.dcharts.version>1.7.0</vaadin.addon.dcharts.version>
 	</properties>
 
