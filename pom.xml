@@ -55,7 +55,7 @@
 		<module>org.lunifera.dependencies.feature.camel</module>
 		<module>org.lunifera.dependencies.feature.derby</module>
 		<module>org.lunifera.dependencies.feature.drools.allinone</module>
-<!-- 		<module>org.lunifera.dependencies.feature.equinox.server</module> -->
+		<module>org.lunifera.dependencies.feature.equinox.server</module>
 		<module>org.lunifera.dependencies.feature.gemini.jpa</module>
 		<module>org.lunifera.dependencies.feature.gemini.naming</module>
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
