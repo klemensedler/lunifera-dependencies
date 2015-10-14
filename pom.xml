@@ -47,27 +47,27 @@
 	</properties>
 
 	<modules>
-		<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
-		<module>org.lunifera.dependencies.feature.aries.subsystems</module>
+<!-- 		<module>org.lunifera.dependencies.bundle.javax.portlet-api</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.aries.subsystems</module> -->
 		<module>org.lunifera.dependencies.feature.assert-utilities</module>
 		<module>org.lunifera.dependencies.feature.atmosphere</module>
 		<module>org.lunifera.dependencies.feature.beanvalidation</module>
-		<module>org.lunifera.dependencies.feature.camel</module>
+<!-- 		<module>org.lunifera.dependencies.feature.camel</module> -->
 		<module>org.lunifera.dependencies.feature.derby</module>
-		<module>org.lunifera.dependencies.feature.drools.allinone</module>
-		<module>org.lunifera.dependencies.feature.equinox.server</module>
+<!-- 		<module>org.lunifera.dependencies.feature.drools.allinone</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.equinox.server</module> -->
 		<module>org.lunifera.dependencies.feature.gemini.jpa</module>
 		<module>org.lunifera.dependencies.feature.gemini.naming</module>
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
-		<module>org.lunifera.dependencies.feature.jackrabbit</module>
-		<module>org.lunifera.dependencies.feature.javax.annotation</module>
+<!-- 		<module>org.lunifera.dependencies.feature.jackrabbit</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.javax.annotation</module> -->
 		<module>org.lunifera.dependencies.feature.javax.transaction</module>
-		<module>org.lunifera.dependencies.feature.jboss.drools</module>
-		<module>org.lunifera.dependencies.feature.jboss.jbpm</module>
+<!-- 		<module>org.lunifera.dependencies.feature.jboss.drools</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.jboss.jbpm</module> -->
 		<module>org.lunifera.dependencies.feature.jetty.websockets</module>
-		<module>org.lunifera.dependencies.feature.logback</module>
-		<module>org.lunifera.dependencies.feature.mongodb</module>
-		<module>org.lunifera.dependencies.feature.mysql</module>
+<!-- 		<module>org.lunifera.dependencies.feature.logback</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.mongodb</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.mysql</module> -->
 		<module>org.lunifera.dependencies.feature.security.shiro</module>
 		<module>org.lunifera.dependencies.feature.stanbol.solr</module>
 		<module>org.lunifera.dependencies.feature.transaction</module>
@@ -77,9 +77,9 @@
 		<module>org.lunifera.dependencies.feature.vaadin.addon.dcharts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.testbench</module>
 		<module>org.lunifera.dependencies.feature.quartz</module>
-		<module>org.lunifera.dependencies.feature.wicket</module>
-		<module>org.lunifera.dependencies.feature.xtext.headless</module>
-		<module>org.lunifera.dependencies.feature.zookeeper</module>
+<!-- 		<module>org.lunifera.dependencies.feature.wicket</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.xtext.headless</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.zookeeper</module> -->
 		<module>org.lunifera.dependencies.fragment.jdk</module>
 		<module>org.lunifera.dependencies.p2</module>
 	</modules>
