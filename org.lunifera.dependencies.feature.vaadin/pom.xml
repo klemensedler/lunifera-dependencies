@@ -33,9 +33,9 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.json</groupId>
+				<groupId>com.vaadin.external.json</groupId>
 				<artifactId>json</artifactId>
-				<version>20080701</version>
+				<version>0.0.20080701</version>
 			</dependency>
 			<dependency>
 				<groupId>com.vaadin</groupId>
@@ -106,9 +106,8 @@
 	</dependencyManagement>
 	<dependencies>
 		<dependency>
-			<groupId>org.json</groupId>
+			<groupId>com.vaadin.external.json</groupId>
 			<artifactId>json</artifactId>
-			<scope>provided</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
