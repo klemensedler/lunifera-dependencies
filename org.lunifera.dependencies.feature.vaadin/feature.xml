@@ -25,49 +25,49 @@
          id="com.vaadin.client"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
 
    <plugin
          id="com.vaadin.client-compiled"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
          
    <plugin
          id="com.vaadin.client-compiler"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
 
    <plugin
          id="com.vaadin.server"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
 
    <plugin
          id="com.vaadin.themes"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
 
    <plugin
          id="com.vaadin.shared"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
 
    <plugin
          id="com.vaadin.push"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="7.5.7"
          unpack="false"/>
 
    <plugin
