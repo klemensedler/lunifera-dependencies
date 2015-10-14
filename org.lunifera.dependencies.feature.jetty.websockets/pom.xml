@@ -25,4 +25,13 @@
 	<version>8.1.16</version>
 	<packaging>eclipse-feature</packaging>
 
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-websocket</artifactId>
+			<version>8.1.16.v20140903</version>
+		</dependency>
+	</dependencies>
+
+
 </project>
