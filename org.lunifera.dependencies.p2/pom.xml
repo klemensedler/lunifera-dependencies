@@ -31,6 +31,7 @@
 		<camel.version>2.12.2</camel.version>
 		<derby.version>10.10.1.1</derby.version>
 		<stanbol.version>0.11.0</stanbol.version>
+		<shiro.version>1.2.3</shiro.version>
 	</properties>
 
 	<profiles>
@@ -730,6 +731,26 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>com.springsource.org.apache.commons.beanutils</artifactId>
 			<version>1.8.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-web</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-core</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-quartz</artifactId>
+			<version>${shiro.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.shiro</groupId>
+			<artifactId>shiro-ehcache</artifactId>
+			<version>${shiro.version}</version>
 		</dependency>
 	</dependencies>
 </project>
