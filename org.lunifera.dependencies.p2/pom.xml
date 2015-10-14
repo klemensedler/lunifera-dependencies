@@ -752,5 +752,10 @@
 			<artifactId>shiro-ehcache</artifactId>
 			<version>${shiro.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.vaadin.external.json</groupId>
+			<artifactId>json</artifactId>
+			<version>0.0.20080701</version>
+		</dependency>
 	</dependencies>
 </project>
