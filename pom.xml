@@ -67,7 +67,7 @@
 		<module>org.lunifera.dependencies.feature.jetty.websockets</module>
 <!-- 		<module>org.lunifera.dependencies.feature.logback</module> -->
 <!-- 		<module>org.lunifera.dependencies.feature.mongodb</module> -->
-<!-- 		<module>org.lunifera.dependencies.feature.mysql</module> -->
+		<module>org.lunifera.dependencies.feature.mysql</module>
 		<module>org.lunifera.dependencies.feature.security.shiro</module>
 		<module>org.lunifera.dependencies.feature.stanbol.solr</module>
 		<module>org.lunifera.dependencies.feature.transaction</module>
