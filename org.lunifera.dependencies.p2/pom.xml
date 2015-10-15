@@ -32,6 +32,7 @@
 		<derby.version>10.10.1.1</derby.version>
 		<stanbol.version>0.11.0</stanbol.version>
 		<shiro.version>1.2.3</shiro.version>
+		<mysql.connector.version>5.1.27</mysql.connector.version>
 	</properties>
 
 	<profiles>
@@ -812,5 +813,11 @@
 			<artifactId>jetty-websocket</artifactId>
 			<version>8.1.16.v20140903</version>
 		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
+		</dependency>
+
 	</dependencies>
 </project>
