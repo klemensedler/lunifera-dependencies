@@ -63,5 +63,8 @@
    <feature id="org.lunifera.dependencies.feature.mysql" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+      <feature id="org.lunifera.dependencies.feature.javax.annotation" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <category-def name="lunifera_osgi_deps" label="Lunifera OSGi Dependencies"/>
 </site>
