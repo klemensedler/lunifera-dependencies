@@ -68,6 +68,11 @@
 			<artifactId>org.apache.felix.fileinstall</artifactId>
 			<version>3.5.0</version>
 		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.2</version>
+		</dependency>
 
 	</dependencies>
 
