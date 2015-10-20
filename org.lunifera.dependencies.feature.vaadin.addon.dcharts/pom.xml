@@ -38,10 +38,10 @@
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.dcharts</artifactId>
 			<version>${vaadin.addon.dcharts.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.lunifera.dependencies</groupId>
-			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId>
-			<version>${vaadin.version}</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.lunifera.dependencies</groupId> -->
+<!-- 			<artifactId>org.lunifera.dependencies.feature.vaadin</artifactId> -->
+<!-- 			<version>${vaadin.version}</version> -->
+<!-- 		</dependency> -->
 	</dependencies>
 </project>
