@@ -19,9 +19,9 @@
 
    <requires>
       <import plugin="com.google.guava" version="16.0.0" match="greaterOrEqual"/>
-      <import feature="org.lunifera.dependencies.feature.logback" version="1.0.13" match="compatible"/>
-      <import plugin="org.apache.felix.gogo.runtime" version="0.12.1" match="greaterOrEqual"/>
-      <import plugin="org.apache.felix.gogo.shell" version="0.11.0" match="greaterOrEqual"/>
+      <import feature="org.lunifera.dependencies.feature.logback" version="1.1.2" match="compatible"/>
+      <import plugin="org.apache.felix.gogo.runtime" version="0.14.0"/>
+      <import plugin="org.apache.felix.gogo.shell" version="0.10.0" match="greaterOrEqual"/>
       <import plugin="org.apache.felix.gogo.command" version="0.14.0"/>
    </requires>
 
@@ -265,7 +265,7 @@
          id="javax.annotation"
          download-size="0"
          install-size="0"
-         version="0.0.0"
+         version="1.1.0.v201108011116"
          unpack="false"/>
 
    <plugin
@@ -452,13 +452,6 @@
 
    <plugin
          id="org.eclipse.emf.ecore"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
-
-   <plugin
-         id="org.eclipse.emf.common"
          download-size="0"
          install-size="0"
          version="0.0.0"

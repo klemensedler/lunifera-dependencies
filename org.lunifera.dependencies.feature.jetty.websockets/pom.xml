@@ -17,11 +17,21 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.2.1-SNAPSHOT</version>
+		<version>0.3.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.jetty.websockets</artifactId>
-	<version>8.1.15</version>
+	<version>8.1.16</version>
 	<packaging>eclipse-feature</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-websocket</artifactId>
+			<version>8.1.16.v20140903</version>
+		</dependency>
+	</dependencies>
+
 
 </project>

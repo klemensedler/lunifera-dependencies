@@ -16,13 +16,13 @@
 	<parent>
 		<groupId>org.lunifera.releng.maven</groupId>
 		<artifactId>lunifera-releng-maven-parent-tycho</artifactId>
-		<version>0.12.3-SNAPSHOT</version>
+		<version>0.12.5-SNAPSHOT</version>
 		<relativePath />
 	</parent>
 
 	<groupId>org.lunifera.dependencies</groupId>
 	<artifactId>lunifera-dependencies</artifactId>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.3.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<url>${lunifera.site.repository.url}</url>
@@ -43,34 +43,45 @@
 	<properties>
 		<license.copyrightOwners>C4biz Softwares ME, Loetz KG</license.copyrightOwners>
 		<lunifera.gitrepo.name>lunifera-dependencies</lunifera.gitrepo.name>
-		<lunifera.releng.version>0.12.3-SNAPSHOT</lunifera.releng.version>
+		<lunifera.releng.version>0.12.5-SNAPSHOT</lunifera.releng.version>
 	</properties>
 
 	<modules>
-		<module>org.lunifera.dependencies.bundle.javax.portlet-api</module>
-		<module>org.lunifera.dependencies.feature.aries.subsystems</module>
+<!-- 		<module>org.lunifera.dependencies.bundle.javax.portlet-api</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.aries.subsystems</module> -->
 		<module>org.lunifera.dependencies.feature.assert-utilities</module>
 		<module>org.lunifera.dependencies.feature.atmosphere</module>
-		<module>org.lunifera.dependencies.feature.camel</module>
+		<module>org.lunifera.dependencies.feature.beanvalidation</module>
+<!-- 		<module>org.lunifera.dependencies.feature.camel</module> -->
 		<module>org.lunifera.dependencies.feature.derby</module>
+<!-- 		<module>org.lunifera.dependencies.feature.drools.allinone</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.equinox.server</module> -->
+		<module>org.lunifera.dependencies.feature.gemini.jpa</module>
+		<module>org.lunifera.dependencies.feature.gemini.naming</module>
 		<module>org.lunifera.dependencies.feature.hazelcast</module>
-		<module>org.lunifera.dependencies.feature.jackrabbit</module>
-		<module>org.lunifera.dependencies.feature.jboss.drools</module>
-		<module>org.lunifera.dependencies.feature.jboss.jbpm</module>
+<!-- 		<module>org.lunifera.dependencies.feature.jackrabbit</module> -->
+		<module>org.lunifera.dependencies.feature.javax.annotation</module>
+		<module>org.lunifera.dependencies.feature.javax.transaction</module>
+<!-- 		<module>org.lunifera.dependencies.feature.jboss.drools</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.jboss.jbpm</module> -->
 		<module>org.lunifera.dependencies.feature.jetty.websockets</module>
-		<module>org.lunifera.dependencies.feature.logback</module>
-		<module>org.lunifera.dependencies.feature.mongodb</module>
+<!-- 		<module>org.lunifera.dependencies.feature.logback</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.mongodb</module> -->
 		<module>org.lunifera.dependencies.feature.mysql</module>
+		<module>org.lunifera.dependencies.feature.quartz</module>
 		<module>org.lunifera.dependencies.feature.security.shiro</module>
 		<module>org.lunifera.dependencies.feature.stanbol.solr</module>
+		<module>org.lunifera.dependencies.feature.transaction</module>
+		<module>org.lunifera.dependencies.feature.transaction.geronimo</module>
 		<module>org.lunifera.dependencies.feature.vaadin</module>
+		<module>org.lunifera.dependencies.feature.vaadin.addon.dcharts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
-<!-- 		<module>org.lunifera.dependencies.feature.vaadin.v73</module> -->
-		<module>org.lunifera.dependencies.feature.wicket</module>
-		<module>org.lunifera.dependencies.feature.xtext.headless</module>
-		<module>org.lunifera.dependencies.feature.zookeeper</module>
+		<module>org.lunifera.dependencies.feature.vaadin.testbench</module>
+<!-- 		<module>org.lunifera.dependencies.feature.wicket</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.xtext.headless</module> -->
+<!-- 		<module>org.lunifera.dependencies.feature.zookeeper</module> -->
 		<module>org.lunifera.dependencies.fragment.jdk</module>
-		<module>org.lunifera.dependencies.feature.equinox.server</module>
+		<module>org.lunifera.dependencies.p2</module>
 	</modules>
 
 	<profiles>

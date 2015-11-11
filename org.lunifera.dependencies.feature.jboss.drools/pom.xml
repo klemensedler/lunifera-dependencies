@@ -17,16 +17,17 @@
 	<parent>
 		<groupId>org.lunifera.dependencies</groupId>
 		<artifactId>lunifera-dependencies</artifactId>
-		<version>0.2.1-SNAPSHOT</version>
+		<version>0.3.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
 	</parent>
 
 	<artifactId>org.lunifera.dependencies.feature.jboss.drools</artifactId>
-	<version>6.1.0-SNAPSHOT</version>
+	<version>6.2.0-SNAPSHOT</version>
 	<packaging>eclipse-feature</packaging>
 
 	<properties>
-		<kie.version>6.1.0-SNAPSHOT</kie.version>
-		<drools.version>6.1.0-SNAPSHOT</drools.version>
+		<kie.version>6.2.0-SNAPSHOT</kie.version>
+		<drools.version>6.2.0-SNAPSHOT</drools.version>
 	</properties>
 	
 	<dependencies>

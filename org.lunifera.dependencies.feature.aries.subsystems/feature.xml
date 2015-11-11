@@ -62,6 +62,13 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
+         
+   <plugin
+         id="org.apache.aries.spifly.dynamic.bundle"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
    <plugin
          id="org.apache.felix.bundlerepository"
          download-size="0"
