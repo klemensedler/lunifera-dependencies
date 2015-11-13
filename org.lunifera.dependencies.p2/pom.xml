@@ -440,6 +440,12 @@
 			<artifactId>guava</artifactId>
 			<version>16.0.1.vaadin1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.8.3</version>
+		</dependency>
+
 
 		<!-- For Feature Vaadin-Addon:dCharts -->
 		<dependency>
