@@ -110,13 +110,6 @@
 
 
 	<dependencies>
-		<!-- Releng -->
-		<dependency>
-			<groupId>org.lunifera.releng.maven</groupId>
-			<artifactId>lunifera-releng-maven-fpom-node</artifactId>
-			<version>${lunifera.releng.version}</version>
-			<type>pom</type>
-		</dependency>
 
 		<!-- For Feature Assert-Utilities -->
 		<dependency>
@@ -231,33 +224,6 @@
 			<artifactId>org.lunifera.org.eclipse.gemini.naming</artifactId>
 			<version>1.1.0-SNAPSHOT</version>
 			<classifier>sources</classifier>
-		</dependency>
-
-		<!-- For Feature Hazelcast -->
-		<dependency>
-			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast</artifactId>
-			<version>${hazelcast.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast-client</artifactId>
-			<version>${hazelcast.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast-cloud</artifactId>
-			<version>${hazelcast.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.hazelcast</groupId>
-			<artifactId>hazelcast-wm</artifactId>
-			<version>${hazelcast.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.jboss.spec.javax.servlet</groupId>
-			<artifactId>jboss-servlet-api_3.0_spec</artifactId>
-			<version>1.0.2.Final</version>
 		</dependency>
 
 		<!-- For Feature Javax.annotation -->
