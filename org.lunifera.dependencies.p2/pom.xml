@@ -110,13 +110,6 @@
 
 
 	<dependencies>
-		<!-- Releng -->
-		<dependency>
-			<groupId>org.lunifera.releng.maven</groupId>
-			<artifactId>lunifera-releng-maven-fpom-node</artifactId>
-			<version>${lunifera.releng.version}</version>
-			<type>pom</type>
-		</dependency>
 
 		<!-- For Feature Assert-Utilities -->
 		<dependency>
