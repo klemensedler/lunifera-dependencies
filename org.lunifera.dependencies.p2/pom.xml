@@ -359,11 +359,11 @@
 <!-- 			<artifactId>org.apache.aries.transaction.manager</artifactId> -->
 <!-- 			<version>1.0.0</version> -->
 <!-- 		</dependency> -->
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.wrappers</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.aries.transaction</groupId> -->
+<!-- 			<artifactId>org.apache.aries.transaction.wrappers</artifactId> -->
+<!-- 			<version>1.0.0</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.apache.aries</groupId>
 			<artifactId>org.apache.aries.util</artifactId>
