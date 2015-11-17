@@ -34,14 +34,14 @@
          install-size="0"
          version="7.5.7"
          unpack="false"/>
-         
+<!--         
    <plugin
          id="com.vaadin.client-compiler"
          download-size="0"
          install-size="0"
          version="7.5.7"
          unpack="false"/>
-
+-->
    <plugin
          id="com.vaadin.server"
          download-size="0"

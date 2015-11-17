@@ -353,16 +353,17 @@
 			<artifactId>geronimo-transaction</artifactId>
 			<version>2.2.1</version>
 		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.manager</artifactId>
-			<version>1.0.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.aries.transaction</groupId>
-			<artifactId>org.apache.aries.transaction.wrappers</artifactId>
-			<version>1.0.0</version>
-		</dependency>
+<!-- 		already defined above	 -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.aries.transaction</groupId> -->
+<!-- 			<artifactId>org.apache.aries.transaction.manager</artifactId> -->
+<!-- 			<version>1.0.0</version> -->
+<!-- 		</dependency> -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.apache.aries.transaction</groupId> -->
+<!-- 			<artifactId>org.apache.aries.transaction.wrappers</artifactId> -->
+<!-- 			<version>1.0.0</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>org.apache.aries</groupId>
 			<artifactId>org.apache.aries.util</artifactId>
@@ -390,11 +391,11 @@
 			<artifactId>vaadin-client-compiled</artifactId>
 			<version>${vaadin.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-client-compiler</artifactId>
-			<version>${vaadin.version}</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.vaadin</groupId> -->
+<!-- 			<artifactId>vaadin-client-compiler</artifactId> -->
+<!-- 			<version>${vaadin.version}</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>vaadin-server</artifactId>

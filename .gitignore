@@ -1,7 +1,6 @@
 .settings/
 .project
-target/
-/target/
+**/target/
 .classpath
 bin/
 build.org.lunifera.dependencies.p2.kepler.latest.log.properties
