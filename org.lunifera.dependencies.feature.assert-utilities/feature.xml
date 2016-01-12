@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="org.lunifera.dependencies.feature.assert.utilities"
+      id="org.lunifera.dependencies.feature.assert-utilities"
       label="%featureName"
       version="1.2.2.2"
       provider-name="%providerName">
@@ -28,7 +28,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.knowhowlab.osgi.testing.assertions"
          download-size="0"
@@ -42,7 +42,7 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.objenesis"
          download-size="0"
