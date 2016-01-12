@@ -6,7 +6,7 @@
    <feature id="org.lunifera.dependencies.feature.jetty.websockets" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-   <feature id="org.lunifera.dependencies.feature.assert.utilities" version="0.0.0">
+   <feature id="org.lunifera.dependencies.feature.assert-utilities" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.security.shiro" version="0.0.0">
