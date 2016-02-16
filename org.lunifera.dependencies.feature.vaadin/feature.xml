@@ -2,7 +2,7 @@
 <feature
       id="org.lunifera.dependencies.feature.vaadin"
       label="%featureName"
-      version="7.5.7"
+      version="7.6.2"
       provider-name="%providerName">
 
    <description>
@@ -34,14 +34,7 @@
          install-size="0"
          version="7.5.7"
          unpack="false"/>
-<!--         
-   <plugin
-         id="com.vaadin.client-compiler"
-         download-size="0"
-         install-size="0"
-         version="7.5.7"
-         unpack="false"/>
--->
+
    <plugin
          id="com.vaadin.server"
          download-size="0"
@@ -83,28 +76,28 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.w3c.flute"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="com.google.gwt.thirdparty.streamhtmlparser"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="com.google.gwt.thirdparty.guava"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-         
+
    <plugin
          id="org.json"
          download-size="0"
@@ -118,6 +111,5 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-
 
 </feature>
