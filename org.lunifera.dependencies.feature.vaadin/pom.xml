@@ -176,5 +176,10 @@
 			<artifactId>vaadin-grid-util</artifactId>
 			<version>1.0.8</version>
 		</dependency>
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.dragdroplayouts</artifactId>
+			<version>1.2.1</version>
+		</dependency>
 	</dependencies>
 </project>
