@@ -477,6 +477,13 @@
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.dcharts</artifactId>
 			<version>${vaadin.addon.dcharts.version}</version>
 		</dependency>
+		
+		<!-- For Feature Vaadin-Addon:Charts -->
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.charts</artifactId>
+			<version>3.0.0</version>
+		</dependency>
 
 		<!-- For Feature Vaadin-Addon:JPA-Container -->
 		<dependency>
