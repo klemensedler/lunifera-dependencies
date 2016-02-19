@@ -23,7 +23,7 @@
 
 	<artifactId>org.lunifera.dependencies.feature.vaadin.addon.charts</artifactId>
 	<packaging>eclipse-feature</packaging>
-	<version>3.0.0</version>
+	<version>3.0.1-SNAPSHOT</version>
 
 	<properties>
 	</properties>
@@ -34,7 +34,7 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.charts</artifactId>
-			<version>3.0.0</version>
+			<version>3.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>

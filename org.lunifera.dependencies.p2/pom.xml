@@ -482,7 +482,7 @@
 		<dependency>
 			<groupId>org.lunifera.dependencies</groupId>
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.charts</artifactId>
-			<version>3.0.0</version>
+			<version>3.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<!-- For Feature Vaadin-Addon:JPA-Container -->
