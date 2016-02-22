@@ -24,7 +24,10 @@
    <feature id="org.lunifera.dependencies.feature.stanbol.solr" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
-    <feature id="org.lunifera.dependencies.feature.vaadin.addon.charts" version="0.0.0">
+   <feature id="org.lunifera.dependencies.feature.vaadin.addon.charts" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
+   <feature id="org.lunifera.dependencies.feature.vaadin.addon.contextmenu" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.dcharts" version="0.0.0">

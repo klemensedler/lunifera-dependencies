@@ -74,6 +74,7 @@
 		<module>org.lunifera.dependencies.feature.transaction</module>
 		<module>org.lunifera.dependencies.feature.transaction.geronimo</module>
 		<module>org.lunifera.dependencies.feature.vaadin</module>
+		<module>org.lunifera.dependencies.feature.vaadin.addon.contextmenu</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.charts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.dcharts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
