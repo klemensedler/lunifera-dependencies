@@ -30,6 +30,9 @@
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.contextmenu" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>
+   <feature id="org.lunifera.dependencies.feature.vaadin.addon.vaadincontextmenu" version="0.0.0">
+      <category name="lunifera_osgi_deps"/>
+   </feature>
    <feature id="org.lunifera.dependencies.feature.vaadin.addon.dcharts" version="0.0.0">
       <category name="lunifera_osgi_deps"/>
    </feature>

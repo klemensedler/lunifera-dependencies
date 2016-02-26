@@ -78,6 +78,7 @@
 		<module>org.lunifera.dependencies.feature.vaadin.addon.charts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.dcharts</module>
 		<module>org.lunifera.dependencies.feature.vaadin.addon.jpacontainer</module>
+		<module>org.lunifera.dependencies.feature.vaadin.addon.vaadincontextmenu</module>
 		<module>org.lunifera.dependencies.feature.vaadin.testbench</module>
 <!-- 		<module>org.lunifera.dependencies.feature.wicket</module> -->
 <!-- 		<module>org.lunifera.dependencies.feature.xtext.headless</module> -->

@@ -498,6 +498,13 @@
 			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.jpacontainer</artifactId>
 			<version>3.0.0-SNAPSHOT</version>
 		</dependency>
+		
+		<!-- For Feature Vaadin-Addon:Vaadin's own contextmenu -->
+		<dependency>
+			<groupId>org.lunifera.dependencies</groupId>
+			<artifactId>org.lunifera.dependencies.bundle.vaadin.addon.vaadincontextmenu</artifactId>
+			<version>0.7.1-SNAPSHOT</version>
+		</dependency>
 
 		<!-- For Feature Vaadin Testbench -->
 		<dependency>
